@@ -1,0 +1,136 @@
+LOL = {
+	color = rgb { 98 23 42 }
+	color_ui = rgb { 255 73 21 }
+}
+
+ENG = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+
+FRA = {
+	color = rgb { 30 84 183 }
+	color_ui = rgb { 35 101 222 }
+}
+
+WLS = {
+	color = rgb { 185 56 46 }
+	color_ui = rgb {255 73 121}
+}
+
+STL = {
+	color = rgb { 185 56 46 }
+	color_ui = rgb {255 73 121}
+}
+
+IRL = {
+	color = rgb { 185 56 46 }
+	color_ui = rgb {255 73 121}
+}
+
+RUS = {
+	color = rgb { 0  127  14 }
+	color_ui = rgb { 0  127  14 }
+}
+SOV = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+POL = {
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 255 120 138 }
+}
+LIT = {
+	color = rgb { 219 219 119 }
+	color_ui = rgb { 255 255 155 }
+}
+EST = {
+	color = rgb { 50 135 175 }
+	color_ui = rgb { 99 204 254 }
+}
+LAT = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+FIN = {
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 255 255 255 }
+}
+UKR = {
+	color = rgb { 30 80 110 }
+	color_ui = rgb { 30 80 110 }	
+}
+AZR = {
+	color = rgb { 69  151  49 }
+	color_ui = rgb { 69  151  49 }
+}
+GEO = {
+	color = rgb { 255  150  150 }
+	color_ui = rgb { 255  204  204 }
+}
+ARM = {
+	color = rgb { 176  102  180 }
+	color_ui = rgb { 176  102  180 }
+}
+BLR = {
+	color = rgb { 180 220 190 }
+	color_ui = rgb { 180 220 190 }
+}
+COU = {
+	color = rgb { 19 79 195 }
+	color_ui = rgb { 19 79 195 }
+}
+CRI = {
+	color = rgb { 255 234 0 }
+	color_ui = rgb { 255 234 0 }
+}
+DON = {
+	color = rgb { 247 197 0 }
+	color_ui = rgb { 247 197 0 }
+}
+FRT = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+KUB = {
+	color = rgb { 221 19 123 }
+	color_ui = rgb { 221 19 123 }
+}
+RNC = {
+	color = rgb { 19 112 189 }
+	color_ui = rgb { 19 112 189 }
+}
+TAM = {
+	color = rgb { 31 131 60 }
+	color_ui = rgb { 31 131 60 }
+}
+GTU = {
+	color = rgb { 13  131  227 }
+	color_ui = rgb { 13  131  227 }
+}
+DSE = {
+	color = rgb { 56  44  262 }
+	color_ui = rgb { 56  44  262 }
+}
+MGR = {
+	color = rgb { 16  34  282 }
+	color_ui = rgb { 16  34  282 }
+}
+GRM = {
+	color = rgb { 36  64  242 }
+	color_ui = rgb { 36  64  242 }
+}
+PHO = {
+	color = rgb { 66  94  212 }
+	color_ui = rgb { 66  94  212 }
+}
+
+BLA = {
+	color = rgb { 48 94 65 }
+	color_ui = rgb { 48 94 65 }
+}
+
+BAA = {
+	color = rgb { 48 94 65 }
+	color_ui = rgb { 48 94 65 }
+}

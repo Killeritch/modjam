@@ -1,0 +1,27 @@
+
+state = {
+	id = 947
+	name = "STATE_947" # Oranje Free State
+	manpower = 772100
+
+	state_category = rural
+	
+	resources = {
+		chromium = 35
+	}
+
+	history = {
+		owner = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			5231 3 #Bloemfontein
+		}
+	}
+
+	provinces={
+		5231 12648 12064
+	}
+}

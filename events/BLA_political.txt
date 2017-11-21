@@ -1,0 +1,28 @@
+﻿add_namespace = BLA_political
+
+#Albania wants more influence
+country_event = {
+		id = BLA_political.1
+		title = BLA_political.1.t
+		desc = BLA_political.1.d
+		picture = GFX_report_event_generic_usa_treaty
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				date > 1936.3.1
+		}
+		
+		option = {
+				name = BLA_political.1.a
+				ai_chance = { factor = 60 }
+				add_timed_idea = { idea = BLA_AlbInf days = 180 }
+		}
+		
+		option = {
+				name = BLA_political.1.b
+				ai_chance = { factor = 40 }
+				add_national_unity = -0.05
+		}
+}

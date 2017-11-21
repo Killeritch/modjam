@@ -1,0 +1,135 @@
+ideas = {
+
+	country = {
+		white_guard = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = _white_guard
+			
+			modifier = {
+				conscription = 0.01
+				conscription_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				attrition = -0.05
+			}
+
+		}
+
+		UKR_class_divide = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_class_divide
+			
+			modifier = {
+			    unity_factor = -0.05
+			    political_power_gain = 0.05
+			    totalist_drift = 0.01
+			    national_populist_drift = 0.01
+			    authoritarian_democrat_drift = -0.02
+			    #neutrality_drift = -0.01
+			}
+
+		}
+	}
+
+	political_advisor = {
+	    biskupsky = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_biskupsky
+			}
+			
+			traits = { radicalist_diplomat }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		shulhyn = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_shulhyn
+			}
+			
+			traits = { democratic_diplomat }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		shukhevych = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_shukhevych
+			}
+			
+			traits = { radical_revolutionary }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		sinkler = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_sinkler
+			}
+			
+			traits = { national_hero }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		skoropadskyi = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_skoropadskyi
+			}
+			
+			traits = { noble_autocrat }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	}
+}

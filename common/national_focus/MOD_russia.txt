@@ -1,0 +1,61 @@
+focus_tree = {
+	id = russia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	focus = {
+		id = RUS_coalition
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		mutually_exclusive = {
+			focus = RUS_minority
+		}
+		x = 2
+		y = 0
+
+	}
+	focus = {
+		id = RUS_minority
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = RUS_coalition
+		}
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = RUS_bolshevik_deal
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
+		prerequisite = {
+			focus = RUS_coalition
+		}
+		mutually_exclusive = {
+			focus = RUS_monarchist_deal
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = RUS_monarchist_deal
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5
+		prerequisite = {
+			focus = RUS_coalition
+		}
+		mutually_exclusive = {
+			focus = RUS_bolshevik_deal
+		}
+		x = 2
+		y = 1
+
+	}
+}

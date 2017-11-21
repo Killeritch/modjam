@@ -1,0 +1,19 @@
+
+state = {
+	id=961
+	name="STATE_961"
+
+	history={
+		owner = TAG
+		buildings={
+			infrastructure=2
+		}
+	}
+
+	provinces={
+		8043
+	}
+	manpower=87000
+	buildings_max_level_factor=1
+	state_category=wasteland
+}

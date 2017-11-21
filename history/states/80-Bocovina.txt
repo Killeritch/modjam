@@ -1,0 +1,20 @@
+state = {
+	id=80
+	name="STATE_80"
+	manpower = 474600
+
+	state_category = rural
+
+	history=
+	{
+		owner = TAG
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = TAG
+		add_claim_by = TAG
+	}
+	provinces={
+		577 9548 11689 6761
+	}
+}

@@ -1,0 +1,24 @@
+﻿###########################
+# Russia Political Events
+###########################
+# By Killeritch
+###########################
+
+add_namespace = RUS_political
+
+country_event = { # Explaining the situation
+	id = RUS_political.1
+	title = RUS_political.1.t
+	desc = RUS_political.1.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = RUS
+	}
+
+	option = {
+		name = RUS_political.1.a
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id=949
+	name="STATE_949"
+	
+	state_category = wasteland
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 2
+
+		}		
+	}
+
+	provinces={
+		13640 4941
+}
+	manpower=75150
+	buildings_max_level_factor=1.000
+}

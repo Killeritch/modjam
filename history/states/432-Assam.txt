@@ -1,0 +1,30 @@
+
+state = {
+	id=432
+	name="STATE_432"
+	manpower = 6717100
+	
+	state_category = rural
+	
+	resources={
+		oil=6
+		tungsten=34
+	}
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_claim_by = TAG
+		add_claim_by = TAG
+		victory_points = { 12366 1 } #Gauhati
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1116 1497 1525 1996 7455 10349 12322 12366 12395
+	}
+}

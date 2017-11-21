@@ -1,0 +1,164 @@
+﻿capital = 773
+
+oob = ""
+
+set_research_slots = 3
+
+set_national_unity = 0.50
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+    marines = 1
+	gw_artillery = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+}
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		radical_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 4
+		}
+		market_liberal = {
+			popularity = 3
+		}
+		social_conservative = {
+			popularity = 13
+		}
+		authoritarian_democrat = {
+			popularity = 57
+		}
+		paternal_autocrat = {
+			popularity = 12
+		}
+		national_populist = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+# DIPLOMACY / WAR 36
+	declare_war_on = {
+		target = DSE
+		type = annex_everything
+	}
+	
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MGR
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.75
+	}
+	set_autonomy = {
+		target = GRM
+		autonomous_state = autonomy_colony
+		freedom_level = 0.65
+	}
+	set_autonomy = {
+		target = PHO
+		autonomous_state = autonomy_colony
+		freedom_level = 0.25
+	}
+	else = {
+		puppet = MGR
+		puppet = GRM
+		puppet = PHO
+	}
+}
+
+### Starting Political Leaders ###
+create_country_leader = {
+	name = "Alexandros Papagos"
+	desc = "GTU_them_soph_desc"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Papagos.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Paul"
+	desc = "GTU_them_soph_desc"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Papagos.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Nikos Zachariadis"
+	desc = "POLITICS_NIKOS_PLOUMPIDIS_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Nikos_Ploumpidis.dds"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Themistoklis Sophoulis"
+	desc = "POLITICS_THEMISTOKLIS_SOPHOULIS_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Themistoklis_Sophoulis.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nikos Ploumpidis"
+	desc = "POLITICS_NIKOS_PLOUMPIDIS_DESC"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Nikos_Ploumpidis.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ioannis Metaxas"
+	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	picture = "gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+}
+
+set_convoys = 300

@@ -1,0 +1,28 @@
+
+state = {
+	id=546
+	name="STATE_546"
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			12911 1
+		}		
+
+	}
+
+	provinces={
+		2176 2206 5180 5224 8144 8201 8205 10845 10932 10988 11017 12911 12967 13655
+	}
+	manpower=3994200
+	buildings_max_level_factor=1
+	state_category=town
+}

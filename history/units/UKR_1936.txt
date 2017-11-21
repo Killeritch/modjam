@@ -1,0 +1,210 @@
+﻿####TEMPLATES####
+
+division_template = {
+	name = "Striltsiv"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bila Hvardiya"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 3 }
+	}
+
+	support = {
+	    engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+####UNITS####
+
+units = {
+    ####WHITE GUARD UNITS####
+	division= {			
+		name = "1-y 'Kyiv' Bila Hvardiya"		
+		location = 525
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "2-y 'Odesa' Bila Hvardiya"		
+		location = 11670
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "3-y 'Gomel' Bila Hvardiya"		
+		location = 3407
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "4-y 'Krivoi Roh' Bila Hvardiya"		
+		location = 11561
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "5-y 'Kursk' Bila Hvardiya"		
+		location = 3580
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "6-y 'Krim' Bila Hvardiya"		
+		location = 11670
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "7-y 'Donezk/Luhansk' Bila Hvardiya"		
+		location = 11437
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    division= {			
+		name = "8-y 'Oleksandrovsk' Bila Hvardiya"		
+		location = 418
+		division_template = "Bila Hvardiya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+    }
+    ####REGULARS####
+    division= {			
+		name = "1-y 'Basarabia' Striltsiv"		
+		location = 3707
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "2-y 'Basarabia' Striltsiv"		
+		location = 3707
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "3-y 'Basarabia' Striltsiv"		
+		location = 3707
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "4-y 'Basarabia' Striltsiv"		
+		location = 3707
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "5-y 'Dnieper' Striltsiv"		
+		location = 11437
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "6-y 'Dnieper' Striltsiv"		
+		location = 11437
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "7-y 'Dnieper' Striltsiv"		
+		location = 11437
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "8-y 'Dnieper' Striltsiv"		
+		location = 11437
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "9-y 'Kharkov' Striltsiv"		
+		location = 418
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "10-y 'Kharkov' Striltsiv"		
+		location = 418
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }division= {			
+		name = "11-y 'Kharkov' Striltsiv"		
+		location = 418
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "12-y 'Kharkov' Striltsiv"		
+		location = 418
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "13-y 'Kyiv' Striltsiv"		
+		location = 525
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "14-y 'Kyiv' Striltsiv"		
+		location = 525
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "15-y 'Kyiv' Striltsiv"		
+		location = 525
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+    division= {			
+		name = "16-y 'Kyiv' Striltsiv"		
+		location = 525
+		division_template = "Striltsiv"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+    }
+}		

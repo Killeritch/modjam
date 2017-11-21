@@ -1,0 +1,20 @@
+
+state = {
+	id=967
+	name="STATE_967"
+
+	history={
+		owner = TAG
+		buildings={
+			infrastructure=1
+		}
+	}
+
+	provinces={
+		1897 1962 7943 10838
+	}
+	manpower=40000
+	buildings_max_level_factor=1
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id=772
+	name="STATE_772" # Dobrudzha
+	manpower = 861400
+
+
+	state_category = city
+
+	history={
+		owner = BLA
+
+		victory_points = { 9635 3 }
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+		}
+
+		add_core_of = BLA
+	}
+
+	provinces={
+		9635 3076 687
+	}
+}

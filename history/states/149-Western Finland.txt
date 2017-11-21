@@ -1,0 +1,20 @@
+state = {
+	id=149
+	name="STATE_149" # Pohjanmaa
+	manpower = 462555
+	
+	state_category = town
+	
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+		}
+
+	provinces={
+		63 82 120 132 158 195 3026 6013 6081 6138 6198 6212 9038 9156 11041 11081 11121 11126 11132
+	}

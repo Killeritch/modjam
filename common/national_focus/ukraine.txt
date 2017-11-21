@@ -1,0 +1,314 @@
+focus_tree = {
+	id = ukrainian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = UKR_political_change
+		icon = GFX_focus_UKR_political_change
+		#prerequisite = {
+		#    focus = UKR_negotiations
+		#}
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_strengthen_bandera
+		icon = GFX_focus_UKR_strengthen_bandera
+		prerequisite = {
+		    focus = UKR_political_change
+		}
+		mutually_exclusive = {
+		    focus = UKR_chornomortsi
+		    focus = UKR_military_leadership
+		}
+		x = 8
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_begin_purge
+		icon = GFX_focus_UKR_begin_purge
+		prerequisite = {
+		    focus = UKR_strengthen_bandera
+		}
+		x = 8
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_purge_democrats
+		icon = GFX_focus_UKR_purge_democrats
+		prerequisite = {
+		    focus = UKR_begin_purge
+		}
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_purge_army
+		icon = GFX_focus_UKR_purge_army
+		prerequisite = {
+		    focus = UKR_purge_democrats
+		}
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_chornomortsi
+		icon = GFX_focus_UKR_chornomortsi
+		prerequisite = {
+		    focus = UKR_political_change
+		}
+		mutually_exclusive = {
+		    focus = UKR_strengthen_bandera
+		    focus = UKR_military_leadership
+		}
+		x = 6
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_appoint_shukhevych
+		icon = GFX_focus_UKR_appoint_shukhevych
+		prerequisite = {
+		    focus = UKR_chornomortsi
+		}
+		x = 6
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = shukhevych
+		}
+	}
+
+	focus = {
+		id = UKR_agitate_aristocrats
+		icon = GFX_focus_UKR_agitate_aristocrats
+		prerequisite = {
+		    focus = UKR_appoint_shukhevych
+		}
+		x = 6
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    add_popularity = {
+				ideology = national_populist
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = totalist
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = -0.25
+			}
+			#add_popularity = {
+			#	ideology = neutrality
+			#	popularity = -0.10
+			#}
+			add_ideas = UKR_class_divide
+		}
+	}
+
+	focus = {
+		id = UKR_chornomortsi_divisions
+		icon = GFX_focus_UKR_chornomortsi_divisions
+		prerequisite = {
+		    focus = UKR_agitate_aristocrats
+		}
+		x = 6
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    country_event = {
+		        hours = 4 id = ukraine.2
+		    }
+		}
+	}
+
+	focus = {
+		id = UKR_military_leadership
+		icon = GFX_focus_UKR_military_leadership
+		prerequisite = {
+		    focus = UKR_political_change
+		}
+		mutually_exclusive = {
+		    focus = UKR_strengthen_bandera
+		    focus = UKR_chornomortsi
+		}
+		x = 10
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = UKR_appoint_sinkler
+		icon = GFX_focus_UKR_appoint_sinkler
+		prerequisite = {
+		    focus = UKR_military_leadership
+		}
+		mutually_exclusive = {
+		    focus = UKR_appoint_skoropadskyi
+		}
+		x = 10
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = sinkler
+		}
+	}
+
+	focus = {
+		id = UKR_appoint_skoropadskyi
+		icon = GFX_focus_UKR_appoint_skoropadskyi
+		prerequisite = {
+		    focus = UKR_military_leadership
+		}
+		mutually_exclusive = {
+		    focus = UKR_appoint_sinkler
+		}
+		x = 12
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = skoropadskyi
+		}
+	}
+
+	focus = {
+		id = UKR_foreign_ministry
+		icon = GFX_focus_UKR_foreign_ministry
+		#prerequisite = {
+		#    focus = UKR_negotiations
+		#}
+		available = {
+		    has_completed_focus = UKR_political_change
+		}
+		x = 1
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+		    
+	}
+
+	focus = {
+		id = UKR_appoint_biskupsky
+		icon = GFX_focus_UKR_appoint_biskupsky
+		prerequisite = {
+		    focus = UKR_foreign_ministry
+		}
+		mutually_exclusive = {
+		    focus = UKR_appoint_shulhyn
+		}
+		x = 0
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = biskupsky
+		}
+		    
+	}
+
+	focus = {
+		id = UKR_appoint_shulhyn
+		icon = GFX_focus_UKR_appoint_shulhyn
+		prerequisite = {
+		    focus = UKR_foreign_ministry
+		}
+		mutually_exclusive = {
+		    focus = UKR_appoint_biskupsky
+		}
+		x = 2
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = shulhyn
+		}
+		    
+	}
+}

@@ -1,0 +1,77 @@
+﻿capital = 553
+
+oob = ""
+
+set_research_slots = 3
+
+set_national_unity = 0.50
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+    marines = 1
+	gw_artillery = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+}
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		syndicalist = {
+			popularity = 0
+		}
+		radical_socialist = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 3
+		}
+		social_liberal = {
+			popularity = 4
+		}
+		market_liberal = {
+			popularity = 3
+		}
+		social_conservative = {
+			popularity = 13
+		}
+		authoritarian_democrat = {
+			popularity = 57
+		}
+		paternal_autocrat = {
+			popularity = 12
+		}
+		national_populist = {
+			popularity = 8
+		}
+	}
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+### Starting Political Leaders ###
+create_country_leader = { # Chancellor Themistoklis Sophoulis
+	name = "Themistoklis Sophoulis"
+	desc = "GTU_them_soph_desc"
+	picture = "gfx/leaders/GRE/Portrait_GRE_Themistoklis_Sophoulis.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+add_ideas = {
+}
+
+set_convoys = 300

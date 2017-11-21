@@ -1,0 +1,110 @@
+focus_tree = {
+    id = uk_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = ENG
+        }
+    }
+
+    default = no
+	continuous_focus_position = { x = 50 y = 1750 }
+
+	focus = {# England Places Allies In Scotland, Ireland, Wales
+		id = ENG_homerule
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+	
+		available = { 
+			always = no 
+		}
+	
+		mutually_exclusive = {
+			focus = ENG_solerule
+			focus = ENG_blackshirts
+		}
+	
+		x = 5
+		y = 0
+	
+		completion_reward = {
+			# Targets every nation in the world that meets the condition in limit
+			every_country = {
+				limit = {
+					is_subject_of = ENG 
+					OR = {
+						tag = STL
+						tag = IRE
+						tag = WLS 
+					}
+				}
+				country_event = { # Send out one event that the only option is converting to auth_dem
+					days = 1
+					id = england.1
+				}
+			}
+		}
+	}
+
+	focus = {# England Annexes Its Protectorates
+		id = ENG_solerule
+		icon = GFX_goal_tripartite_pact
+		cost = 5
+	
+		available = { 
+			always = no 
+		}
+	
+		mutually_exclusive = {
+			focus = ENG_homerule
+			focus = ENG_blackshirts
+		}
+	
+		x = 3
+		y = 0
+	
+		completion_reward = {
+			# Targets every nation in the world that meets the condition in limit
+			every_country = {
+				limit = {
+					is_subject_of = ENG
+				}
+				OVERLORD = { 
+					annex_country = { 
+						target = PREV
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {# England Balances Power With The Blackshirts
+		id = ENG_blackshirts
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5
+	
+		available = { 
+			always = no 
+		}
+	
+		mutually_exclusive = {
+			focus = ENG_homerule
+			focus = ENG_solerule
+		}
+	
+		x = 7
+		y = 0
+	
+		completion_reward = {
+			set_political_party = { ideology = paternal_autocrat popularity = 0.40 } 
+			set_political_party = { ideology = social_conservative popularity = 0.30 }
+		}
+	}
+}
+	
+	
+	
+	
+	

@@ -1,0 +1,23 @@
+state = {
+	id=585
+	name="STATE_585"
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TAG
+		victory_points = {
+			10353 1
+		}			
+	}
+	state_category = rural
+
+
+	provinces={
+		1479 1532 1554 1576 1614 4488 4499 4578 4581 4618 4636 4638 7486 7501 7507 7777 10353 10366 10420 10470 12471
+	}
+	manpower=1033721
+	buildings_max_level_factor=1.000
+}

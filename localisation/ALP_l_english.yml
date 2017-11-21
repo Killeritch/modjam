@@ -1,0 +1,63 @@
+﻿l_english:
+ ##############################
+ # Alpine Parties
+ ##############################
+
+ ALP_totalist_party:0 "Totalists"
+ ALP_totalist_party_long:0 "Totalists"
+ ALP_radical_socialist_party:0 "Anti-Fasciste"
+ ALP_radical_socialist_party_long:0 "Anti Fascist"
+ ALP_syndicalist_party:0 "Catholic Socialist"
+ ALP_syndicalist_party_long:0 "Catholic Socialist"
+ ALP_social_democrat_party:0 "Liberal Democrats"
+ ALP_social_democrat_party_long:0 "Liberal Democrats"
+ ALP_social_liberal_party:0 "Community Liberals"
+ ALP_social_liberal_party_long:0 "Community Liberals"
+ ALP_market_liberal_party:0 "Minarchists"
+ ALP_market_liberal_party_long:0 "Minarchists"
+ ALP_social_conservative_party:0 "Catholic Union"
+ ALP_social_conservative_party_long:0 "Catholic Union"
+ ALP_authoritarian_democrat_party:0 "Constitutionalists"
+ ALP_authoritarian_democrat_party_long:0 "Constitutionalists"
+ ALP_paternal_autocrat_party:0 "Monarchists"
+ ALP_paternal_autocrat_party_long:0 "Monarchists"
+ ALP_national_populist_party:0 "National Corporatists"
+ ALP_national_populist_party_long:0 "National Corporatists"
+
+ ##################################
+ # Country Names
+ ##################################
+ 
+ ALP_totalist:0 "Free Republic of the Alpine"
+ ALP_totalist_ADJ:0 "Alpinard"
+ ALP_totalist_DEF:0 "The Free Republic of the Alpine"
+ ALP_syndicalist:0 "Syndicalist Republic of the Alps"
+ ALP_syndicalist_ADJ:0 "Alpinard"
+ ALP_syndicalist_DEF:0 "The Republic of the Alps"
+ ALP_radical_socialist:0 "Socialist Republic of the Alps"
+ ALP_radical_socialist_ADJ:0 "Alpinard"
+ ALP_radical_socialist_DEF:0 "The Socialist Republic of the Alps"
+ ALP_social_democrat:0 "Alpine Republic"
+ ALP_social_democrat_ADJ:0 "Alpine"
+ ALP_social_democrat_DEF:0 "The Alpine Republic"
+ ALP_social_liberal:0 "Alpine Federation"
+ ALP_social_liberal_ADJ:0 "Alpine"
+ ALP_social_liberal_DEF:0 "The Alpine Federation"
+ ALP_market_liberal:0 "Merchant Republic of Venice"
+ ALP_market_liberal_ADJ:0 "Venetian"
+ ALP_market_liberal_DEF:0 "The Merchant Republic of Venice"
+ ALP_social_conservative:0 "Catholic Alpine Federation"
+ ALP_social_conservative_ADJ:0 "Alpine"
+ ALP_social_conservative_DEF:0 "The Catholic Alpine Federation"
+ ALP_authoritarian_democrat:0 "Kingdom of Venice"
+ ALP_authoritarian_democrat_ADJ:0 "Venetian"
+ ALP_authoritarian_democrat_DEF:0 "The Kingdom of Venice"
+ ALP_paternal_autocrat:0 "Empire of the Alpine"
+ ALP_paternal_autocrat_ADJ:0 "Alpine"
+ ALP_paternal_autocrat_DEF:0 "The Alpine Empire"
+ ALP_national_populist:0 "Imperial Merchants of Venice"
+ ALP_national_populist_ADJ:0 "Merchant"
+ ALP_national_populist_DEF:0 "The Imperial Merchants"
+ 
+ # Leaders 
+ POLITICS_PIETRO_OTTOBUONI_DESC:0 "A wealthy Venetian and prominent figure in the political scene, he represents the business aspirations of the small infant nation of Venice. A primary opposition spokesman of Risorgimento, on the grounds of the South's industrial weakness, he is a stuanch seperatist, and seeks to expand the fledgling Republic into a commercial and technological hub of Europe."

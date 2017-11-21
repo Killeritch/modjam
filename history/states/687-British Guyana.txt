@@ -1,0 +1,36 @@
+
+state = {
+	id=687
+	name="STATE_687"
+	resources={
+		aluminium=112.000
+	}
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			4982 = {
+				naval_base = 1
+
+			}
+			air_base = 1
+		}
+		victory_points = {
+			4982 5
+		}
+		
+		add_core_of = TAG
+		add_core_of = TAG
+
+	}
+
+	provinces={
+		4982 8107 12716 13397 13405 13423 13425 13429 
+	}
+	manpower=309000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,29 @@
+
+state = {
+	id=836
+	name="STATE_836"
+	manpower = 253618
+	
+	state_category = city
+	
+	resources={
+		steel= 10
+	}
+	
+	history={
+		owner = ALP
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			688 5
+		}
+
+		add_core_of = ALP
+	}
+
+	provinces={
+		688 3674 3675 13211
+	}
+}

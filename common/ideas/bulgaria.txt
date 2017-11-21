@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+		BLA_NavInd = {
+			allowed = {
+				original_tag = BLA
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_naval_manufacturer_2
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		BLA_AlbInf = {
+			allowed = {
+				original_tag = BLA
+			}
+			
+			removal_cost = -1
+			
+			picture = FRA_matignon_agreements
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+	}
+}

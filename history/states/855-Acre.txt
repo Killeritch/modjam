@@ -1,0 +1,26 @@
+
+state = {
+	id=855
+	name="STATE_855"
+	resources={
+		rubber=70.000
+	}
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAG
+		add_claim_by = TAG
+
+	}
+
+	provinces={
+		5216 10960 13524 13526 13530 
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

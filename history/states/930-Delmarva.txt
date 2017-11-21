@@ -1,0 +1,21 @@
+state = {
+	id=930
+	name="STATE_930"
+
+	history={
+		owner = TAG
+		add_core_of=USA
+		buildings={
+			infrastructure=4
+		}
+	}
+
+	provinces={
+		3917 6892 9758 9786 13628
+	}
+	
+	manpower=495700
+	buildings_max_level_factor=1
+	state_category="pastoral"
+}
+

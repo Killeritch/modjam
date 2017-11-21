@@ -1,0 +1,30 @@
+
+state = {
+	id=609
+	name="STATE_609" # East Hebei
+	manpower = 2000000
+	
+	state_category = city
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		victory_points = {
+			10068 1
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			10068 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		4137 10068
+	}
+}

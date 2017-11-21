@@ -1,0 +1,31 @@
+
+state = {
+	id=103
+	name="STATE_103"
+	manpower = 1101700
+
+	state_category = town
+
+
+	history={
+		owner = TAG
+		victory_points = {
+			11564 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			11564 = {
+				naval_base = 3
+			}
+		}
+
+		add_core_of = TAG
+		 
+		 
+	}
+
+	provinces={
+		591 984 3601 6611 11564
+	}
+}

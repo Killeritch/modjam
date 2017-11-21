@@ -1,0 +1,208 @@
+spriteTypes = {
+	
+	####FOCUSICONS####
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_biskupsky"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_shulhyn"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_shulhyn.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_foreign_ministry"
+		texturefile = "gfx/interface/goals/focus_UKR_foreign_ministry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_political_change"
+		texturefile = "gfx/interface/goals/focus_UKR_political_change.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_strengthen_bandera"
+		texturefile = "gfx/interface/goals/focus_UKR_strengthen_bandera.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_chornomortsi"
+		texturefile = "gfx/interface/goals/focus_UKR_chornomortsi.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_military_leadership"
+		texturefile = "gfx/interface/goals/focus_UKR_military_leadership.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_begin_purge"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_purge.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_shukhevych"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_shukhevych.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_sinkler"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_sinkler.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_skoropadskyi"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_skoropadskyi.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_chornomortsi_divisions"
+		texturefile = "gfx/interface/goals/focus_UKR_chornomortsi_divisions.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_agitate_aristocrats"
+		texturefile = "gfx/interface/goals/focus_UKR_agitate_aristocrats.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_purge_democrats"
+		texturefile = "gfx/interface/goals/focus_UKR_purge_democrats.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_purge_army"
+		texturefile = "gfx/interface/goals/focus_UKR_purge_army.dds"
+	}
+
+	####FOCUSICONSSHINE####
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_foreign_ministry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_foreign_ministry.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_biskupsky_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_shulhyn_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_shulhyn.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_political_change_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_political_change.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_strengthen_bandera_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_strengthen_bandera.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_chornomortsi_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_chornomortsi.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_military_leadership_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_military_leadership.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_begin_purge_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_purge.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_shukhevych_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_shukhevych.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_appoint_sinkler_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_sinkler.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_appoint_skoropadskyi_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_appoint_skoropadskyi.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_chornomortsi_divisions_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_chornomortsi_divisions.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_agitate_aristocrats_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_agitate_aristocrats.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_purge_democrats_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_purge_democrats.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_purge_army_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_purge_army.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	####IDEAS####
+
+	spriteType = {
+		name = "GFX_idea_biskupsky"
+		texturefile = "gfx/interface/ideas/idea_vasily_biskupsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shulhyn"
+		texturefile = "gfx/interface/ideas/idea_oleksandr_shulhyn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shukhevych"
+		texturefile = "gfx/interface/ideas/idea_shukhevych.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_sinkler"
+		texturefile = "gfx/interface/ideas/idea_sinkler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_skoropadskyi"
+		texturefile = "gfx/interface/ideas/idea_skoropadskyi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_class_divide"
+		texturefile = "gfx/interface/ideas/UKR_class_divide.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_white_guard"
+		texturefile = "gfx/interface/ideas/white_guard.dds"
+	}
+}

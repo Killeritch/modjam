@@ -1,0 +1,32 @@
+
+state = {
+	id=759
+	name="STATE_759"
+	resources={
+		steel=24
+		aluminium=8
+	}
+
+	history={
+		owner = ALP
+		add_claim_by = ALP
+		victory_points = {
+			9613 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ALP
+		
+	}
+
+	provinces={
+		628 3657 6656 9613 13582
+	}
+	manpower=1463151
+	buildings_max_level_factor=1
+	state_category="large_city"
+}

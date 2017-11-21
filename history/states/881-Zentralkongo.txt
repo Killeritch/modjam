@@ -1,0 +1,28 @@
+
+state = {
+	id=881
+	name="STATE_881"
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10968 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			10968 1
+		}
+	}
+
+	provinces={
+		10968 12925
+	}
+	manpower=563000
+	buildings_max_level_factor=1
+	state_category=rural
+}

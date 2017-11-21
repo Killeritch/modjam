@@ -1,0 +1,28 @@
+state = {
+	id=701
+	name="STATE_701"
+	resources={
+		steel=5
+	}
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4425 2 #Myitkina
+		}
+#		victory_points = {
+#			4318 1 #Putao
+#		}
+
+		add_core_of = TAG
+		add_core_of = TAG
+	}
+	provinces={
+		1082 1197 1934 4087 4318 4425 4588 4996 8063 10486 10920 12335 12464 12492
+	}
+	manpower=1244600
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

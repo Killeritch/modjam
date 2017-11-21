@@ -1,0 +1,64 @@
+### Greece Ideas
+
+ideas = {
+##############
+# Country ideas
+##############
+country = {
+	## Starting Issues /*
+	# Political Instability 
+	GRE_loyalty_25 = {
+		allowed = { always = no }
+		modifier = {
+			autonomy_gain = -0.25
+		}
+		removal_cost = -1
+		picture = great_depression
+	}
+	GRE_loyalty_25_1 = {
+		allowed = { always = no }
+		modifier = {
+			autonomy_gain = -0.50
+		}
+		removal_cost = -1
+		picture = great_depression
+	}
+	GRE_loyalty_25_2 = {
+		allowed = { always = no }
+		modifier = {
+			autonomy_gain = -0.75
+		}
+		removal_cost = -1
+		picture = great_depression
+	}
+	GRE_loyalty_25_3 = {
+		allowed = { always = no }
+		modifier = {
+			autonomy_gain = -1.0
+		}
+		removal_cost = -1
+		picture = great_depression
+	}
+	## */
+}
+
+##################
+# Hidden Ideas
+##################
+
+##############
+# Companies
+##############
+	
+#### General ####
+
+#### Weapons Manufacturer ####
+	
+#### Heavy Equipment Manufacturer ####
+
+#### Air and Naval Manufacturer ####
+
+##############
+# Theorist
+##############
+}

@@ -1,0 +1,21 @@
+state = {
+	id=680
+	name="STATE_680"
+	manpower = 164110
+	
+	state_category = rural
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		901 1549 1578 1606 1634 6883 10882
+	}
+}

@@ -1,0 +1,74 @@
+﻿capital = 267
+
+#no oob needed
+
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		totalist = {
+			popularity = 0
+		}
+		paternal_autocrat = {
+			popularity = 100
+		}
+		national_populist = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = totalist
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+# Mohammad Hashim Khan (Prime Minister) other potential candidate
+
+create_country_leader = {
+	name = "Emperor Norton"
+	desc = "POLITICS_CHARLES_CURTIS_DESC"
+	picture = "TAG_Emperor_Norton.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 0
+			}
+
+			fascism = {
+				popularity = 20
+			}
+			
+			communism = {
+				popularity = 10
+				#banned = no #default is no
+			}
+		
+			neutrality = { 
+				popularity = 75
+			}
+		}
+	
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
+}

@@ -1,0 +1,19 @@
+﻿add_namespace = england
+
+country_event = {
+	id = england.1 #event ID
+	title = england.1.t #title	
+	desc = england.1.d #description
+	
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	is_triggered_only = yes
+
+	option = {
+		name = england.1.a #the option's text
+		set_politics = { 
+			ruling_party = authoritarian_democrat 
+			elections_allowed = no 
+		}	
+	}
+}

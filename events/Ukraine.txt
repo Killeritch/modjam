@@ -1,0 +1,122 @@
+﻿add_namespace = ukraine
+
+# Bulgaria cedes Bessarabia
+country_event = {
+	id = ukraine.1
+	title = ukraine.1.t
+	desc = ukraine.1.desc
+	picture = GFX_report_event_international_meeting2
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.1.a
+		UKR = { transfer_state = 761 }
+		BUL = { country_event = { hours = 2 id = bulgaria.3 } }
+	}
+}
+
+# Deploy Odessan Chornomortsi
+country_event = {
+	id = ukraine.2
+	title = ukraine.2.t
+	desc = ukraine.2.desc
+	picture = GFX_report_event_infantry
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.2.a
+		hidden_effect = {
+		    load_oob = "The Odessan Chornomortsi"
+		    UKR = {
+		        country_event = {
+		            hours = 2 id = ukraine.3
+		        }
+		    }
+		}
+	}
+}
+
+# Deploy Kharkov Chornomortsi
+country_event = {
+	id = ukraine.3
+	title = ukraine.3.t
+	desc = ukraine.3.desc
+	picture = GFX_report_event_infantry
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.3.a
+		hidden_effect = {
+		    load_oob = "The Kharkov Chornomortsi"
+		    UKR = {
+		        country_event = {
+		            hours = 2 id = ukraine.4
+		        }
+		    }
+		}
+	}
+}
+
+# Deploy Dnipropetrovsk Chornomortsi
+country_event = {
+	id = ukraine.4
+	title = ukraine.4.t
+	desc = ukraine.4.desc
+	picture = GFX_report_event_infantry
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.4.a
+		hidden_effect = {
+		    load_oob = "The Dnipropetrovsk Chornomortsi"
+		    UKR = {
+		        country_event = {
+		            hours = 2 id = ukraine.5
+		        }
+		    }
+		}
+	}
+}
+
+# Deploy Dnipropetrovsk Chornomortsi
+country_event = {
+	id = ukraine.5
+	title = ukraine.5.t
+	desc = ukraine.5.desc
+	picture = GFX_report_event_infantry
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.5.a
+		hidden_effect = {
+		    load_oob = "The Kiev Chornomortsi"
+		}
+	}
+}
+
+# Ukraine In 1936 Exposition blah blah
+country_event = {
+	id = ukraine.6
+	title = ukraine.6.t
+	desc = ukraine.6.desc
+	picture = GFX_report_event_infantry
+
+	trigger = {
+		tag = ENG
+		date > 1936.1.20
+	}	
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 5 }
+
+	option = {
+		name = ukraine.6.a
+	}
+}
+

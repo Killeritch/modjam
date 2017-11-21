@@ -1,0 +1,17 @@
+﻿add_namespace = BLA_news
+
+#News event - Bulgaria gets Silistra
+news_event = {
+		id = BLA_news.1
+		title = BLA_news.1.t
+		desc = BLA_news.1.d
+		picture = GFX_news_event_generic_rally
+		
+		is_triggered_only = yes
+		
+		major = yes
+		
+		option = {
+				name = BLA_news.1.a
+		}
+}

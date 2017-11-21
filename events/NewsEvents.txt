@@ -1,0 +1,47 @@
+﻿######################
+#KEBB NOOS
+######################
+
+add_namespace = worldnews
+
+# wtf is this Kaiserreich shit doing here - Killeritch
+
+# President Garner
+news_event = {
+	id = worldnews.97
+	title = worldnews.97.t
+	desc = worldnews.97.d
+	picture = GFX_news_event_garner
+
+	major = yes
+	
+	is_triggered_only = yes
+
+	#trigger = {
+	#	wants_world_news = yes
+	#}
+
+	option = {
+		name = worldnews.97.a
+	}
+}
+
+# President Curtis
+news_event = {
+	id = worldnews.98
+	title = worldnews.98.t
+	desc = worldnews.98.d
+	picture = GFX_news_event_curtis
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#trigger = {
+	#	wants_world_news = yes
+	#}
+
+	option = {
+		name = worldnews.98.a
+	}
+}
