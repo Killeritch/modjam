@@ -15,6 +15,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = RUS_minority
 		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_hung_duma
+				add_idea = RUS_coalition_negotiations
+			}
+		}
 		x = 2
 		y = 0
 
@@ -25,6 +31,12 @@ focus_tree = {
 		cost = 10
 		mutually_exclusive = {
 			focus = RUS_coalition
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_hung_duma
+				add_idea = RUS_minority_government
+			}
 		}
 		x = 4
 		y = 0
@@ -37,8 +49,17 @@ focus_tree = {
 		prerequisite = {
 			focus = RUS_coalition
 		}
+		available = {
+			has_country_flag = RUS_bolshevik_coalition
+		}
 		mutually_exclusive = {
 			focus = RUS_monarchist_deal
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_coalition_negotiations
+				add_idea = RUS_bolshevik_coalition
+			}
 		}
 		x = 0
 		y = 1
@@ -51,8 +72,17 @@ focus_tree = {
 		prerequisite = {
 			focus = RUS_coalition
 		}
+		available = {
+			has_country_flag = RUS_tsarist_coalition
+		}
 		mutually_exclusive = {
 			focus = RUS_bolshevik_deal
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_coalition_negotiations
+				add_idea = RUS_tsarist_coalition
+			}
 		}
 		x = 2
 		y = 1

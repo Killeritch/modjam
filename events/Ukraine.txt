@@ -99,24 +99,3 @@ country_event = {
 	}
 }
 
-# Ukraine In 1936 Exposition blah blah
-country_event = {
-	id = ukraine.6
-	title = ukraine.6.t
-	desc = ukraine.6.desc
-	picture = GFX_report_event_infantry
-
-	trigger = {
-		tag = ENG
-		date > 1936.1.20
-	}	
-
-	fire_only_once = yes
-
-	mean_time_to_happen = { days = 5 }
-
-	option = {
-		name = ukraine.6.a
-	}
-}
-

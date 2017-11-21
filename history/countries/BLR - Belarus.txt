@@ -38,26 +38,26 @@ set_politics = {
 			popularity = 0
 		}
 		social_liberal = {
-			popularity = 20
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 60
+			popularity = 20
 		}
 		social_conservative = {
-			popularity = 20
+			popularity = 0
 		}
 		authoritarian_democrat = {
 			popularity = 0
 		}
 		paternal_autocrat = {
-			popularity = 0
+			popularity = 60
 		}
 		national_populist = {
-			popularity = 0
+			popularity = 20
 		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -94,6 +94,17 @@ create_country_leader = {
     traits = {
         #
     }
+}
+
+create_country_leader = {
+	name = "Nicholas II"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "gfx/leaders/RUS/Portrait_Russia_Nicholas_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
 }
 add_ideas = {
 }

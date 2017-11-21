@@ -15,9 +15,11 @@ country_event = { # Finland declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = FIN
-		FIN = {
-			load_oob = FIN_1936
+		hidden_effect = {
+			release = FIN
+			FIN = {
+				load_oob = FIN_1936
+			}
 		}
 	}
 
@@ -57,9 +59,11 @@ country_event = { # Estonia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = EST
-		EST = {
-			load_oob = EST_1936
+		hidden_effect = {
+			release = EST
+			EST = {
+				load_oob = EST_1936
+			}
 		}
 	}
 
@@ -99,12 +103,14 @@ country_event = { # Latvia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = LAT
-		LAT = {
-			load_oob = LAT_LIV
+		hidden_effect = {
+			release = LAT
+			LAT = {
+				load_oob = LAT_LIV
+			}
 		}
 	}
-
+	
 	option = {
 		name = RUS_breakup.3.a
 		ai_chance = {
@@ -141,9 +147,11 @@ country_event = { # Lithuania declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = LIT
-		LIT = {
-			load_oob = LIT_1936
+		hidden_effect = {
+			release = LIT
+			LIT = {
+				load_oob = LIT_1936
+			}
 		}
 	}
 
@@ -183,9 +191,11 @@ country_event = { # Courland declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = COU
-		COU = {
-			load_oob = LAT_COU
+		hidden_effect = {
+			release = COU
+			COU = {
+				load_oob = LAT_COU
+			}
 		}
 	}
 
@@ -225,7 +235,9 @@ country_event = { # Belarus declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = BLR
+		hidden_effect = {
+			release = BLR
+		}
 	}
 
 	option = {
@@ -264,7 +276,9 @@ country_event = { # Ukraine declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = UKR
+		hidden_effect = {
+			release = UKR
+		}
 	}
 
 	option = {
@@ -303,7 +317,9 @@ country_event = { # Azerbaijan declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = AZR
+		hidden_effect = {
+			release = AZR
+		}
 	}
 
 	option = {
@@ -342,7 +358,9 @@ country_event = { # Georgia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = GEO
+		hidden_effect = {
+			release = GEO
+		}
 	}
 
 	option = {
@@ -381,7 +399,9 @@ country_event = { # Armenia declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = ARM
+		hidden_effect = {
+			release = ARM
+		}
 	}
 
 	option = {
@@ -417,10 +437,20 @@ country_event = { # Poland declares independence
 	desc = RUS_breakup.11.d
 	picture = GFX_report_event_soviet_soldiers_tank
 
-	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		has_war = yes
+		BLR = { exists = yes }
+	}
+	
+	mean_time_to_happen = { days = 30 }
 	
 	immediate = {
-		release = POL
+		hidden_effect = {
+			release = POL
+		}
 	}
 
 	option = {
@@ -459,10 +489,12 @@ country_event = { # Winter Palace stormed
 	is_triggered_only = yes
 	
 	immediate = {
-		SOV = {
-			transfer_state = 195
-			add_state_core = 195
-			declare_war_on = { target = RUS type = annex_everything }
+		hidden_effect = {
+			SOV = {
+				transfer_state = 195
+				add_state_core = 195
+				declare_war_on = { target = RUS type = annex_everything }
+			}
 		}
 	}
 	
@@ -493,15 +525,17 @@ country_event = { # Makhno declares the Free Territory
 	is_triggered_only = yes
 	
 	immediate = {
-		FRT = {
-			transfer_state = 200
-			transfer_state = 226
-			transfer_state = 227
-			transfer_state = 821
-			add_state_core = 200
-			add_state_core = 226
-			add_state_core = 227
-			add_state_core = 821
+		hidden_effect = {
+			FRT = {
+				transfer_state = 200
+				transfer_state = 226
+				transfer_state = 227
+				transfer_state = 821
+				add_state_core = 200
+				add_state_core = 226
+				add_state_core = 227
+				add_state_core = 821
+			}
 		}
 	}
 	
@@ -539,9 +573,11 @@ country_event = { # Crimea declares independence
 	picture = GFX_report_event_soviet_soldiers_tank
 
 	is_triggered_only = yes
-	
+
 	immediate = {
-		release = CRI
+		hidden_effect = {
+			release = CRI
+		}
 	}
 
 	option = {
@@ -580,11 +616,13 @@ country_event = { # Tambov Rebellion
 	is_triggered_only = yes
 	
 	immediate = {
-		TAM = {
-			transfer_state = 257
-			transfer_state = 260
-			add_state_core = 257
-			add_state_core = 260
+		hidden_effect = {
+			TAM = {
+				transfer_state = 257
+				transfer_state = 260
+				add_state_core = 257
+				add_state_core = 260
+			}
 		}
 	}
 	
@@ -624,7 +662,9 @@ country_event = { # Northern Caucasus declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = RNC
+		hidden_effect = {
+			release = RNC
+		}
 	}
 
 	option = {
@@ -663,7 +703,9 @@ country_event = { # Kuban declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = KUB
+		hidden_effect = {
+			release = KUB
+		}
 	}
 
 	option = {
@@ -702,7 +744,9 @@ country_event = { # Don declares independence
 	is_triggered_only = yes
 	
 	immediate = {
-		release = DON
+		hidden_effect = {
+			release = DON
+		}
 	}
 
 	option = {

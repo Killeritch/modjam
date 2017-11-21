@@ -44,14 +44,324 @@ ideas = {
 			    political_power_gain = 0.05
 			    totalist_drift = 0.01
 			    national_populist_drift = 0.01
-			    authoritarian_democrat_drift = -0.02
-			    #neutrality_drift = -0.01
+			    paternal_autocrat_drift = -0.01
+			    authoritarian_democrat_drift = -0.01
 			}
 
 		}
+
+		UKR_militarised_police = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_militarised_police
+			
+			modifier = {
+			    political_power_gain = 0.05
+			    conscription_factor = 0.05
+			    enemy_partisan_effect = -0.25
+		        foreign_subversive_activites = -0.20
+			}
+
+		}
+
+		UKR_chornomortsi_mobilised = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_chornomortsi_mobilised
+			
+			modifier = {
+			   army_org_factor = -0.05
+			   army_morale_factor = 0.05
+			   conscription = 0.02
+			   conscription_factor = 0.05
+			   political_power_gain = 0.05
+			}
+        }
+
+		deregulation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = deregulation
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+			    unity_factor = -0.05
+			    production_speed_arms_factory_factor = -0.05
+			    min_export = 0.10
+			}
+        }
+
+        oligarchy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = oligarchy
+			
+			modifier = {
+			    consumer_goods_factor = 0.05
+			    unity_factor = -0.10
+			    production_speed_industrial_complex_factor = 0.05
+			    political_power_gain = -0.05
+			}
+        }
+
+        nationalisation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = nationalisation
+			
+			modifier = {
+			    political_power_gain = 0.05
+			    unity_factor = 0.05
+			    consumer_goods_factor = 0.10
+			    min_export = -0.10
+			}
+        }
+
+        fighting_oligarchy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = fighting_oligarchy
+			
+			modifier = {
+			    political_power_gain = -0.05
+			    consumer_goods_factor = 0.05
+			    production_speed_industrial_complex_factor = -0.05
+			}
+        }
+
+        fighting_unions = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = fighting_unions
+			
+			modifier = {
+			    political_power_gain = -0.05
+			    unity_factor = -0.05
+			    production_speed_industrial_complex_factor = -0.05
+			}
+        }
+
+        competitive_construction = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = competitive_construction
+			
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.05
+			    production_speed_arms_factory_factor = 0.05
+			    min_export = 0.01
+			}
+        }
+
+        competitive_armaments = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = competitive_armaments
+
+			equipment_bonus = {
+			    infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+			modifier = {
+			    min_export = 0.01
+			}
+        }
+
+        monopolised_construction = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = monopolised_construction
+			
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.05
+			    production_speed_arms_factory_factor = 0.05
+			    unity_factor = -0.01
+			}
+        }
+
+        monopolised_armaments = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = monopolised_armaments
+
+			equipment_bonus = {
+			    infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+			modifier = {
+			    unity_factor = -0.01
+			}
+        }
+
+        nationalised_construction = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = nationalised_construction
+			
+			modifier = {
+			    production_speed_industrial_complex_factor = 0.05
+			    production_speed_arms_factory_factor = 0.05
+			    consumer_goods_factor = 0.01
+			}
+        }
+
+        nationalised_armaments = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = nationalised_armaments
+
+			equipment_bonus = {
+			    infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+			modifier = {
+			    consumer_goods_factor = 0.01
+			}
+        }
+	
 	}
 
 	political_advisor = {
+
+	    bandera = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_chairman
+			}
+			
+			traits = { powerful_chairman }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
 	    biskupsky = {
 
 			allowed = {
@@ -78,6 +388,22 @@ ideas = {
 			}
 			
 			traits = { democratic_diplomat }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		rodzyanko = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_rodzyanko
+			}
+			
+			traits = { traditional_diplomat }
 
 			ai_will_do = {
 				factor = 0.5
@@ -131,5 +457,185 @@ ideas = {
 				factor = 0.5
 			}
 		}
+
+		stetsko = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_stetsko
+			}
+			
+			traits = { free_market_economist }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		konovalets = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_konovalets
+			}
+			
+			traits = { corporate_economist }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		melnyk = {
+
+			allowed = {
+				original_tag = UKR
+			}
+			available = {
+				has_completed_focus = UKR_appoint_melnyk
+			}
+			
+			traits = { radical_economist }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
 	}
+
+	theorist = {
+	    shkuro = {
+	        allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				cat_mobile_warfare = 0.10
+			}
+			
+			
+			traits = { blitzkrieg_theorist }
+	    }
+
+	    sinkler_theorist = {
+	        allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				cat_grand_battle_plan = 0.10
+			}
+
+			traits = { grand_battle_plan_expert }
+	    }
+
+	    udovychenko = {
+	        allowed = {
+				original_tag = UKR
+			}
+			
+			research_bonus = {
+				cat_mass_assault = 0.10
+			}
+			
+			
+			traits = { mass_assault_expert }
+	    }
+
+	    skoropadskyi_theorist = {
+	        allowed = {
+				original_tag = UKR
+			}
+
+			research_bonus = {
+				cat_superior_firepower = 0.10
+			}
+			
+			
+			traits = { superior_firepower_expert }
+	    }
+    }
+
+    army_chief = {
+        sinkler_chief = {
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+			    army_morale_factor = 0.05
+			    planning_speed = 0.05
+			    max_planning = 0.05
+			}
+
+			traits = { grand_battle_plan_expert }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		skoropadskyi_chief = {
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+			    army_org_factor = 0.05
+			    army_defence_factor = 0.05
+			}
+
+			traits = { superior_firepower_expert }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		shkuro_chief = {
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+			    army_speed_factor = 0.05
+			    army_attack_factor = 0.05
+			}
+
+			traits = { mobile_warfare_expert }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		udovychenko_chief = {
+
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			modifier = {
+			    army_morale_factor = 0.10
+			    army_org_factor = -0.05
+			    conscription = 0.01
+			}
+			traits = { mass_assault_expert }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
 }

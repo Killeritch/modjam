@@ -263,9 +263,9 @@ leader_traits = {
 	
 	democratic_reformer = {
 		random = no
-		# Boosts social_conservative
+		# Boosts Democracy
 		sprite = 13
-		social_conservative_drift = 0.1
+		social_democrat_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -306,6 +306,128 @@ leader_traits = {
 		random = yes
 		sprite = 13
 		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	radicalist_diplomat = {
+		random = yes
+		sprite = 13
+		political_power_factor = 0.05
+		national_populist_drift = 0.01
+		opinion_gain_monthly_factor = 0.10
+		national_populist_acceptance = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	democratic_diplomat = {
+		random = yes
+		sprite = 13
+		political_power_factor = 0.05
+		social_democrat_drift = 0.01
+		opinion_gain_monthly_factor = 0.10
+		social_democrat_acceptance = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	traditional_diplomat = {
+		random = yes
+		sprite = 13
+		political_power_factor = 0.05
+		paternal_autocrat_drift = 0.01
+		opinion_gain_monthly_factor = 0.10
+		paternal_autocrat_acceptance = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	radical_revolutionary = {
+		sprite = 13
+		political_power_factor = 0.05
+		national_populist_drift = 0.01
+		justify_war_goal_time = -0.10
+		subversive_activites_upkeep = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	national_hero = {
+		sprite = 13
+		political_power_factor = 0.05
+		authoritarian_democrat_drift = 0.01
+		unity_factor = 0.05
+		army_morale_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	noble_autocrat = {
+		sprite = 13
+		political_power_factor = 0.05
+		paternal_autocrat_drift = 0.01
+		army_org_factor = 0.05
+		production_speed_industrial_complex_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	free_market_economist = {
+		sprite = 13
+		political_power_factor = 0.05
+		social_democrat_drift = 0.01
+		trade_opinion_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	corporate_economist = {
+		sprite = 13
+		political_power_factor = 0.05
+		authoritarian_democrat_drift = 0.01
+		consumer_goods_factor = -0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	radical_economist = {
+		sprite = 13
+		political_power_factor = 0.05
+		national_populist_drift = 0.01
+		production_speed_industrial_complex_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	powerful_chairman = {
+		sprite = 13
+		political_power_factor = 0.10
+		national_populist_drift = 0.01
+		unity_factor = 0.10
+		political_advisor_cost_factor = -0.10
+        mobilization_laws_cost_factor = -0.10
+        economy_cost_factor = -0.10
 		
 		ai_will_do = {
 			factor = 1
@@ -581,14 +703,18 @@ leader_traits = {
 				instant = yes
 				maximum_speed = 0.10
 			}
+			motorised = {
+			    instant = yes
+				maximum_speed = 0.10
+			}
 		}
 		experience_gain_army = 0.05
 		
 		ai_will_do = {
-			factor = 500
+			factor = 100
 		}
 	}
-	
+
 	light_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
