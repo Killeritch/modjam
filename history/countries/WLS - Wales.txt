@@ -74,15 +74,6 @@ create_country_leader = {# General Campbell
 	traits = { ww_one_trauma grand_battle_plan_expert }
 }
 
-create_country_leader = {# Major Powell
-	name = "Major Powell"
-	desc = "WLS_Powell_desc"
-	picture = "Portrait_Wales_Major_Powell.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { ww_one_trauma }
-}
-
 add_ideas = { 
 	mothballed_navy 
 	disgraced_military 

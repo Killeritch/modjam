@@ -74,15 +74,6 @@ create_country_leader = {# General Campbell
 	traits = { ww_one_trauma grand_battle_plan_expert }
 }
 
-create_country_leader = {# Sir Christison
-	name = "Sir Christison"
-	desc = "STL_Christison_desc"
-	picture = "Portrait_Scotland_Sir_Christison.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { ww_one_trauma grand_battle_plan_expert}
-}
-
 add_ideas = { 
 	mothballed_navy 
 	disgraced_military 

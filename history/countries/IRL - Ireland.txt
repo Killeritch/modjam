@@ -75,15 +75,6 @@ create_country_leader = {# General Campbell
 	traits = { ww_one_trauma grand_battle_plan_expert }
 }
 
-create_country_leader = {# Earl Kitchener
-	name = "Earl Kitchener"
-	desc = "IRL_Kitchener_desc"
-	picture = "Portrait_Ireland_Earl_Kitchener.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { ww_one_trauma grand_battle_plan_expert}
-}
-
 add_ideas = { 
 	mothballed_navy 
 	disgraced_military 

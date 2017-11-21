@@ -10,7 +10,8 @@ focus_tree = {
     }
 
     default = no
-	continuous_focus_position = { x = 50 y = 1750 }
+    reset_on_civilwar = no
+    continuous_focus_position = { x = 50 y = 1750 }
 
 	focus = {# England Places Allies In Scotland, Ireland, Wales
 		id = ENG_homerule
@@ -18,7 +19,7 @@ focus_tree = {
 		cost = 5
 	
 		available = { 
-			always = no 
+			always = yes
 		}
 	
 		mutually_exclusive = {
@@ -54,7 +55,7 @@ focus_tree = {
 		cost = 5
 	
 		available = { 
-			always = no 
+			always = yes 
 		}
 	
 		mutually_exclusive = {
@@ -86,7 +87,7 @@ focus_tree = {
 		cost = 5
 	
 		available = { 
-			always = no 
+			always = yes
 		}
 	
 		mutually_exclusive = {
