@@ -254,7 +254,6 @@ WLS_Powell_desc:0 "Little is known of this young officer, promoted up the ranks 
 # Leaders
 ##################################
  STL_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
- STL_Christison_desc:0 "A talented officer who won awards during the First World War, Christison was earmarked for success. Can he give this success to Scotland?" 
 ##################################
 # National Spirits and Politics Localization
 ##################################
@@ -266,3 +265,5 @@ broken_nation:0 "Broken Nation"
 broken_nation_desc:0 "Workers strike often and the people demand reform"
 brightest_minds_dead:0 "Our fallen youth"
 brightest_minds_dead_desc:0 "We conscripted our finest to fight and die in the trenches, our nation's future inventions are buried among the bones".
+blackshirt_labour_union_reform:0 "Blackshirt Unions"
+blackshirt_labour_union_reform_desc:0 "Leftists have used trade unions to foster anti-Imperial sentiment, the workers stand behind Mosley!"

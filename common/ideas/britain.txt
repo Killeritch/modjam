@@ -2,9 +2,6 @@ ideas = {
 	
 	country = {
 		mothballed_navy = {
-			allowed = {
-				always = no # it doesn't need to be allowed, you're setting it in history/events
-			}
 			
 			picture = generic_navy_bonus
 			
@@ -20,10 +17,6 @@ ideas = {
 	
 		disgraced_military = {
 			
-			allowed = {
-				always = no # it doesn't need to be allowed, you're setting it in history/events
-			}
-			
 			picture = generic_victors_of_ww1
 			
 			allowed = {
@@ -37,11 +30,7 @@ ideas = {
 			}
 		}
 		broken_nation = {
-			
-			allowed = {
-				always = no # it doesn't need to be allowed, you're setting it in history/events
-			}
-			
+
 			picture = FRA_factory_strikes
 			
 			allowed = {
@@ -56,10 +45,6 @@ ideas = {
 		}
 		brightest_minds_dead = {
 			
-			allowed = {
-				always = no # it doesn't need to be allowed, you're setting it in history/events
-			}
-			
 			picture = ENG_the_war_to_end_all_wars
 			
 			allowed = {
@@ -70,6 +55,21 @@ ideas = {
 				research_time_factor = 0.5 
 				encryption_factor = -0.2 
 				decryption_factor = -0.2 
+			}
+		}
+		blackshirt_labour_union_reform = {
+			
+			allowed = {
+				original_tag = ENG
+			}
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				enemy_partisan_effect = -0.05
+				totalist_drift = -0.10
+				syndicalist_drift = -0.10
+				radical_socialist_drift = -0.10
 			}
 		}
 	}
