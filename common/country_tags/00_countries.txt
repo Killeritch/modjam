@@ -137,6 +137,7 @@ FRT = "countries/FreeTerritory.txt"
 KUB = "countries/Kuban.txt"
 RNC = "countries/NorthernCaucasus.txt"
 TAM = "countries/Tambov.txt"
+KLM = "countries/Kalmykia.txt"
 #
 ### Tsar Pixel
 ARA = "countries/Aragon.txt"

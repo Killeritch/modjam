@@ -33,8 +33,8 @@ RUS = {
 	color_ui = rgb { 0  127  14 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
 }
 POL = {
 	color = rgb { 197 92 106 }
@@ -65,8 +65,8 @@ AZR = {
 	color_ui = rgb { 69  151  49 }
 }
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 153  0  0 }
+	color_ui = rgb { 153  0  0 }
 }
 ARM = {
 	color = rgb { 176  102  180 }
@@ -103,6 +103,10 @@ RNC = {
 TAM = {
 	color = rgb { 31 131 60 }
 	color_ui = rgb { 31 131 60 }
+}
+KLM = {
+	color = rgb { 216 30 5 }
+	color_ui = rgb { 255 30 5 }
 }
 GTU = {
 	color = rgb { 13  131  227 }

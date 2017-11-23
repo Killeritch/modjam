@@ -20,6 +20,7 @@ state = {
 			748 1
 		}
 		add_core_of = RUS
+		add_core_of = KLM
 	}
 
 	provinces={

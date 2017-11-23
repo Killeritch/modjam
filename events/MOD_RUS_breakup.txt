@@ -776,6 +776,47 @@ country_event = { # Don declares independence
 	}
 }
 
+country_event = { # Kalmykia declares independence
+	id = RUS_breakup.19
+	title = RUS_breakup.19.t
+	desc = RUS_breakup.19.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			release = KLM
+		}
+	}
+
+	option = {
+		name = RUS_breakup.19.a
+		ai_chance = {
+			base = 100
+		}
+		declare_war_on = { target = KLM type = annex_everything }
+	}
+
+	option = {
+		name = RUS_breakup.19.b
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = RUS_breakup.19.c
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = { target = KLM type = annex_everything }
+		KLM = {
+			change_tag_from = RUS
+		}
+	}
+}
+
 country_event = { # test event, all nations revolt at once
 	id = RUS_breakup.100
 	title = RUS_breakup.100.t
@@ -786,7 +827,7 @@ country_event = { # test event, all nations revolt at once
 	
 	option = {
 		name = RUS_breakup.100.a
-		country_event = { id = RUS_breakup.1 }
+#		country_event = { id = RUS_breakup.1 } # finland - we don't want this now they're independent
 		country_event = { id = RUS_breakup.2 }
 		country_event = { id = RUS_breakup.3 }
 		country_event = { id = RUS_breakup.4 }
@@ -803,5 +844,6 @@ country_event = { # test event, all nations revolt at once
 		country_event = { id = RUS_breakup.16 }
 		country_event = { id = RUS_breakup.17 }
 		country_event = { id = RUS_breakup.18 }
+		country_event = { id = RUS_breakup.19 }
 	}
 }
