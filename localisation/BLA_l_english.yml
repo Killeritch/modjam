@@ -96,25 +96,32 @@
  BLA_NavInd_desc:0 "Bulgaria heavily invests into its naval industry, to ensure dominance in the seas surrounding the country."
  BLA_AlbInf:0 "Expanded Albania's Influence"
  BLA_AlbInf_desc:0 "The Albanian administration was recently granted more rights in Bulgaria."
+ BLA_RapidExpansion:0 "Rapid Expansion"
+ BLA_RapidExpansion_desc:0 "Our countrys administration is struggling to keep up with managing the territories we have gained in recent wars."
+ BLA_Nationalism:0 "Nationalism"
+ BLA_Nationalism_desc:0 "Bulgaria is characterized by a strong support of the people for the state."
  
  #Events - General
  BLA_general.1.t:0 "The state of Bulgaria in 1936"
  BLA_general.1.d:0 "Bulgaria has undergone some major changes in the recent past: After Boiko Petrov rose to power with the Authoritarian Democrat party as a result of a governmental crisis, chaos ensued in the Balkans. Albania, with divided leadership, turned to Bulgaria for protection from its enemies. This led to the Bulgarian-Albanian Amnexation treaty, which marks the birth of the Bulgarian-Albanian Union State (mostly just called Greater Bulgaria). The country is essentially a union between Bulgaria and Albania, with Bulgaria as the major partner. After the union was formed, a crisis in Libya led to intervention by the newly created state, and as a result the nation gained territories in northern Libya and set up a colonial government there. Bulgaria is increasingly involving itself in international affairs, and everyone wonders what the future of the country will hold..."
  BLA_general.1.a:0 "We shall rise!"
- BLA_general.2.t:0 "The Transfer of Silistra"
- BLA_general.2.d:0 "Silistra is a Bulgarian territory, but it was not in Bulgarian hands for some time now. Today, the territory was finally transferred back to its rightful owners: Us."
- BLA_general.2.a:0 "Welcome back, my friends!"
- 
- #Events - News
- BLA_news.1.t:0 "Silistra transfers back to Bulgaria"
- BLA_news.1.d:0 "After the state of Silistra, recognized for the most part internationally as Bulgarian territory has been out of Bulgarian hands for a few years, the state finally passed the judicial reforms necessary to be transferred back into the hands of Greater Bulgaria today. Local residents overwhelmingly support the decision and are currently celebrating their homecoming. It is expected that the state of Silistra will be integrated rather quickly."
- BLA_news.1.a:0 "Bulgaria and Dobruzha are connected again..."
  
  #Events - Political
  BLA_political.1.t:0 "Albania demands more rights!"
  BLA_political.1.d:0 "We have always made it clear to Albania that they are the minor partner in our union - but recently, they have been acting up, demanding more influence. Should we calm them by giving them some or repress them?"
  BLA_political.1.a:0 "They can have some more influence."
  BLA_political.1.b:0 "We are the leaders of this union!"
+ BLA_political.2.t:0 "The Greek Civil War"
+ BLA_political.2.d:0 "The so-called Democratic Army of Greece has been at war with the other Greek states for some time now. Since they are Totalists, they are our enemies - right at our border. We cannot risk letting them win the war. Should we support the Greek Federation to ensure a favorable outcome?"
+ BLA_political.2.a:0 "We won't spend resources on that right now."
+ BLA_political.2.b:0 "Sure, let's send a small brigade."
+ BLA_political.2.c:0 "Provide them with a division worth of men and equipment!"
+ BLA_political.3.t:0 "Support from Bulgaria"
+ BLA_political.3.d:0 "Bulgaria has decided to send some supplies to support us, since they are enemies with the Democratic Army of Greece."
+ BLA_political.3.a:0 "Thank them."
+ BLA_political.4.t:0 "Support from Bulgaria"
+ BLA_political.4.d:0 "Bulgaria has decided to send a significant amount of supplies to support us, since they are enemies with the Democratic Army of Greece."
+ BLA_political.4.a:0 "Great!"
  
  #Focus Tree - BLA
  thebulgariannavy:0 "The Bulgarian Navy"

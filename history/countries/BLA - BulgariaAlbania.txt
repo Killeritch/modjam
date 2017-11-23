@@ -24,7 +24,8 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	BLA_RapidExpansion
+	BLA_Nationalism
 }
 
 set_research_slots = 3

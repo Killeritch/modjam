@@ -12,25 +12,3 @@ country_event = {
 				name = BLA_general.1.a
 		}
 }
-
-#The Transfer of Silistra
-country_event = {
-		id = BLA_general.2
-		title = BLA_general.2.t
-		desc = BLA_general.2.d
-		picture = GFX_report_event_royal_parade
-		
-		fire_only_once = yes
-		
-		trigger = {
-				TAG = BLA
-				date > 1936.1.12
-				NOT = { BLA = { has_full_control_of_state = 77 } }
-		}
-		
-		option = {
-				name = BLA_general.2.a
-				BLA = { transfer_state = 77 }
-				hidden_effect = { news_event = BLA_news.1 }
-		}
-}
