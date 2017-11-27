@@ -94,7 +94,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-#This fleet was coded incorrectly, I corrected it - Killeritch
+#This fleet was coded incorrectly, I corrected it - Killeritch     Thanks Fam -Londinium
 	navy = {				
 		name = "Black Sea Fleet"			
 		base = 9783

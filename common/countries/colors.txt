@@ -151,3 +151,8 @@ ITA = {
 	color = rgb { 39 177 78 }
 	color_ui = rgb { 39 177 78 }
 }
+
+LAF = {
+	color = rgb { 163  137  102 }
+	color_ui = rgb { 163  137  102 }
+}
