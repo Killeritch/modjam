@@ -2,9 +2,9 @@
 state = {
 	id=48
 	name="STATE_48"
-	manpower = 1891500
+	manpower = 2640300
 	resources={
-		steel = 48
+		steel = 64
 	}
 	
 	
@@ -13,13 +13,13 @@ state = {
 	history={
 		owner = BLA
 		victory_points = {
-			949 15
+			949 25
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 4
+			infrastructure = 7
+			industrial_complex = 6
 			arms_factory = 2
-			air_base = 4
+			air_base = 7
 		}
 		add_core_of = BLA
 	}
