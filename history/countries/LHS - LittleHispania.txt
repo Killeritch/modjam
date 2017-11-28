@@ -1,0 +1,87 @@
+﻿capital = 178
+
+oob = "LHS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+
+
+
+
+set_research_slots = 3
+set_convoys = 60
+set_national_unity = 0.65
+
+
+set_politics = {
+
+	parties = {
+		paternal_autocrat = { 
+			popularity = 40
+		}
+
+		national_populist = {
+			popularity = 5
+		}
+		
+		totalist = {
+			popularity = 26
+			banned = no #default is no
+		}
+		
+		syndicalist = {
+			popularity = 24
+		}
+		
+		radical_socialist = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 72
+	elections_allowed = no
+
+}
+
+
+add_ideas = {
+    limited_conscription
+}
+
+create_country_leader = {
+	name = "José Sanjurjo"
+	desc = ""
+	picture = "gfx/leaders/LHS/Portrait_Jose SanjurjoLHS.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+	dictator
+	}
+}
+
+create_country_leader = {
+	name = "José Antonio Primo de Rivera"
+	desc = ""
+	picture = "gfx/leaders/LHS/Portrait_JoseAntonioPrimodeRivera.dds"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+	political_dancer
+	}
+}

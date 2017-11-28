@@ -149,3 +149,6 @@ LAF = "countries/FreeLibya.txt"
 #
 ###
 LOL = "countries/LaughingOutLoud.txt"
+
+### Elenir1
+LHS = "countries/LittleHispania.txt"
