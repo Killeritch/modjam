@@ -89,3 +89,25 @@ country_event = {
 				add_political_power = 25
 		}
 }
+
+#The Sofia Subway
+country_event = {
+		name = BLA_general.5
+		title = BLA_general.5.t
+		desc = BLA_general.5.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				48 = { is_controlled_by = BLA }
+				48 = { infrastructure < 10 }
+				date > 1936.5.17
+		}
+		
+		option = {
+				name = BLA_general.5.a
+				48 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+		}
+}
+		

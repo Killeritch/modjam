@@ -1,4 +1,4 @@
-capital = 4450
+﻿capital = 450
 
 OOB = "LAF_1936"
 
@@ -10,6 +10,10 @@ set_technology = {
 set_research_slots = 1
 set_convoys = 0
 set_national_unity = 0.7
+
+add_ideas = {
+	LAF_backwards
+}
 
 set_politics = {
 

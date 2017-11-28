@@ -117,7 +117,7 @@ country_event = {
 				add_political_power = -150
 				create_wargoal = { type = annex_everything target = LAF }
 				add_threat = 5
-				hidden_effect = { news_event = BLA_news.1 hours = 6 }
+				hidden_effect = { news_event = BLA_news.1 }
 		}
 		
 		option = {
@@ -227,3 +227,74 @@ country_event = {
 				add_political_power = 25
 		}
 }
+
+#The Sale of Malta?
+country_event = {
+		id = BLA_political.10
+		title = BLA_political.10.t
+		desc = BLA_political.10.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				country_exists = GTU
+				116 = { is_controlled_by = GTU }
+				date > 1936.3.24
+		}
+		
+		option = {
+				name = BLA_political.10.a
+				ai_chance = { factor = 80 }
+				custom_effect_tooltip = BLA_GTU_MaltaSale
+				hidden_effect = { GTU = { country_event = BLA_political.11 } }
+		}
+		
+		option = {
+				name = BLA_political.10.b
+				ai_chance = { factor = 10 }
+				add_state_claim = 116
+				custom_effect_tooltip = BLA_GTU_MaltaClaim
+		}
+		
+		option = {
+				name = BLA_political.10.c
+				ai_chance = { factor = 10 }
+		}
+}
+
+#GTU - do you want to sell Malta?
+country_event = {
+		name = BLA_political.11
+		title = BLA_political.11.t
+		desc = BLA_political.11.d
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = BLA_political.11.a
+				ai_chance = { factor = 70 }
+				add_political_power = 100
+				BLA = { transfer_state = 116 }
+				BLA = { country_event = { days = 1 id = BLA_political.12 } }
+		}
+		
+		option = {
+				name = BLA_political.11.b
+				ai_chance = { factor = 30 }
+		}
+}
+
+#Malta sold to Bulgaria
+country_event = {
+		name = BLA_political.12
+		title = BLA_political.12.t
+		desc = BLA_political.12.d
+		
+		is_triggered_only = yes
+		
+		option = {
+			name = BLA_political.12.a
+			add_political_power = -100
+		}
+}	

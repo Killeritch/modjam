@@ -124,6 +124,8 @@
  #Ideas
  BAA_poor:0 "Rural Country"
  BAA_poor_desc:0 "This country suffers from a lack of urbanisation."
+ LAF_backwards:0 "Primitive Country"
+ LAF_backwards_desc:0 "This countries' society and administration are very primitive and several decades backwards. Society is still arranged after feudal ideals and technology is on a very low level."
  BLA_NavInd:0 "Bulgarian Naval Industry"
  BLA_NavInd_desc:0 "Bulgaria heavily invests into its naval industry, to ensure dominance in the seas surrounding the country."
  BLA_AlbInf:0 "Expanded Albania's Influence"
@@ -149,6 +151,9 @@
  BLA_general.4.d:0 "Our colony in Africa is very poorly developed. We have some political clout available, and we could use it to improve the land around Tripoli. It would not help us directly, but we would surely benefit from having strong subjects..."
  BLA_general.4.a:0 "Yes, that sounds like a good idea."
  BLA_general.4.b:0 "Let's allocate the resources somewhere else."
+ BLA_general.5.t:0 "The Sofia Subway"
+ BLA_general.5.d:0 "In 1934, our great country started constructing a subway system in our capital of Sofia. The network has been finished yesterday and the infrastructure will not only be used to transport civilians, but it is available for the army as well. Extending to the most important military bases in the area, this ensures quick and if necessary, unseen transport of our troops to key areas."
+ BLA_general.5.a:0 "Good work."
  
  #Events - Political
  BLA_political.1.t:0 "Albania demands more rights!"
@@ -188,6 +193,20 @@
  BLA_political.9.b:0 "Support the CB"
  BLA_political.9.c:0 "Support the LBP"
  BLA_political.9.e:0 "Support noone."
+ BLA_GTU_MaltaSale:0 "We will approach them about selling Malta to us."
+ BLA_political.10.t:0 "The sale of Malta"
+ BLA_political.10.d:0 "The Island of Malta is currently owned by the Greeks. Since they have no historical business in there, and we have an ambition to expand our countries influence in the mediterranean, maybe we could try and buy the island of them. We would have to spend a lot of political power to make it happen though..."
+ BLA_political.10.a:0 "Sure, begin negotiations right away."
+ BLA_political.10.b:0 "Let's just lay claim to the island."
+ BLA_GTU_MaltaClaim:0 "This will worsen our relations with them."
+ BLA_political.10.c:0 "No, we don't have any business in Malta either."
+ BLA_political.11.t:0 "The sale of Malta"
+ BLA_political.11.d:0 "The Bulgarians have approached us about selling the Island of Malta to them. They offer to provide us with political opportunities and money if we leave the island to them - this would mean losing influence in the mediterranean, however, which is surely what they are after too. Should we do it?"
+ BLA_political.11.a:0 "Yes, we don't really need it anyway."
+ BLA_political.11.b:0 "Malta will remain Greek!"
+ BLA_political.12.t:0 "The sale of Malta"
+ BLA_political.12.d:0 "The Greeks have sold Malta to us! The island has already been transfereed and the government is setting up local administration. Success!"
+ BLA_political.12.a:0 "Hooray!"
  
  #Events - News
  BLA_news.1.t:0 "Bulgaria announces plans against Libya"
