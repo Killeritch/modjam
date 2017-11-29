@@ -1,10 +1,4 @@
-﻿###########################
-# Sweden
-###########################
-# By General Evergreen
-###########################
-
-capital = 141	
+﻿capital = 141	
 
 oob = "SWE_1936"
 
@@ -33,47 +27,80 @@ set_technology = {
 	transport = 1
 }
 
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "SWE_1939"
+	set_technology = {
+		early_bomber = 1
+		tactical_bomber1 = 1
+		improved_light_tank = 1 
+		basic_medium_tank = 1 
+		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		basic_submarine = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_plant = 1
+		improved_oil_plant = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
 
 	parties = {
-		totalist = {
-			popularity = 10
-		}
-
-		syndicalist = {
-			popularity = 19
-		}
-
-		radical_socialist = {
-			popularity = 4
-		}
-
-		social_democrat = { 
-			popularity = 15
-		}
-
-		social_liberal = {
-			popularity = 10
-		}
-
-		market_liberal = {
-			popularity = 9
-		}
-
-		social_conservative = {
-			popularity = 24
+		social_conservative = { 
+			popularity = 75
 		}
 
 		authoritarian_democrat = {
-			popularity  = 0
+			popularity  = 14
 		}
 
-		paternal_autocrat = {
-			popularity = 0
+		totalist = {
+			popularity = 8
 		}
 
 		national_populist = {
-			popularity = 9
+			popularity = 3
 		}
 		
 	}
@@ -81,46 +108,43 @@ set_politics = {
 	ruling_party = social_conservative
 	last_election = "1932.9.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			social_conservative = { 
+				popularity = 85
+			}
+
+			authoritarian_democrat = {
+				popularity  = 12
+			}
+
+			totalist = {
+				popularity = 4
+			}
+
+			national_populist = {
+				popularity = 1
+			}
+			
+		}
+		
+		ruling_party = social_conservative
+		last_election = "1936.9.20"
+		election_frequency = 48
+		elections_allowed = yes
+	}
 }
 
 set_convoys = 25
-set_national_unity = 0.7
+set_national_unity = 0.9
 
-### Country Leaders ###
 
-create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Nils Flyg"
-	desc = "POLITICS_NILS_FLYG_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Karl Kilbom"
-	desc = "POLITICS_KARL_KILBOM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Per Albin Hansson"
@@ -128,39 +152,6 @@ create_country_leader = {
 	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Axel Pehrsson-Bramstorp"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gösta Bagge"
-	desc = "POLITICS_GÖSTA_BAGGE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustaf V"
-	desc = "POLITICS_GUSTAF_V_DESC"
-	picture = "Portrait_Sweden_Gustaf_V.png"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
@@ -177,7 +168,27 @@ create_country_leader = {
 	}
 }
 
-### Army Leaders ###
+create_country_leader = {
+	name = "Sven Linderot"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Axel Pehrsson-Bramstorp"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
 	name = "Folke Högberg"
