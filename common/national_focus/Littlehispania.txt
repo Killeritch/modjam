@@ -1,0 +1,361 @@
+focus_tree = {
+	id = Littlehispania
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LHS
+		}
+	}
+	default = no
+
+	focus = {
+		id = LHS_doelections
+		text = LHS_doelections
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { }
+		available = {
+		}
+		x = 13
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			country_event = { days = 1 id = Littlehispania.2 }
+				add_national_unity = 0.1
+				add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = LHS_Sanjurjistaswin
+		text = LHS_Sanjurjistaswin
+		icon = GFX_focus_LHS_Sanjurjowins
+		prerequisite = { focus = LHS_doelections }
+		available = {
+		has_country_flag = Sanjurjistaswin
+		
+		}
+		x = 4
+		y = 1
+		cost = 0
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = Sanjurjistaswin
+			
+			}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LHS_Starttointegrate
+		text = LHS_Starttointegrate
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = LHS_Sanjurjistaswin }
+		available = {
+		
+		}
+		x = 3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+			add_ideas = LHS_educationandconversion
+		}
+	}
+	
+	focus = {
+		id = LHS_Integratesouthernmorocco
+		text = LHS_Integratesouthernmorocco
+		icon = GFX_focus_LHS_Integrateandconvert
+		prerequisite = { focus = LHS_Starttointegrate }
+		available = {
+		
+		}
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+				add_state_core = 462
+				add_national_unity = 0.05
+		}
+	}
+	
+	focus = {
+		id = LHS_IntegrateNorthernmorocco
+		text = LHS_IntegrateNorthernmorocco
+		icon = GFX_focus_LHS_Integrateandconvert
+		prerequisite = { focus = LHS_Starttointegrate }
+		available = {
+		
+		}
+		x = 3
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+				add_state_core = 461
+				add_national_unity = 0.05
+		}
+	}
+	
+	focus = {
+		id = LHS_IntegrateAlgiers
+		text = LHS_IntegrateAlgiers
+		icon = GFX_focus_LHS_Integrateandconvert
+		prerequisite = { focus = LHS_Starttointegrate }
+		available = {
+		
+		}
+		x = 5
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+				add_state_core = 459
+				add_national_unity = 0.05
+		}
+	}
+	
+	focus = {
+		id = LHS_focusthenewpatriots
+		text = LHS_focusthenewpatriots
+		icon = GFX_focus_LHS_thenewpatriots
+		prerequisite = { focus = LHS_IntegrateAlgiers }
+		prerequisite = { focus = LHS_IntegrateNorthernmorocco }
+		prerequisite = { focus = LHS_Integratesouthernmorocco }
+		available = {
+		
+		}
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    swap_ideas = { remove_idea = LHS_Islamicextremists add_idea = LHS_thenewpatriots }
+			remove_ideas = LHS_educationandconversion
+		}
+	}
+	
+	focus = {
+		id = LHS_workwiththeoligarchy
+		text = LHS_workwiththeoligarchy
+		icon = GFX_focus_LHS_workwitholigarchy
+		prerequisite = { focus = LHS_Sanjurjistaswin }
+		available = {
+		
+		}
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    	add_ideas = LHS_workingtheoligarcs
+		}
+	}
+	
+    focus = {
+		id = LHS_dealwiththecommunists
+		text = LHS_dealwiththecommunists
+		icon = GFX_focus_LHS_killsyndies
+		prerequisite = { focus = LHS_workwiththeoligarchy }
+		available = {
+		
+		}
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = 100
+		    add_popularity = { ideology = syndicalist popularity = -0.15 }
+		}
+	}
+	
+    focus = {
+		id = LHS_makelawsfortheoligarchy
+		text = LHS_makelawsfortheoligarchy
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = LHS_dealwiththecommunists }
+		available = {
+		
+		}
+		x = 7
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -50
+		    add_national_unity = -0.05
+		}
+	}
+	
+    focus = {
+		id = LHS_infrastructurebyoligarchy
+		text = LHS_infrastructurebyoligarchy
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = LHS_dealwiththecommunists }
+		prerequisite = { focus = LHS_focusthenewpatriots }
+		available = {
+		
+		}
+		x = 4
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -20
+		699 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		462 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		461 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		290 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		459 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_civilianfactorieslandgrant
+		text = LHS_civilianfactorieslandgrant
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = LHS_infrastructurebyoligarchy }
+		available = {
+		
+		}
+		x = 5
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -40
+		699 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+			}
+		462 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+			}
+			
+		}
+	}
+}
+   

@@ -1,0 +1,216 @@
+spriteTypes = {
+	
+	########IdeasforLittlehispania########
+
+	spriteType = {
+		name = "GFX_idea_LHS_Islamicextremists"
+		texturefile = "gfx/interface/ideas/LHS_Islamictrouble.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_LHS_educationandconversion"
+		texturefile = "gfx/interface/ideas/LHS_conversionandeducation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_LHS_thenewpatriots"
+		texturefile = "gfx/interface/ideas/LHS_newpatriots.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_LHS_workingtheoligarcs"
+		texturefile = "gfx/interface/ideas/LHS_workingwiththeoligarchy.dds"
+	}
+	
+	########Eventpictures########
+
+				spriteType = {
+		name = "GFX_Littlehispaniawhiteandblackflag_events_1"
+		texturefile = "gfx/event_pictures/report_event_Littlehispaniahistory.dds"
+	}
+	########Focustreegoalsandshines########
+	
+		spriteType = {
+		name = "GFX_focus_LHS_Sanjurjowins"
+		texturefile = "gfx/interface/goals/LHS/LHS_Sanjurjoishappy.dds"
+	}
+		SpriteType = { 
+		name = "GFX_focus_LHS_Sanjurjowins_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_Sanjurjoishappy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Sanjurjoishappy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Sanjurjoishappy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_Integrateandconvert"
+		texturefile = "gfx/interface/goals/LHS/LHS_Conversionandintegration.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_Integrateandconvert_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_Conversionandintegration.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Conversionandintegration.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Conversionandintegration.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_thenewpatriots"
+		texturefile = "gfx/interface/goals/LHS/LHS_Thenewpatriots.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_thenewpatriots_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_Thenewpatriots.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Thenewpatriots.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Thenewpatriots.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_workwitholigarchy"
+		texturefile = "gfx/interface/goals/LHS/LHS_Workwiththeoligarchy.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_workwitholigarchy_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_Workwiththeoligarchy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Workwiththeoligarchy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Workwiththeoligarchy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_killsyndies"
+		texturefile = "gfx/interface/goals/LHS/LHS_Killsyndies.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_killsyndies_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_Killsyndies.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Killsyndies.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_Killsyndies.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}

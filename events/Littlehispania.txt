@@ -1,0 +1,70 @@
+﻿add_namespace = Littlehispania
+
+
+country_event = {
+	id = Littlehispania.1
+	title = Littlehispania.1.t
+	desc = Littlehispania.1.d
+	picture = GFX_Littlehispaniawhiteandblackflag_events_1
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = Littlehispania.2
+	title = Littlehispania.2.t
+	desc = Littlehispania.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.2.a
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.2 }
+		set_country_flag = Sanjurjistaswin
+	}
+	option = {
+		name = Littlehispania.2.b
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = social_conservative popularity = 0.3 }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
+		set_country_flag = Nataliorivaswins
+	}
+	option = {
+		name = Littlehispania.2.c
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = syndicalist popularity = 0.1 }
+		set_politics = { ruling_party = syndicalist elections_allowed = yes }
+		set_country_flag = Primoderiverawins
+	}
+}
+
+

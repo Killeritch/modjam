@@ -24,7 +24,7 @@ set_technology = {
 
 set_research_slots = 3
 set_convoys = 60
-set_national_unity = 0.65
+set_national_unity = 0.45
 
 
 set_politics = {
@@ -38,9 +38,14 @@ set_politics = {
 			popularity = 5
 		}
 		
-		totalist = {
-			popularity = 26
+		social_conservative = {
+			popularity = 16
 			banned = no #default is no
+		}
+		
+		totalist = {
+			popularity = 10
+			banned = no 
 		}
 		
 		syndicalist = {
@@ -62,6 +67,9 @@ set_politics = {
 
 add_ideas = {
     limited_conscription
+}
+add_ideas = {
+    LHS_Islamicextremists
 }
 
 create_country_leader = {
