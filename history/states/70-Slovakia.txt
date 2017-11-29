@@ -10,12 +10,12 @@ state = {
 	}
 
 	history={
-		owner = TAG
+		owner = AUS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 		}
-		add_core_of = TAG
+		add_core_of = AUS
 		 
 
 

@@ -10,7 +10,8 @@ state = {
 	}
 
 	history={
-		owner = LHS
+		owner = TAG
+		add_core_of = FRA
 		add_core_of = FRA
 		
 		victory_points = {   #Alger

@@ -7,8 +7,9 @@ state = {
 	state_category = rural
 
 	history={
-		owner = LHS
+		owner = TAG
 		
+		add_core_of = TAG
 		buildings = {
 			infrastructure = 1
 		}

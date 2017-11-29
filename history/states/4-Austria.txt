@@ -10,7 +10,7 @@ state = {
 	state_category = large_city
 	
 	history={
-		owner = TAG
+		owner = AUS
 		victory_points = {
 			11666 30
 		}
@@ -20,7 +20,7 @@ state = {
 			industrial_complex = 3
 			air_base = 6
 		}
-		add_core_of = TAG
+		add_core_of = AUS
 	}
 
 	provinces={

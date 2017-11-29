@@ -1,17 +1,1 @@
-﻿add_namespace = BLA_news
-
-#Bulgaria is aggressive against Libya
-news_event = {
-		id = BLA_news.1
-		title = BLA_news.1.t
-		desc = BLA_news.1.d
-		picture = GFX_news_event_001
-		
-		major = yes
-		
-		is_triggered_only = yes
-		
-		option = {
-				name = BLA_news.1.a
-		}
-}
+﻿

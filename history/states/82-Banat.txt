@@ -10,7 +10,7 @@ state = {
 	state_category = rural
 
 	history={
-		owner = TAG
+		owner = AUS
 		
 		victory_points = { 9606 3 }
 
@@ -18,7 +18,8 @@ state = {
 			infrastructure = 5
 		}
 
-		add_core_of = TAG
+		add_core_of = AUS
+		# add_claim_by = AUS
 	}
 
 	provinces={
