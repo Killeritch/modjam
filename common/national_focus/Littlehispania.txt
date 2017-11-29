@@ -598,7 +598,7 @@ focus_tree = {
     focus = {
 		id = LHS_investinminingindustry
 		text = LHS_investinminingindustry
-		icon = GFX_focus_research
+		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = LHS_newfundsforstate }
 		available = {
 		controls_state = 462 
