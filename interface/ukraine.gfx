@@ -669,4 +669,41 @@ spriteTypes = {
 		name = "GFX_idea_udovychenko_chief"
 		texturefile = "gfx/interface/ideas/idea_udovychenko.dds"
 	}
+
+	####TECHNOLOGIES####
+
+	SpriteType = {
+		name = "GFX_UKR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_imp_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_imp_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/UKR_gwtank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_adv_light_tank.dds"
+	}
 }
