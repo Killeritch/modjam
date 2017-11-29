@@ -9,14 +9,14 @@ state = {
 	state_category = town
 	
 	history={
-		owner = AUS
+		owner = TAG
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
 			6573 1
 		}
-		add_core_of = AUS
+		add_core_of = TAG
 		
 
 	}

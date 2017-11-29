@@ -12,7 +12,7 @@ state = {
 	}
 
 	history={
-		owner = AUS
+		owner = TAG
 		victory_points = {
 			13575 10
 		}
@@ -22,7 +22,7 @@ state = {
 			arms_factory = 1
 		}
 
-		add_core_of = AUS
+		add_core_of = TAG
 	}
 
 	provinces={
