@@ -11,13 +11,13 @@ state = {
 	}
 
 	history={
-		owner = AUS
+		owner = TAG
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		add_core_of = AUS
+		add_core_of = TAG
 	}
 
 	provinces={
