@@ -83,6 +83,66 @@ ideas = {
 			}
 
 		}
+		
+		LHS_Synthethicoilinvestments = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+			    production_speed_synthetic_refinery_factor = 0.2
+			}
+
+		}
+		
+		LHS_Miningindustryinvestments = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+			    	consumer_goods_factor = -0.05
+			}
+
+		}
+		
+		LHS_Econmyisbooming = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+			    production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+					industrial_capacity_dockyard = 0.05
+					MONTHLY_POPULATION = 0.4
+			}
+
+		}
 	
 	}
 	

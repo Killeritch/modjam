@@ -1,5 +1,6 @@
 focus_tree = {
 	id = Littlehispania
+	continuous_focus_position = { x = 50 y = 1750 }
 	country = {
 		factor = 0
 		modifier = {
@@ -84,7 +85,7 @@ focus_tree = {
 		icon = GFX_focus_LHS_Integrateandconvert
 		prerequisite = { focus = LHS_Starttointegrate }
 		available = {
-		
+		controls_state = 462
 		}
 		x = 1
 		y = 3
@@ -109,7 +110,7 @@ focus_tree = {
 		icon = GFX_focus_LHS_Integrateandconvert
 		prerequisite = { focus = LHS_Starttointegrate }
 		available = {
-		
+		controls_state = 461
 		}
 		x = 3
 		y = 3
@@ -134,7 +135,7 @@ focus_tree = {
 		icon = GFX_focus_LHS_Integrateandconvert
 		prerequisite = { focus = LHS_Starttointegrate }
 		available = {
-		
+		controls_state = 459
 		}
 		x = 5
 		y = 3
@@ -258,14 +259,18 @@ focus_tree = {
 		id = LHS_infrastructurebyoligarchy
 		text = LHS_infrastructurebyoligarchy
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = LHS_dealwiththecommunists }
+		prerequisite = { focus = LHS_makelawsfortheoligarchy }
 		prerequisite = { focus = LHS_focusthenewpatriots }
 		available = {
-		
+		controls_state = 699 
+		controls_state = 462 
+		controls_state = 461 
+		controls_state = 290  
+		controls_state = 459 
 		}
 		x = 4
 		y = 5
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -323,11 +328,13 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = LHS_infrastructurebyoligarchy }
 		available = {
+		controls_state = 699 
+		controls_state = 462 
 		
 		}
 		x = 5
 		y = 6
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -337,12 +344,12 @@ focus_tree = {
 			}
 
 		completion_reward = {
-		    add_political_power = -40
+		    add_political_power = -30
 		699 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
-									level = 2
+									level = 1
 									instant_build = yes
 								}
 			}
@@ -355,6 +362,305 @@ focus_tree = {
 								}
 			}
 			
+		}
+	}
+	
+    focus = {
+		id = LHS_civilianfactorieslandgrantnt
+		text = LHS_civilianfactorieslandgrantnt
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = LHS_civilianfactorieslandgrant }
+		available = {
+		controls_state = 459 
+		controls_state = 461 
+		controls_state = 290 
+		
+		}
+		x = 5
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -50
+		459 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+			}
+		461 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+			}
+		290 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+			}
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_militaryfactorieslandgrant
+		text = LHS_militaryfactorieslandgrant
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = LHS_infrastructurebyoligarchy }
+		available = {
+		controls_state = 699 
+		controls_state = 462 
+		
+		}
+		x = 3
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -30
+		699 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+			}
+		462 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+			}
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_militaryfactoriesgrantnt
+		text = LHS_militaryfactoriesgrantnt
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = LHS_militaryfactorieslandgrant }
+		available = {
+		controls_state = 459 
+		controls_state = 461  
+		controls_state = 290  
+		
+		}
+		x = 3
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = -50
+		459 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+			}
+		461 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+			}
+		290 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+			}
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_newfundsforstate
+		text = LHS_newfundsforstate
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = LHS_militaryfactoriesgrantnt }
+		prerequisite = { focus = LHS_civilianfactorieslandgrantnt }
+		available = {
+		
+		}
+		x = 4
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		    add_political_power = 50
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_investinsynthethicoil
+		text = LHS_investinsynthethicoil
+		icon = GFX_focus_LHS_investinsynthethicoil
+		prerequisite = { focus = LHS_newfundsforstate }
+		available = {
+		
+		}
+		x = 2
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+				    add_tech_bonus = {
+						name = LHS_oilinvestments
+						ahead_reduction = 1
+						bonus = 0.5
+						uses = 2
+						category = synth_resources
+					}
+					add_ideas = LHS_Synthethicoilinvestments
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_investininteconoligy
+		text = LHS_investininteconoligy
+		icon = GFX_focus_research
+		prerequisite = { focus = LHS_newfundsforstate }
+		available = {
+		
+		}
+		x = 4
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		     add_research_slot = 1
+			
+		}
+	}
+	
+    focus = {
+		id = LHS_investinminingindustry
+		text = LHS_investinminingindustry
+		icon = GFX_focus_research
+		prerequisite = { focus = LHS_newfundsforstate }
+		available = {
+		controls_state = 462 
+		controls_state = 461 
+		
+		}
+		x = 6
+		y = 9
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		     add_ideas = LHS_Miningindustryinvestments
+			
+		462 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+			}
+		461 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+			}
+		}
+	}
+	
+    focus = {
+		id = LHS_economicboom
+		text = LHS_economicboom
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = LHS_investinminingindustry }
+		prerequisite = { focus = LHS_investininteconoligy }
+		prerequisite = { focus = LHS_investinsynthethicoil }
+		available = {
+		
+		}
+		x = 4
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+			
+			}
+
+		completion_reward = {
+		     add_ideas = LHS_Econmyisbooming
 		}
 	}
 }
