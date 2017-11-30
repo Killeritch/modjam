@@ -47,13 +47,13 @@ set_politics = {
 			popularity = 0
 		}
 		social_democrat = {
-			popularity = 0
+			popularity = 5
 		}
 		social_liberal = {
-			popularity = 40
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 0
+			popularity = 35
 		}
 		social_conservative = {
 			popularity = 0
@@ -69,7 +69,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = market_liberal
 	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -98,11 +98,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Russia_Pavel_Milyukov.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Alexander Fyodorovich Kerensky"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		
 	}
