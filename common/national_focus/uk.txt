@@ -15,7 +15,7 @@ focus_tree = {
 
 	#focus = {# England Places Allies In Scotland, Ireland, Wales (NOT CURRENTLY IN USE)
 		#id = ENG_homerule
-		#icon = GFX_goal_tripartite_pact
+		#icon = GFX_goal_generic_trade
 		#cost = 5
 	
 		#available = { 
@@ -51,7 +51,7 @@ focus_tree = {
 
 	focus = {# England Annexes Its Protectorates
 		id = ENG_solerule
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_generic_trade
 		cost = 5
 	
 		available = { 
@@ -82,7 +82,7 @@ focus_tree = {
 	
 	focus = {# England Balances Power With The Blackshirts
 		id = ENG_blackshirts
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_trade
 		cost = 5
 	
 		available = { 
@@ -104,7 +104,7 @@ focus_tree = {
 	
 	focus = {# Blackshirt Recovery
 		id = ENG_nationalist_recovery
-		icon = GFX_goal_generic_construction2
+		icon = GFX_goal_generic_trade
 		cost = 5
 
 		prerequisite = { focus = ENG_blackshirts }
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {# The Blackshirts Take The Unions
 		id = ENG_blackshirt_unions
-		icon = GFX_goal_generic_construction1
+		icon = GFX_goal_generic_trade
 		cost = 5
 
 		prerequisite = { focus = ENG_blackshirts }
@@ -134,7 +134,123 @@ focus_tree = {
 		y = 1
 
 		completion_reward = {
-			add_ideas = blackshirt_labour_union_reform
+			add_ideas = blackshirt_labour_union_reform 
+		}
+	}
+	focus = {# Intergrate Wales
+		id = ENG_eat_wales
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_solerule }
+
+		x = 2
+		y = 1
+
+		completion_reward = {
+			add_state_core = 122
+			add_popularity = { ideology = totalist popularity = 0.02 }
+			add_popularity = { ideology = syndicalist popularity = 0.02 }
+			add_popularity = { ideology = radical_socialist popularity = 0.02 }
+		}
+	}
+	focus = {# Intergrate Scotland
+		id = ENG_eat_scotland
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_eat_wales }
+
+		x = 2
+		y = 2
+
+		completion_reward = {
+			add_state_core = 121
+			add_state_core = 133
+			add_state_core = 136
+			add_state_core = 120
+			add_state_core = 939
+			add_state_core = 938
+			add_popularity = { ideology = totalist popularity = 0.03 }
+			add_popularity = { ideology = syndicalist popularity = 0.03 }
+			add_popularity = { ideology = radical_socialist popularity = 0.03 }
+		}
+	}
+	focus = {# Intergrate Ireland
+		id = ENG_eat_ireland
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_eat_scotland }
+
+		x = 2
+		y = 3
+
+		completion_reward = {
+			add_state_core = 119
+			add_state_core = 113
+			add_state_core = 134
+			add_state_core = 135
+			add_popularity = { ideology = totalist popularity = 0.01 }
+			add_popularity = { ideology = syndicalist popularity = 0.02 }
+			add_popularity = { ideology = radical_socialist popularity = 0.02 }
+		}
+	}
+	focus = {# Purging The Blackshirts
+		id = ENG_goodbye_blackshirts
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_eat_ireland }
+
+		x = 2
+		y = 4
+
+		completion_reward = {
+			country_event = { # Blackshirts get purged
+				days = 1
+				id = england.3
+			}
+			add_popularity = { ideology = paternal_autocrat popularity = -0.10 } 
+		}
+	}
+	focus = {# Purging The Commies
+		id = ENG_goodbye_commies
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_blackshirt_unions }
+
+		x = 8
+		y = 2
+
+		completion_reward = {
+			country_event = { # Blackshirts get purged
+				days = 1
+				id = england.5
+
+			}
+			add_popularity = { ideology = totalist popularity = -0.05 }
+			add_popularity = { ideology = syndicalist popularity = -0.05 }
+			add_popularity = { ideology = radical_socialist popularity = -0.05 }
+		}
+	}
+	focus = {# Go After Mosley
+		id = ENG_remove_mosley
+		icon = GFX_goal_generic_trade
+		cost = 5
+
+		prerequisite = { focus = ENG_goodbye_blackshirts }
+
+		x = 2
+		y = 5
+
+		completion_reward = {
+			add_popularity = { ideology = paternal_autocrat popularity = -0.10 }
+			country_event = { # Mosley Escapes
+				days = 1
+				id = england.1488
+			} 
 		}
 	}
 }
