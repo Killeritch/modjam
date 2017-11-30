@@ -138,6 +138,8 @@
  UKR_monopolise_armaments_desc:0 "We need to ensure our army is well supplied, and for this purpose we should concentrate control of the armaments industry in the hands of trustworthy firms."
  UKR_state_armaments:0 "Nationalise Armaments"
  UKR_state_armaments_desc:0 "We need to ensure our army is well supplied, and for this purpose we should completely nationalise the armaments industry."
+ UKR_nationalise:0 "Nationalise"
+ UKR_nationalise_desc:0 "Melnyk will now seek to carry out his policy of nationalisation. The state shall begin to take control of the major industries in order to strengthen them."
  UKR_shkuro_plan:0 "Shkuro's Army"
  UKR_shkuro_plan_desc:0 "The officer Andrei Shkuro is talented and ambitious. He favours mechanizing and modernising Ukraine's military into a rapid-response fighting force."
  UKR_sinkler_plan:0 "Sinkler's Army"
