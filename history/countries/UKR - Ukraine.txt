@@ -66,6 +66,8 @@ set_convoys = 45
 
 add_ideas = {
 	white_guard
+	UKR_breadbasket
+	UKR_stagnation
 }
 
 create_country_leader = {
