@@ -990,6 +990,128 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_economic_development
+		icon = GFX_focus_UKR_economic_development
+		prerequisite = {
+		    focus = UKR_state_armaments
+		    focus = UKR_monopolise_armaments
+		    focus = UKR_open_armaments
+		}
+		x = 18
+		y = 7
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+		        limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+		        }
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		}
+	}
+
+	focus = {
 		id = UKR_shkuro_plan
 		icon = GFX_focus_UKR_shkuro_plan
 		available = {

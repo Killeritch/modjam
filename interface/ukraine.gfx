@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_economic_development"
+		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_appoint_shulhyn"
 		texturefile = "gfx/interface/goals/focus_UKR_appoint_shulhyn.dds"
 	}
@@ -238,6 +243,12 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_appoint_biskupsky_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_economic_development_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		}
 
@@ -534,6 +545,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_white_guard"
 		texturefile = "gfx/interface/ideas/white_guard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_breadbasket"
+		texturefile = "gfx/interface/ideas/UKR_breadbasket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_stagnation"
+		texturefile = "gfx/interface/ideas/UKR_stagnation.dds"
 	}
 
 	spriteType = {

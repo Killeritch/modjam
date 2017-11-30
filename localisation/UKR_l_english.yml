@@ -1,5 +1,5 @@
 ﻿l_english:
- UKR_GATHERING_STORM_DESC:0 "To be fair, you have to have a very high IQ to understand Rick and Morty. The humour is extremely subtle, and without a solid grasp of theoretical physics most of the jokes will go over a typical viewer’s head. There’s also Rick’s nihilistic outlook, which is deftly woven into his characterisation- his personal philosophy draws heavily from Narodnaya Volya literature, for instance. The fans understand this stuff; they have the intellectual capacity to truly appreciate the depths of these jokes, to realise that they’re not just funny- they say something deep about LIFE. As a consequence people who dislike Rick & Morty truly ARE idiots- of course they wouldn’t appreciate, for instance, the humour in Rick’s existential catchphrase “Wubba Lubba Dub Dub,” which itself is a cryptic reference to Turgenev’s Russian epic Fathers and Sons. I’m smirking right now just imagining one of those addlepated simpletons scratching their heads in confusion as Dan Harmon’s genius wit unfolds itself on their television screens. What fools.. how I pity them. 😂And yes, by the way, i DO have a Rick & Morty tattoo. And no, you cannot see it. It’s for the ladies’ eyes only- and even then they have to demonstrate that they’re within 5 IQ points of my own (preferably lower) beforehand. Nothin personnel kid 😎"
+ UKR_GATHERING_STORM_DESC:0 "Scared of Russia"
 
  ####PARTYNAMES####
  UKR_totalist_party:0 "KMUA"
@@ -148,7 +148,9 @@
  UKR_udovychenko_plan_desc:0 "Himself born a peasant, Oleksandr Udovychenko is well known throughout the country and the figurehead of successful recruitment campaigns. His plan for military reform involves increased mobilisation, utilising Ukraine's rapidly growing population."
  UKR_skoropadskyi_plan:0 "Skoropadskyi's Army"
  UKR_skoropadskyi_plan_desc:0 "An aristocrat of the old school, Skoropadskyi favours big guns, strong defence, and cautious attacking. His reform plans would involve increasing equipment standads and discipline amongst our men."
- 
+ UKR_economic_development:0 "Begin Regional Development"
+ UKR_economic_development_desc:0 "Now we have clearly laid out our government's economic policy, and enacted several reforms, we must focus on industrialising Ukraine. Much of our nation is still farmland, which, though useful to our economy, is not indicative of world-power status."
+
  ####IDEALOC####
  white_guard:0 "Legacy of The White Guard"
  white_guard_desc:0 "Feared veterans of the many border wars following the peace of Brest-Litovsk, Symon Petliura's Ukrainian White Guard form the basis for Ukrainian military tradition."
@@ -198,6 +200,10 @@
  skoropadskyi_chief:0 "Pavlo Skoropadskyi"
  shkuro_chief:0 "Andrei Shkuro"
  udovychenko_chief:0 "Oleksandr Udovychenko"
+ UKR_breadbasket:0 "Breadbasket of Europe"
+ UKR_breadbasket_desc:0 "Ukraine has long been known as 'The Breadbasket of Europe', due to its vast quantities of fertile soil. This is invaluable to the Ukrainian economy, although the dependence on agriculture slows the progress of modernisation."
+ UKR_stagnation:0 "Political Stagnation"
+ UKR_stagnation_desc:0 "In the 1926 Accord, the ORUN and general staff agreed to a balanced share of political power. This has led to a decade of deadlock and inaction in Ukraine."
 
  ####EFFECTSLOC####
  available_political_advisor:0 "Add to Cabinet "

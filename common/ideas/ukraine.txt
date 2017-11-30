@@ -22,8 +22,48 @@ ideas = {
 				army_core_defence_factor = 0.05
 				attrition = -0.05
 			}
+        }
 
-		}
+        UKR_breadbasket = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_breadbasket
+			
+			modifier = {
+			    consumer_goods_factor = -0.05
+			    production_speed_industrial_complex_factor = -0.05
+			    production_speed_industrial_complex_factor = -0.05
+			}
+        }
+
+        UKR_stagnation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_stagnation
+			
+			modifier = {
+			    unity_factor = -0.10
+			    political_power_gain = -0.10
+			}
+        }
 
 		UKR_class_divide = {
 			
