@@ -56,5 +56,31 @@ ideas = {
 				army_morale_factor = 0.05
 			}
 		}
+		BLA_WarReparationsLHS = {
+			allowed = {
+				original_tag = BLA
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		LHS_WarReparationsBLA = {
+			allowed = {
+				original_tag = LHS
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
 	}
 }

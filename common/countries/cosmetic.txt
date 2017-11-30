@@ -23,3 +23,8 @@ LIV = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+
+BAA_LHSOccupied = {
+	color = rgb { 255 238 172 }
+	color_ui = rgb { 255 238 172 }
+}
