@@ -209,6 +209,18 @@
  available_political_advisor:0 "Add to Cabinet "
  remove_political_advisor:0 "Remove from Cabinet "
 
+ ####TRAITSLOC####
+ powerful_chairman:0 "Powerful Chairman"
+ radicalist_diplomat:0 "Radicalist Diplomat"
+ democratic_diplomat:0 "Democratic Diplomat"
+ traditional_diplomat:0 "Monarchist Diplomat"
+ radical_revolutionary:0 "Radical Revolutionary"
+ national_hero:0 "National Hero"
+ noble_autocrat:0 "Noble Autocrat"
+ free_market_economist:0 "Free Market Economist"
+ corporate_economist:0 "Corporatist Economist"
+ radical_economist:0 "Radicalist Economist"
+
  ####EVENTSLOC####
  ukraine.2.t:0 "The Chornomortsi is Mobilised!"
  ukraine.2.desc:0 "The formal organisation of battle-ready Chornomortsi units is complete. Across Ukraine, thousands of men have just officially joined the Ukrainian military."

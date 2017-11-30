@@ -104,6 +104,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		    remove_ideas = UKR_stagnation
 		    remove_unit_leader = 999 #Mykyola Shapoval, general
 		    remove_unit_leader = 998 #Pavlo Shandruk, general
 		    remove_unit_leader = 997 #Oleksandr Udovychenko, general
@@ -263,6 +264,7 @@ focus_tree = {
 
 		completion_reward = {
 		    remove_ideas = UKR_class_divide
+		    remove_ideas = UKR_stagnation
 		    hidden_effect = {
 			    remove_ideas = sinkler
 			    remove_ideas = skoropadskyi
@@ -505,6 +507,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		    remove_ideas = UKR_stagnation
 		    add_political_power = 100
 		    kill_country_leader = yes
 		    create_country_leader = { 
@@ -553,6 +556,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		    remove_ideas = UKR_stagnation
 		    add_political_power = 100
 		    kill_country_leader = yes
 		    create_country_leader = { 
