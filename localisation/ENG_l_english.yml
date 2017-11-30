@@ -5,7 +5,7 @@ england.1.d:0 "We have placed our friends to govern the realm, perhaps together 
 england.1.a:0 "Together my friends!"
 
  ##############################
-# ENG Parties (note: most were taken from kebb's, so you'll have to change most.
+# ENG Parties 
 ##############################
  ENG_totalist_party:0 "Totalists"
  ENG_totalist_party_long:0 "English Totalist Union"
@@ -263,7 +263,7 @@ disgraced_military:0 "Disgraced Military"
 disgraced_military_desc:0 "Much of our officer cadre defected or lies dead on forgotten fields. Likewise our standards are captured and our arms disgarded. Most of our standing professional army are walking wounded"
 broken_nation:0 "Broken Nation"
 broken_nation_desc:0 "Workers strike often and the people demand reform"
-brightest_minds_dead:0 "Our fallen youth"
+brightest_minds_dead:0 "Our Fallen Youth"
 brightest_minds_dead_desc:0 "We conscripted our finest to fight and die in the trenches, our nation's future inventions are buried among the bones".
 blackshirt_labour_union_reform:0 "Blackshirt Unions"
 blackshirt_labour_union_reform_desc:0 "Leftists have used trade unions to foster anti-Imperial sentiment, the workers stand behind Mosley!"

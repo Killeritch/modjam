@@ -13,41 +13,41 @@ focus_tree = {
     reset_on_civilwar = no
     continuous_focus_position = { x = 50 y = 1750 }
 
-	focus = {# England Places Allies In Scotland, Ireland, Wales
-		id = ENG_homerule
-		icon = GFX_goal_tripartite_pact
-		cost = 5
+	#focus = {# England Places Allies In Scotland, Ireland, Wales (NOT CURRENTLY IN USE)
+		#id = ENG_homerule
+		#icon = GFX_goal_tripartite_pact
+		#cost = 5
 	
-		available = { 
-			always = yes
-		}
+		#available = { 
+			#always = yes
+		#}
 	
-		mutually_exclusive = {
-			focus = ENG_solerule
-			focus = ENG_blackshirts
-		}
+		#mutually_exclusive = {
+			#focus = ENG_solerule
+			#focus = ENG_blackshirts
+		#}
 	
-		x = 5
-		y = 0
+		#x = 5
+		#y = 0
 	
-		completion_reward = {
+		#completion_reward = {
 			# Targets every nation in the world that meets the condition in limit
-			every_country = {
-				limit = {
-					is_subject_of = ENG 
-					OR = {
-						tag = STL
-						tag = IRL
-						tag = WLS 
-					}
-				}
-				country_event = { # Send out one event that the only option is converting to auth_dem
-					days = 1
-					id = england.1
-				}
-			}
-		}
-	}
+			#every_country = {
+				#limit = {
+					#is_subject_of = ENG 
+					#OR = {
+						#tag = STL
+						#tag = IRL
+						#tag = WLS 
+					#}
+				#}
+				#country_event = { # Send out one event that the only option is converting to auth_dem
+					#days = 1
+					#id = england.1
+				#}
+			#}
+		#}
+	#} (NOT CURRENTLY IN USE
 
 	focus = {# England Annexes Its Protectorates
 		id = ENG_solerule
@@ -59,7 +59,6 @@ focus_tree = {
 		}
 	
 		mutually_exclusive = {
-			focus = ENG_homerule
 			focus = ENG_blackshirts
 		}
 	
@@ -91,7 +90,6 @@ focus_tree = {
 		}
 	
 		mutually_exclusive = {
-			focus = ENG_homerule
 			focus = ENG_solerule
 		}
 	
@@ -104,12 +102,12 @@ focus_tree = {
 		}
 	}
 	
-	focus = {# Economic recovery not stepping on anyone's toes
-		id = ENG_moderate_economic_recovery
+	focus = {# Blackshirt Recovery
+		id = ENG_nationalist_recovery
 		icon = GFX_goal_generic_construction2
 		cost = 5
 
-		prerequisite = { focus = ENG_homerule focus = ENG_blackshirts }
+		prerequisite = { focus = ENG_blackshirts }
 
 		x = 6
 		y = 1
