@@ -1,16 +1,19 @@
 ﻿add_namespace = ukraine
+add_namespace = england 
 
+############ SPOOKY ENGLAND EVENT ##########
 country_event = { # (MOSLEY ARRIVES AT UKRAINE)
-    id = england.14881 #event ID
-    title = england.14881.t #title
-    desc = england.14881.d #description
+	id = england.1489 #event ID
+	title = england.1489.t #title	
+	desc = england.1489.d #description
+	
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	is_triggered_only = yes
 
-    picture = GFX_report_event_soviet_purge_politicians
-
-    is_triggered_only = yes
-
-    option = {
-        name = england.14881.a #the option's text
-        load_oob = BUF_loyalists
-    }
+	option = {
+		name = england.1489.a #the option's text
+		load_oob = BUF_loyalists
+	}
 }
+######### SPOOK OVER RETURN TO NORMAL DUTIES ###########
