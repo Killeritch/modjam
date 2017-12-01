@@ -1007,7 +1007,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		    add_political_power = 50
+		    add_tech_bonus = {
+				name = construction_tech_bonus
+				bonus = 0.5
+				uses = 2
+				category = construction_tech
+			}
 		    random_owned_controlled_state = {
 		        limit = {
 					free_building_slots = {
@@ -1061,57 +1066,68 @@ focus_tree = {
 				}
 		    }
 		    random_owned_controlled_state = {
-		        limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-		        }
-		        add_building_construction = {
-					type = infrastructure
-					level = 4
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
 					instant_build = yes
 				}
-		    }
-		    random_owned_controlled_state = {
-		        limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-		        }
-		        add_building_construction = {
-					type = infrastructure
-					level = 4
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
 					instant_build = yes
 				}
-		    }
-		    random_owned_controlled_state = {
-		        limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-		        }
-		        add_building_construction = {
-					type = infrastructure
-					level = 4
+            }
+		}
+	}
+
+	focus = {
+		id = UKR_civ_industry
+		icon = GFX_focus_UKR_civ_industry
+		prerequisite = {
+		    focus = UKR_economic_development
+		}
+		x = 17
+		y = 8
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
 					instant_build = yes
 				}
-		    }
-		    random_owned_controlled_state = {
-		        limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-		        }
-		        add_building_construction = {
-					type = infrastructure
-					level = 4
+            }
+
+		}
+	}
+
+	focus = {
+		id = UKR_mil_industry
+		icon = GFX_focus_UKR_mil_industry
+		prerequisite = {
+		    focus = UKR_economic_development
+		}
+		x = 19
+		y = 8
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
 					instant_build = yes
 				}
-		    }
+            }
 		}
 	}
 
@@ -1127,7 +1143,7 @@ focus_tree = {
 		    focus = UKR_skoropadskyi_plan
 		}
 		x = 24
-		y = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = no
 
@@ -1137,6 +1153,28 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = cat_mobile_warfare
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_begin_mechanisation
+		icon = GFX_focus_UKR_begin_mechanisation
+		prerequisite = {
+		    focus = UKR_shkuro_plan
+		}
+		x = 24
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_mechanisation
+            add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				uses = 1
+				technology = motorised_infantry
 			}
 		}
 	}
@@ -1153,7 +1191,7 @@ focus_tree = {
 		    focus = UKR_skoropadskyi_plan
 		}
 		x = 26
-		y = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = no
 
@@ -1163,6 +1201,29 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = cat_grand_battle_plan
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_reorganise_army
+		icon = GFX_focus_UKR_reorganise_army
+		prerequisite = {
+		    focus = UKR_sinkler_plan
+		}
+		x = 26
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_reorganised_army
+            army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
 			}
 		}
 	}
@@ -1179,7 +1240,7 @@ focus_tree = {
 		    focus = UKR_skoropadskyi_plan
 		}
 		x = 28
-		y = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = no
 
@@ -1189,6 +1250,28 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = cat_mass_assault
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_new_recruitment_strategies
+		icon = GFX_focus_UKR_new_recruitment_strategies
+		prerequisite = {
+		    focus = UKR_udovychenko_plan
+		}
+		x = 28
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_recruitment_drive
+            add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
 			}
 		}
 	}
@@ -1205,7 +1288,7 @@ focus_tree = {
 		    focus = UKR_udovychenko_plan
 		}
 		x = 30
-		y = 0
+		y = 1
 		cost = 5
 		available_if_capitulated = no
 
@@ -1215,6 +1298,28 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = cat_superior_firepower
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_firepower
+		icon = GFX_focus_UKR_firepower
+		prerequisite = {
+		    focus = UKR_skoropadskyi_plan
+		}
+		x = 30
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_gun_contracts
+            add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
 			}
 		}
 	}

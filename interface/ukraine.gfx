@@ -3,6 +3,26 @@ spriteTypes = {
 	####FOCUSICONS####
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_begin_mechanisation"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_mechanisation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_reorganise_army"
+		texturefile = "gfx/interface/goals/focus_UKR_reorganise_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_recruitment_strategies"
+		texturefile = "gfx/interface/goals/focus_UKR_new_recruitment_strategies.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_firepower"
+		texturefile = "gfx/interface/goals/focus_UKR_firepower.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_appoint_biskupsky"
 		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
 	}
@@ -10,6 +30,16 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_economic_development"
 		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_civ_industry"
+		texturefile = "gfx/interface/goals/focus_UKR_civ_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mil_industry"
+		texturefile = "gfx/interface/goals/focus_UKR_mil_industry.dds"
 	}
 
 	SpriteType = { 
@@ -235,6 +265,30 @@ spriteTypes = {
 	####FOCUSICONSSHINE####
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_begin_mechanisation_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_mechanisation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_reorganise_army_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_reorganise_army.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_recruitment_strategies_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_new_recruitment_strategies.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_firepower_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_firepower.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_foreign_ministry_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_foreign_ministry.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -249,6 +303,18 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_economic_development_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_civ_industry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_civ_industry.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mil_industry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_mil_industry.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		}
 
@@ -511,6 +577,26 @@ spriteTypes = {
 		}
 
 	####IDEAS####
+
+	spriteType = {
+		name = "GFX_idea_UKR_mechanisation"
+		texturefile = "gfx/interface/ideas/UKR_mechanisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_reorganised_army"
+		texturefile = "gfx/interface/ideas/UKR_reorganised_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_recruitment_drive"
+		texturefile = "gfx/interface/ideas/UKR_recruitment_drive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_gun_contracts"
+		texturefile = "gfx/interface/ideas/UKR_gun_contracts.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_biskupsky"

@@ -381,6 +381,86 @@ ideas = {
 			    consumer_goods_factor = 0.01
 			}
         }
+
+        UKR_mechanisation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_mechanisation
+
+			equipment_bonus = {
+			    motorised_infantry = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		UKR_gun_contracts = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_gun_contracts
+
+			equipment_bonus = {
+			    artillery = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		UKR_reorganised_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_reorganised_army
+
+			modifier = {
+			    army_org_factor = 0.05
+			}
+        }
+
+        UKR_recruitment_drive = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_recruitment_drive
+
+			modifier = {
+			    conscription = 0.02
+			}
+        }
 	
 	}
 
