@@ -1180,6 +1180,45 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_mobilise_cossacks
+		icon = GFX_focus_UKR_mobilise_cossacks
+		prerequisite = {
+		    focus = UKR_begin_mechanisation
+		}
+		x = 24
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_mobilised_cossacks
+		    army_experience = 10
+		}
+	}
+
+	focus = {
+		id = UKR_develop_mobile_tactics
+		icon = GFX_focus_UKR_develop_mobile_tactics
+		prerequisite = {
+		    focus = UKR_mobilise_cossacks
+		}
+		x = 24
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_mobile_warfare
+			}
+		    army_experience = 10
+		}
+	}
+
+	focus = {
 		id = UKR_sinkler_plan
 		icon = GFX_focus_UKR_sinkler_plan
 		available = {
@@ -1223,8 +1262,52 @@ focus_tree = {
 				name = land_doc_bonus
 				bonus = 0.5
 				uses = 1
-				category = land_doctrine
+				category = cat_grand_battle_plan
 			}
+		}
+	}
+
+	focus = {
+		id = UKR_increase_meritocracy
+		icon = GFX_focus_UKR_increase_meritocracy
+		prerequisite = {
+		    focus = UKR_reorganise_army
+		}
+		x = 26
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_meritocratic_army
+		    army_experience = 10
+		}
+	}
+
+	focus = {
+		id = UKR_special_forces
+		icon = GFX_focus_UKR_special_forces
+		prerequisite = {
+		    focus = UKR_increase_meritocracy
+		}
+		x = 26
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		    army_experience = 10
 		}
 	}
 
@@ -1277,6 +1360,45 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_increase_unit_sizes
+		icon = GFX_focus_UKR_increase_unit_sizes
+		prerequisite = {
+		    focus = UKR_new_recruitment_strategies
+		}
+		x = 28
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_large_unit_army
+		    army_experience = 20
+		}
+	}
+
+	focus = {
+		id = UKR_develop_assault_tactics
+		icon = GFX_focus_UKR_develop_assault_tactics
+		prerequisite = {
+		    focus = UKR_increase_unit_sizes
+		}
+		x = 28
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_mass_assault
+			}
+		    army_experience = 20
+		}
+	}
+
+	focus = {
 		id = UKR_skoropadskyi_plan
 		icon = GFX_focus_UKR_skoropadskyi_plan
 		available = {
@@ -1321,6 +1443,50 @@ focus_tree = {
 				uses = 1
 				category = artillery
 			}
+		}
+	}
+
+	focus = {
+		id = UKR_improve_support_companies
+		icon = GFX_focus_UKR_improve_support_companies
+		prerequisite = {
+		    focus = UKR_firepower
+		}
+		x = 30
+		y = 3
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = support_bonus
+				bonus = 0.5
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+
+	focus = {
+		id = UKR_prepare_defence
+		icon = GFX_focus_UKR_prepare_defence
+		prerequisite = {
+		    focus = UKR_improve_support_companies
+		}
+		x = 30
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = UKR_defensive_strategy
+		    add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
+			army_experience = 10
 		}
 	}
 }
