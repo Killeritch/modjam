@@ -26,6 +26,7 @@ state = {
 			}
 		}
 		add_core_of = BLA
+		add_core_of = ALB
 	}
 
 	provinces={

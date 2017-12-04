@@ -161,3 +161,8 @@ LHS = {
 	color = rgb { 250 218 94 }
 	color_ui = rgb { 250 218 94 }
 }
+
+ALB = {
+	color = rgb { 149 45 102 }
+	color_ui = rgb { 149 45 102 }
+}

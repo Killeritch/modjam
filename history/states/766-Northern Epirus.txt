@@ -10,6 +10,7 @@ state = {
 	history={
 		owner = BLA
 		add_core_of = BLA
+		add_core_of = ALB
 		buildings = {
 			infrastructure = 3
 		}
