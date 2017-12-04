@@ -4,44 +4,44 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_LHS_Islamicextremists"
-		texturefile = "gfx/interface/ideas/LHS_Islamictrouble.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_Islamictrouble.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_LHS_educationandconversion"
-		texturefile = "gfx/interface/ideas/LHS_conversionandeducation.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_conversionandeducation.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_LHS_thenewpatriots"
-		texturefile = "gfx/interface/ideas/LHS_newpatriots.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_newpatriots.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_LHS_workingtheoligarcs"
-		texturefile = "gfx/interface/ideas/LHS_workingwiththeoligarchy.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_workingwiththeoligarchy.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_LHS_Synthethicoilinvestments"
-		texturefile = "gfx/interface/ideas/LHS_synthethiccinvestment.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_synthethiccinvestment.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_LHS_Miningindustryinvestments"
-		texturefile = "gfx/interface/ideas/LHS_mininginvestments.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_mininginvestments.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_LHS_Econmyisbooming"
-		texturefile = "gfx/interface/ideas/LHS_economicboom.dds"
+		texturefile = "gfx/interface/ideas/LHS/LHS_economicboom.dds"
 	}
 	
 	########Eventpictures########
 
 				spriteType = {
 		name = "GFX_Littlehispaniawhiteandblackflag_events_1"
-		texturefile = "gfx/event_pictures/report_event_Littlehispaniahistory.dds"
+		texturefile = "gfx/event_pictures/LHS/report_event_Littlehispaniahistory.dds"
 	}
 	########Focustreegoalsandshines########
 	
