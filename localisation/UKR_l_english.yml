@@ -20,8 +20,8 @@
  UKR_paternal_autocrat_party:0 "Cossack Nobles"
  UKR_national_populist_party:0 "ORUN"
  UKR_national_populist_party_long:0 "Organisation of Radical Ukrainian Nationalists"
- UKR_fascism2:0 "Radical Military Faction"
- UKR_fascism2_long:0 "Radical Military Faction"
+ UKR_national_populist_party2:0 "Radical Military Faction"
+ UKR_national_populist_party2_long:0 "Radical Military Faction"
 
  ####COUNTRYNAMES####
  UKR_totalist:0 "Ukrainian Soviet Republic"
@@ -178,6 +178,14 @@
  UKR_develop_assault_tactics_desc:0 "We must further our doctrine of mass assault tactics by encouraging our officer academies to explore the discipline."
  UKR_prepare_defence:0 "Prepare Defence"
  UKR_prepare_defence_desc:0 "We have strengthened our divisions to a sufficient degree, we must ensure that we use them in the correct manner. New defensive tactics and an emphasis on fortification should prove effective."
+ UKR_tank_core:0 "Develop Armour"
+ UKR_tank_core_desc:0 "Any modern army needs tanks, and Ukraine is woefully lacking in them. We should endeavour to research new models and begin production."
+ UKR_military_intelligence:0 "Military Intelligence"
+ UKR_military_intelligence_desc:0 "Making use of new technologies to gain a tactical edge should be a priority of the new Ukrainian Army."
+ UKR_new_infantry_weapons:0 "New Infantry Equipment"
+ UKR_new_infantry_weapons_desc:0 "The average infantryman is the backbone of our new army. We must ensure he is armed to the teeth, and prepared for any eventuality."
+ UKR_defensive_doctrines:0 "Develop Defensive Tactics"
+ UKR_defensive_doctrines_desc:0 "We must further our doctrine of superior firepower tactics by encouraging our officer academies to explore the discipline."
 
  ####IDEALOC####
  white_guard:0 "Legacy of The White Guard"
@@ -248,10 +256,26 @@
  UKR_large_unit_army_desc:0 "The Ukrainian Army has moved in the opposite direction of most armed forces during and following the Great War. They favour the Russian model, in which one officer presides over many men, none of whom are granted any authority to act alone."
  UKR_defensive_strategy:0 "Defensive Strategy"
  UKR_defensive_strategy_desc:0 "The Ukrainian Army, in accordance with its doctrine of superior firepower."
+ UKR_eastern_civ_industry:0 "Eastern Industry"
+ UKR_eastern_civ_industry_desc:0 "We must develop civilian industry in Eastern Ukraine, a region which is mostly underdeveloped and rural."
+ UKR_grand_infrastructure_project:0 "Grand Infrastructure Project"
+ UKR_grand_infrastructure_project_desc:0 "Our roads and railways are outdated, and definitely not up to the standard of a modern power. We must develop our major cities, and the links between them."
+ UKR_eastern_mil_industry:0 "Eastern Military Industry"
+ UKR_eastern_mil_industry_desc:0 "We must develop military industry in Eastern Ukraine, a region which is mostly underdeveloped and rural."
+ UKR_militarise_crimea:0 "Militarise Crimea"
+ UKR_militarise_crimea_desc:0 "Crimea is historically one of the most strategically important regions in Europe, and serves as the basis for our dominion of the Black Sea. We should concentrate our production of ships there, as well as fortifying and expanding the port of Sevastopol."
 
  ####EFFECTSLOC####
  available_political_advisor:0 "Add to Cabinet "
  remove_political_advisor:0 "Remove from Cabinet "
+ paternal_autocrat_drift:0 "Drift Towards Paternal Autocracy"
+ authoritarian_democrat_drift:0 "Drift Towards Authoritarian Democracy"
+ paternal_autocrat_acceptance:0 "Acceptance of Autocratic Diplomacy"
+ national_populist_drift:0 "Drift Towards National Populism"
+ national_populist_acceptance:0 "Acceptance of Radicalist Diplomacy"
+ social_democrat_drift:0 "Drift Towards Social Democracy"
+ social_democrat_acceptance:0 "Acceptance of Democratic Diplomacy"
+ totalist_drift:0 "Drift Towards Totalism"
 
  ####TRAITSLOC####
  powerful_chairman:0 "Powerful Chairman"
@@ -297,3 +321,32 @@
  UKR_gw_tank_equipment_short:0 "KP A7-V"
  UKR_light_tank_equipment_3:0 "Kiev National Arsenal Tank Mark IV 'Zaytsya'"
  UKR_light_tank_equipment_3_short:0 "KNA IV 'Zaytsya'"
+
+ #### #### TREBIZOND #### ####
+
+ ####PARTYNAMES####
+ TRB_totalist_party:0 "DAP"
+ TRB_totalist_party_long:0 "Democratic Army of Pontus"
+ TRB_social_democrat_party:0 "PDP"
+ TRB_social_democrat_party_long:0 "Pontic Democratic Party"
+ TRB_social_conservative_party:0 "PNP"
+ TRB_social_conservative_party_long:0 "Pontic National Party"
+ TRB_authoritarian_democrat_party:0 "Triantafyllidis Government"
+ TRB_national_populist_party:0 "Triantafyllidis Government"
+ 
+  ####COUNTRYNAMES####
+ TRB_totalist:0 "Democratic Republic of Pontus"
+ TRB_totalist_ADJ:0 "Pontic"
+ TRB_totalist_DEF:0 "The Democratic Republic of Pontus"
+ TRB_social_democrat:0 "Trapezuntine Republic"
+ TRB_social_democrat_ADJ:0 "Pontic"
+ TRB_social_democrat_DEF:0 "The Trapezuntine Republic"
+ TRB_social_conservative:0 "Trapezuntine Republic"
+ TRB_social_conservative_ADJ:0 "Pontic"
+ TRB_social_conservative_DEF:0 "The Trapezuntine Republic"
+ TRB_authoritarian_democrat:0 "Trapezuntine State"
+ TRB_authoritarian_democrat_ADJ:0 "Pontic"
+ TRB_authoritarian_democrat_DEF:0 "The Trapezuntine State"
+ TRB_national_populist:0 "Pontic Empire"
+ TRB_national_populist_ADJ:0 "Pontic"
+ TRB_national_populist_DEF:0 "The Pontic Empire"

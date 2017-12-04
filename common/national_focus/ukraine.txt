@@ -1109,6 +1109,138 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_eastern_civ_industry
+		icon = GFX_focus_UKR_civ_industry
+		prerequisite = {
+		    focus = UKR_civ_industry
+		}
+		x = 15
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    221 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    228 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    227 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    225 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+        }
+	}
+
+	focus = {
+		id = UKR_grand_infrastructure_project
+		icon = GFX_focus_UKR_infra
+		prerequisite = {
+		    focus = UKR_civ_industry
+		}
+		x = 17
+		y = 9
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+		    202 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    91 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    137 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    221 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    226 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    227 = {
+		        add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+		    }
+		    random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+        }
+	}
+
+	focus = {
 		id = UKR_mil_industry
 		icon = GFX_focus_UKR_mil_industry
 		prerequisite = {
@@ -1129,6 +1261,137 @@ focus_tree = {
 				}
             }
 		}
+	}
+
+	focus = {
+		id = UKR_eastern_mil_industry
+		icon = GFX_focus_UKR_mil_industry
+		prerequisite = {
+		    focus = UKR_mil_industry
+		}
+		x = 19
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    221 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    228 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    227 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+		    225 = {
+		        add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+        }
+	}
+
+	focus = {
+		id = UKR_militarise_crimea
+		icon = GFX_focus_UKR_nav_industry
+		prerequisite = {
+		    focus = UKR_mil_industry
+		}
+		x = 21
+		y = 9
+		cost = 10
+		available_if_capitulated = no
+
+		completion_reward = {
+		    137 = {
+		        add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = 3686
+				}
+				add_building_construction = {
+					type = bunker
+					level = 10
+					instant_build = yes
+					province = 3686
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = 9680
+				}
+				add_building_construction = {
+					type = bunker
+					level = 10
+					instant_build = yes
+					province = 9680
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = 3722
+				}
+				add_building_construction = {
+					type = bunker
+					level = 10
+					instant_build = yes
+					province = 3722
+				}
+		    }
+        }
 	}
 
 	focus = {
@@ -1215,6 +1478,28 @@ focus_tree = {
 				category = cat_mobile_warfare
 			}
 		    army_experience = 10
+		}
+	}
+
+	focus = {
+		id = UKR_tank_core
+		icon = GFX_focus_UKR_tank_core
+		prerequisite = {
+		    focus = UKR_develop_mobile_tactics
+		}
+		x = 24
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+			army_experience = 10
 		}
 	}
 
@@ -1312,6 +1597,28 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_military_intelligence
+		icon = GFX_focus_UKR_military_intelligence
+		prerequisite = {
+		    focus = UKR_special_forces
+		}
+		x = 26
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+			army_experience = 10
+		}
+	}
+
+	focus = {
 		id = UKR_udovychenko_plan
 		icon = GFX_focus_UKR_udovychenko_plan
 		available = {
@@ -1399,6 +1706,28 @@ focus_tree = {
 	}
 
 	focus = {
+		id = UKR_new_infantry_weapons
+		icon = GFX_focus_UKR_new_infantry_weapons
+		prerequisite = {
+		    focus = UKR_develop_assault_tactics
+		}
+		x = 28
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+			army_experience = 10
+		}
+	}
+
+	focus = {
 		id = UKR_skoropadskyi_plan
 		icon = GFX_focus_UKR_skoropadskyi_plan
 		available = {
@@ -1480,6 +1809,22 @@ focus_tree = {
 
 		completion_reward = {
 		    add_ideas = UKR_defensive_strategy
+		    army_experience = 10
+		}
+	}
+
+	focus = {
+		id = UKR_defensive_doctrines
+		icon = GFX_focus_UKR_defensive_doctrines
+		prerequisite = {
+		    focus = UKR_prepare_defence
+		}
+		x = 30
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+
+		completion_reward = {
 		    add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 0.5

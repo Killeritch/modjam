@@ -152,3 +152,6 @@ LOL = "countries/LaughingOutLoud.txt"
 
 ### Elenir1
 LHS = "countries/LittleHispania.txt"
+
+#### Spaceraider
+TRB = "countries/Trebizond.txt"

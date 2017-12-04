@@ -1,0 +1,109 @@
+﻿capital = 354 ####Trabzon####
+
+oob = "UKR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		totalist = { 
+			popularity = 10
+		}
+
+		social_democrat = {
+			popularity = 40
+		}
+		
+		social_conservative = {
+			popularity = 50
+		}
+
+		authoritarian_democrat = {
+		    popularity = 0
+		}
+
+		national_populist = {
+		    popularity = 0
+		}
+	}
+
+	ruling_party = social_conservative
+}
+
+set_convoys = 50
+
+add_ideas = {
+}
+
+create_country_leader = {
+	name = "Leonidas Iasonidis"
+	picture = "Portrait_Trebizond_Leonidas.dds"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ioannis Passalidis"
+	picture = "Portrait_Trebizond_Ioannis.dds"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Markos Vafiadis"
+	picture = "Portrait_Trebizond_Markos.dds"
+	ideology = totalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vladímiros Triantafyllidis"
+	picture = "Portrait_Trebizond_Vlad.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Vladímiros Triantafyllidis"
+	picture = "Portrait_Trebizond_Vlad.dds"
+	ideology = national_populist_subtype
+	traits = {
+	}
+}
+

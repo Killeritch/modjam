@@ -8,6 +8,35 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_nav_industry"
+		texturefile = "gfx/interface/goals/focus_UKR_nav_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_infra"
+		texturefile = "gfx/interface/goals/focus_UKR_infra.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_tank_core"
+		texturefile = "gfx/interface/goals/focus_UKR_tank_core.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_military_intelligence"
+		texturefile = "gfx/interface/goals/focus_UKR_military_intelligence.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_infantry_weapons"
+		texturefile = "gfx/interface/goals/focus_UKR_new_infantry_weapons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_UKR_defensive_doctrines"
+		texturefile = "gfx/interface/goals/focus_UKR_defensive_doctrines.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_develop_mobile_tactics"
 		texturefile = "gfx/interface/goals/focus_UKR_develop_mobile_tactics.dds"
 	}
@@ -307,6 +336,42 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_begin_mechanisation_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_begin_mechanisation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_nav_industry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_nav_industry.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_infra_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_infra.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_tank_core_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_tank_core.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_military_intelligence_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_military_intelligence.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_infantry_weapons_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_new_infantry_weapons.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_defensive_doctrines_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_defensive_doctrines.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		}
 
