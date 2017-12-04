@@ -1,111 +1,31 @@
+#Bulgarian Focus Tree, the commented "prerequisite" and "available" are to remind myself they exist so I wont forget anything
 focus_tree = {
-	id = 'bulgariaalbania'
+	id = bulgarianmod_focus
+	
 	country = {
-		factor=0
+		factor = 0
+		
 		modifier = {
 			add = 10
 			tag = BLA
 		}
 	}
+	
 	default = no
-	
 
-#Custom focuses start here
+	focus = {
+		id = BLA_Albanian_Administration
+		icon = GFX_goal_anschluss
+		x = 6
+		y = 0
+		cost = 4
+		#prerequisite
+		available = { NOT = { country_exists = ALB } }
+		available_if_capitulated = no
 
-#Focus for The Bulgarian Navy 
-	focus = { 
-		id = thebulgariannavy 
-		icon = GFX_goal_generic_amphibious_assault 
-		ai_will_do = { factor = 0 } 
-		x =1 
-		y =0 
-		#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them
-		#prerequisite = { focus = } #these lines cause errors if there's nothing in them 
-		cost = 10  
 		completion_reward = {
-			navy_experience = 25
+		    add_national_unity = 0.05
+			custom_effect_tooltip = Albania_Integration
 		}
 	}
-
-#Focus for The Black Sea 
-	focus = { 
-		id = theblacksea 
-		icon = GFX_goal_generic_navy_cruiser 
-		ai_will_do = { factor = 0 } 
-		x =0 
-	y =1 
-		#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them 
-		prerequisite = { focus = thebulgariannavy } 
-		cost = 10  
-		available_if_capitulated = yes
-		completion_reward = {
-			771 = { 
-				add_building_construction = { type = naval_base province = 9783 level = 3 instant_build = yes }
-			}
-		}  
-	}
-
-#Focus for The Mediterranean 
-	focus = { 
-		id = themediterranean 
-		icon = GFX_goal_generic_navy_doctrines_tactics 
-		ai_will_do = { factor = 0 } 
-		x =2 
-		y =1 
-		#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them 
-		prerequisite = { focus = thebulgariannavy } 
-		cost = 10  
-		available_if_capitulated = yes 
-		completion_reward = {
-			44 = {
-				add_building_construction = { type = naval_base province = 9914 level = 3 instant_build = yes }
-			}
-		}  
-	}
-	
-#Focus for Heavy Ships 
-	focus = { 
-		id = heavyships 
-		icon = GFX_goal_generic_navy_battleship 
-		ai_will_do = { factor = 0 } 
-		x =0 
-		y =2 
-		#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them 
-		prerequisite = { focus = theblacksea } 
-		cost = 10  
-		available_if_capitulated = yes  
-		completion_reward = {
-			add_tech_bonus = { bonus = 0.75 uses = 1 category = bc_tech }
-		}
-	}
-	
-#Focus for Submarines 
-	focus = { 
-		id = submarines 
-		icon = GFX_goal_generic_navy_submarine 
-		ai_will_do = { factor = 0 } 
- x =2 
- y =2 
-#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them 
- prerequisite = { focus = themediterranean } 
- cost = 10  
-  available_if_capitulated = yes  
-  completion_reward = {
-	add_tech_bonus = { bonus = 0.75 uses = 1 category = ss_tech }
- }
- }#Focus for Naval Industry 
-		focus = { 
-		id = navalindustry 
-		icon = GFX_goal_generic_construct_naval_dockyard 
-		ai_will_do = { factor = 0 } 
- x =1 
- y =3 
-#mutually_exclusive = { focus = } #these lines cause errors if there's nothing in them 
- prerequisite = { focus = submarines focus = heavyships } 
- cost = 10  
-  available_if_capitulated = yes  
-  completion_reward = {
-	add_ideas = BLA_NavInd
- }
- }#End of focuses 
 }

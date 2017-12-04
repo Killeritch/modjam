@@ -207,18 +207,10 @@
  BLA_BAA_LAF:0 "Bulgarian Sphere"
  
  #Focus Tree - BLA
- thebulgariannavy:0 "The Bulgarian Navy"
- thebulgariannavy_desc:0 "The Bulgarian Navy is our tool to project dominance in the oceans of the world, therefore we must improve it."
- theblacksea:0 "The Black Sea"
- theblacksea_desc:0 "We consider the Black Sea to be a part of our homeland. We must dominate it."
- themediterranean:0 "The Mediterranean"
- themediterranean_desc:0 "The Mediterranean is unbelievably important for most of Europe. Asserting power in it is a major step in increasing our influence."
- heavyships:0 "Heavy Ships"
- heavyships_desc:0 "Heavy Battleships are of essence in the Black Sea. We will develop them."
- submarines:0 "Submarines"
- submarines_desc:0 "Our submarines will be the hunters of the mediterranean. Having a strong fleet of them will significantly strengthen our naval power."
- navalindustry:0 "Naval Industry"
- navalindustry_desc:0 "To have a big navy, we have to have the capabilities to build one."
+ bulgarianmod_focus:0 "Bulgarian Focus Tree"
+ BLA_Albanian_Administration:0 "Administration in Albania"
+ BLA_Albanian_Administration_desc:0 "Our recently annexed territory formerly belonging to Albania needs to be administrated. We will begin efforts in the region to form local governments and have them cooperate with the state."
+ Albania_Integration:0 "We will begin to integrate Albania into our nation."
  
  #Everything related to Little Hispanias African Ambitions
  BAA_LHSOccupied_totalist:0 "Hispanian Africa"
