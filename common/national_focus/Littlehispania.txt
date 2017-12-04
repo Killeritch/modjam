@@ -663,5 +663,23 @@ focus_tree = {
 		     add_ideas = LHS_Econmyisbooming
 		}
 	}
+	
+	focus = {
+		id = LHS_TheLionOfAfrica
+		text = LHS_TheLionOfAfrica
+		icon = GFX_focus_LHS_TheLionOfAfrica
+		prerequisite = { }
+		available = {
+		}
+		x = 20
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 2
+		}	
+		completion_reward = {
+			add_ideas = LHS_africanexpansionism
+		}
+	}
 }
    

@@ -94,6 +94,14 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Manuel Goded Llopis"
+	id = 200789
+		picture = "Portrait_manuelgodedlhs.dds"
+	traits = { logistics_wizard  }
+	skill = 2
+}
+
 create_corps_commander = {
 	name = "Mohammed ben Mizzian"
 	portrait_path = "gfx/leaders/LHS/Portrait_mohammedbenexplosion.dds"

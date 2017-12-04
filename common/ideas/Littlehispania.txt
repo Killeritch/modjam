@@ -143,6 +143,27 @@ ideas = {
 			}
 
 		}
+		
+		LHS_africanexpansionism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+			    justify_war_goal_time = -0.10
+				conscription = 0.01
+				
+			}
+
+		}
 	
 	}
 	
