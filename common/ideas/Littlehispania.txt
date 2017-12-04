@@ -98,7 +98,7 @@ ideas = {
 			
 			
 			modifier = {
-			    production_speed_synthetic_refinery_factor = 0.2
+			    production_speed_synthetic_refinery_factor = 0.25
 			}
 
 		}
