@@ -93,3 +93,10 @@ create_country_leader = {
 	political_dancer
 	}
 }
+
+create_corps_commander = {
+	name = "Mohammed ben Mizzian"
+	portrait_path = "gfx/leaders/LHS/Portrait_mohammedbenexplosion.dds"
+	traits = { desert_fox }
+	skill = 3
+}

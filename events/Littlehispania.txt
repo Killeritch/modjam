@@ -47,20 +47,20 @@ country_event = {
 	
 	option = {
 		name = Littlehispania.2.a
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 40 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.2 }
 		set_country_flag = Sanjurjistaswin
 	}
 	option = {
 		name = Littlehispania.2.b
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 30 }
 		add_popularity = { ideology = social_conservative popularity = 0.3 }
 		set_politics = { ruling_party = social_conservative elections_allowed = yes }
 		set_country_flag = Nataliorivaswins
 	}
 	option = {
 		name = Littlehispania.2.c
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 30 }
 		add_popularity = { ideology = syndicalist popularity = 0.1 }
 		set_politics = { ruling_party = syndicalist elections_allowed = yes }
 		set_country_flag = Primoderiverawins

@@ -154,13 +154,15 @@ ideas = {
 
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 			traits = { prince_of_terror }
 		}
@@ -170,14 +172,16 @@ ideas = {
 			picture = generic_political_advisor_europe_1
 
 			allowed = {
-					original_tag = LHS
-				OR = {
+				original_tag = LHS
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 			traits = { compassionate_gentleman }
 		}
@@ -188,13 +192,15 @@ ideas = {
 
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 			traits = { war_industrialist }
 		}
@@ -205,15 +211,17 @@ ideas = {
 	LHS_jose_enrique_varela = {
 				
 				
-		allowed = {
+			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-		}
+            }
 		
 		picture = generic_army_europe_3
 		
@@ -227,15 +235,17 @@ ideas = {
 	LHS_emilio_herrera = {
 				
 				
-		allowed = {
+			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-		}
+            }
 		
 		picture = generic_air_europe_3
 		
@@ -256,13 +266,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -279,13 +291,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -302,13 +316,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -328,13 +344,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -351,13 +369,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -378,13 +398,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -401,13 +423,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -424,13 +448,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
 
 			
@@ -449,13 +475,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
             picture = generic_army_europe_2
 			
@@ -471,13 +499,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
             picture = generic_army_europe_3
 			
@@ -493,13 +523,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
             picture = generic_air_europe_1
 			
@@ -515,13 +547,15 @@ ideas = {
 			
 			allowed = {
 				original_tag = LHS
-				OR = {
+			}
+            available = {
+                				OR = {
  	             has_government = social_conservative
  	             has_government = authoritarian_democrat
 				 has_government = paternal_autocrat
 				 has_government = national_populist
               } 
-			}
+            }
 			
             picture = generic_air_europe_3
 			
