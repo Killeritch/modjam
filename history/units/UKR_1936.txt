@@ -207,4 +207,47 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
+
+    ###NAVY###
+    navy = {
+        name = "Navy of Ukraine"
+        base = 3686
+		location = 3686
+		ship = { name = "Ekaterina Velikaya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Rostislav" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Evstafi" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Pantelimon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Beskopoiny" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Derzky" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Gnevny" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Pronzitelny" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Bystry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Gromki" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Schastlivy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Pospeshny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Puilki" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Fidonisi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kerch" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Gadzhibei" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kaliakyria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Lt. Shestakov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kap.-Lt. Baranov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kap. Saken" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Losos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Sudak" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Karas" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Karp" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Nalim" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Skat" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Morzh" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Nerpa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Tylen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Krab" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Narval" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kit" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Kashalot" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Burvestnik" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Gagara" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "Utka" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR } } }
+    } 
 }		

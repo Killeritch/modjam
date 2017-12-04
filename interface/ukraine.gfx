@@ -3,8 +3,83 @@ spriteTypes = {
 	####FOCUSICONS####
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_begin_mechanisation"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_mechanisation.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_develop_mobile_tactics"
+		texturefile = "gfx/interface/goals/focus_UKR_develop_mobile_tactics.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_special_forces"
+		texturefile = "gfx/interface/goals/focus_UKR_special_forces.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_develop_assault_tactics"
+		texturefile = "gfx/interface/goals/focus_UKR_develop_assault_tactics.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_prepare_defence"
+		texturefile = "gfx/interface/goals/focus_UKR_prepare_defence.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mobilise_cossacks"
+		texturefile = "gfx/interface/goals/focus_UKR_mobilise_cossacks.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_reorganise_army"
+		texturefile = "gfx/interface/goals/focus_UKR_reorganise_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_increase_meritocracy"
+		texturefile = "gfx/interface/goals/focus_UKR_increase_meritocracy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_recruitment_strategies"
+		texturefile = "gfx/interface/goals/focus_UKR_new_recruitment_strategies.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_increase_unit_sizes"
+		texturefile = "gfx/interface/goals/focus_UKR_increase_unit_sizes.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_firepower"
+		texturefile = "gfx/interface/goals/focus_UKR_firepower.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_improve_support_companies"
+		texturefile = "gfx/interface/goals/focus_UKR_improve_support_companies.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_appoint_biskupsky"
 		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_economic_development"
+		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_civ_industry"
+		texturefile = "gfx/interface/goals/focus_UKR_civ_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mil_industry"
+		texturefile = "gfx/interface/goals/focus_UKR_mil_industry.dds"
 	}
 
 	SpriteType = { 
@@ -230,6 +305,78 @@ spriteTypes = {
 	####FOCUSICONSSHINE####
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_begin_mechanisation_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_begin_mechanisation.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_develop_mobile_tactics_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_develop_mobile_tactics.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_special_forces_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_special_forces.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_develop_assault_tactics_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_develop_assault_tactics.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_prepare_defence_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_prepare_defence.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mobilise_cossacks_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_mobilise_cossacks.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_reorganise_army_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_reorganise_army.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_increase_meritocracy_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_increase_meritocracy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_new_recruitment_strategies_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_new_recruitment_strategies.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_increase_unit_sizes_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_increase_unit_sizes.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_firepower_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_firepower.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_improve_support_companies_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_improve_support_companies.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_foreign_ministry_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_foreign_ministry.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -238,6 +385,24 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_appoint_biskupsky_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_appoint_biskupsky.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_economic_development_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_economic_development.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_civ_industry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_civ_industry.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+	SpriteType = { 
+		name = "GFX_focus_UKR_mil_industry_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_mil_industry.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		}
 
@@ -502,6 +667,46 @@ spriteTypes = {
 	####IDEAS####
 
 	spriteType = {
+		name = "GFX_idea_UKR_mechanisation"
+		texturefile = "gfx/interface/ideas/UKR_mechanisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_defensive_strategy"
+		texturefile = "gfx/interface/ideas/UKR_defensive_strategy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_meritocratic_army"
+		texturefile = "gfx/interface/ideas/UKR_meritocratic_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_large_unit_army"
+		texturefile = "gfx/interface/ideas/UKR_large_unit_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_mobilised_cossacks"
+		texturefile = "gfx/interface/ideas/UKR_mobilised_cossacks.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_reorganised_army"
+		texturefile = "gfx/interface/ideas/UKR_reorganised_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_recruitment_drive"
+		texturefile = "gfx/interface/ideas/UKR_recruitment_drive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_gun_contracts"
+		texturefile = "gfx/interface/ideas/UKR_gun_contracts.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_biskupsky"
 		texturefile = "gfx/interface/ideas/idea_vasily_biskupsky.dds"
 	}
@@ -534,6 +739,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_white_guard"
 		texturefile = "gfx/interface/ideas/white_guard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_breadbasket"
+		texturefile = "gfx/interface/ideas/UKR_breadbasket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_UKR_stagnation"
+		texturefile = "gfx/interface/ideas/UKR_stagnation.dds"
 	}
 
 	spriteType = {
@@ -668,5 +883,42 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_udovychenko_chief"
 		texturefile = "gfx/interface/ideas/idea_udovychenko.dds"
+	}
+
+	####TECHNOLOGIES####
+
+	SpriteType = {
+		name = "GFX_UKR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_imp_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_imp_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_basic_medium_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/UKR_gwtank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_UKR_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/UKR_adv_light_tank.dds"
 	}
 }

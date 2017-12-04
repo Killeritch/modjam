@@ -4,8 +4,35 @@ england.1.t:0 "One Step Towards Success!"
 england.1.d:0 "We have placed our friends to govern the realm, perhaps together we can create a new era."
 england.1.a:0 "Together my friends!"
 
- ##############################
-# ENG Parties (note: most were taken from kebb's, so you'll have to change most.
+england.3.t:0 "Remove Blackshirt influence."
+england.3.d:0 "The British Union of Fascists have been a constant concern in our politics, much of government are blackshirt sympathizers and we fear a coup."
+england.3.a:0 "We are committed."
+
+england.99.t:0 "Blackshirt Exiles."
+england.99.d:0 "General Campbell, the shadow dictator of England has banished the street-army of the British Union of Fascists - the Blackshirts, we can accept them to bolster our position, but ruin relations with the dictatorship, or politically move them on to our neighbors."
+england.99.a:0 "Integrate them."
+england.99.b:0 "We cannot risk the controversy, move them along."
+
+england.5.t:0 "Ban radical socialism!"
+england.5.d:0 "Various radical socialist organizations have caused a lot of industrial damage, as well as creating worker discontent, we cannot reform our nation with their revolutionary ideas poisoning the people."
+england.5.a:0 "Take them out!"
+
+england.999.t:0 "Banished Leftists."
+england.999.d:0 "General Campbell under advisement from Sir Oswald Mosley has banished radical leftist movements in England, some of these political refugees have arrived on our border asking for asylum, taking them in risks diplomatic relations."
+england.999.a:0 "Welcome them."
+england.999.b:0 "They have no place in our society either."
+
+england.1488.t:0 "Military Police Arrive At The Mosley Residence.."
+england.1488.d:0 "Sir Mosley has escaped! Our police arrived at an empty house with all Blackshirt documents burned or missing!"
+england.1488.a:0 "Damn! Where is he?"
+
+england.1489.t:0 "An Escorted Convoy.."
+england.1489.d:0 "Escorted by our naval forces a large flotilla docks at Sevastopol, it appears that the English Dictator attempted to imprison all members of the British Union of Fascists, Sir Oswald Mosley, its leader; fled Britain, knowing the details and plans from his supporters in government. A significant percentage of the British Armed Forces, and Loyalist politicians have now come to Ukraine, hoping to foster a government in-exile."
+england.1489.a:0 "Free warships? Free soldiers? Of course!"
+
+
+##############################
+# ENG Parties 
 ##############################
  ENG_totalist_party:0 "Totalists"
  ENG_totalist_party_long:0 "English Totalist Union"
@@ -128,7 +155,6 @@ england.1.a:0 "Together my friends!"
 # Leaders
 ##################################
  IRL_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
- IRL_Kitchener_desc:0 "A proud and loyal servant to the Empire serving before WW1 and during the Empire's collapse, he watches bitterly as his order brakes down around him".
 
 ##############################
 # Wales.
@@ -191,7 +217,6 @@ WLS_national_populist_DEF:0 "Absolute Authority"
 # Leaders
 ##################################
 WLS_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
-WLS_Powell_desc:0 "Little is known of this young officer, promoted up the ranks as senior officers continued falling in battle; he finds himself leader of the Welsh Army and thus Wales itself".
 
 ##############################
 # Scotland
@@ -263,7 +288,7 @@ disgraced_military:0 "Disgraced Military"
 disgraced_military_desc:0 "Much of our officer cadre defected or lies dead on forgotten fields. Likewise our standards are captured and our arms disgarded. Most of our standing professional army are walking wounded"
 broken_nation:0 "Broken Nation"
 broken_nation_desc:0 "Workers strike often and the people demand reform"
-brightest_minds_dead:0 "Our fallen youth"
+brightest_minds_dead:0 "Our Fallen Youth"
 brightest_minds_dead_desc:0 "We conscripted our finest to fight and die in the trenches, our nation's future inventions are buried among the bones".
 blackshirt_labour_union_reform:0 "Blackshirt Unions"
 blackshirt_labour_union_reform_desc:0 "Leftists have used trade unions to foster anti-Imperial sentiment, the workers stand behind Mosley!"

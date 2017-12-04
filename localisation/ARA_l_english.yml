@@ -41,3 +41,9 @@ ARA_paternal_autocrat_DEF:0 "The Kingdom of Aragon"
 ARA_national_populist:0 "Regne d'Aragó""
 ARA_national_populist_ADJ:0 "Aragonese"
 ARA_national_populist_DEF:0 "The Regne d'Aragó"
+
+#####EVENTS######
+
+aragon.1.t:0 "Rei Carles Assasinated!"
+aragon.1.d:0 "Our king and Glorious Leader, Carles de Habsburg has been assasinated and the police have started investigating the case right away"
+aragon.1.a:0 "We pray for the Rei"

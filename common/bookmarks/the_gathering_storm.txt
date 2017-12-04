@@ -82,6 +82,8 @@ bookmarks = {
 			ideology = national_populist
 			ideas = {
 				white_guard
+				UKR_breadbasket
+				UKR_stagnation
 			}
 			focuses = {
 				#

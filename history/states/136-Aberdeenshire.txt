@@ -15,8 +15,7 @@ state = {
 		add_core_of = STL
 		buildings = {
 			infrastructure = 6
-			dockyard = 2
-						industrial_complex = 1
+						industrial_complex = 3
 		}
 		 
 	}

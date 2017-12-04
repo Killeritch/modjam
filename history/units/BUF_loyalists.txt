@@ -1,0 +1,56 @@
+division_template = {
+	name = "Tank Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division= {	
+		name = "Blackshirt Loyalists 'Mosley'"
+		location = 3686
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Blackshirt Loyalists 'Yorkshire'"
+		location = 3686
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Blackshirt Tank Corps"
+		location = 3686
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	
+navy = {				
+		name = "Royal Navy"			
+		base = 3686
+		location = 3686 
+				
+		ship = { name = "HMS Valiant" definition = battleship equipment = { battleship_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS Blockade" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UKR } } }		
+		ship = { name = "HMS Jersey" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS York" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS Sword" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS Dagger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS Sax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		ship = { name = "HMS Pike" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }	
+}
