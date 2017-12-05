@@ -166,6 +166,8 @@
  BLA_RapidExpansion_desc:0 "Our countrys administration is struggling to keep up with managing the territories we have gained in recent wars."
  BLA_Nationalism:0 "Nationalism"
  BLA_Nationalism_desc:0 "Bulgaria is characterized by a strong support of the people for the state."
+ BLA_PetrovReforms:0 "Petrov's Reforms"
+ BLA_PetrovReforms_desc:0 "Boiko Petrov has completed some political reforms necessary to expand our influence."
  
  #Events - General
  BLA_general.1.t:0 "The state of Bulgaria in 1936"
@@ -243,6 +245,21 @@
  BLA_Albanian_Administration:0 "Administration in Albania"
  BLA_Albanian_Administration_desc:0 "Our recently annexed territory formerly belonging to Albania needs to be administrated. We will begin efforts in the region to form local governments and have them cooperate with the state."
  Albania_Integration:0 "We will begin to integrate Albania into our nation."
+ BLA_Bulgarian_Supremacy:0 "Bulgarian Supremacy"
+ BLA_Bulgarian_Supremacy_desc:0 "Bulgaria is for Bulgarians, and so we will fill all higher administrative posts with them."
+ BLA_Conscription_Albania:0 "Conscription in Albania"
+ BLA_Conscription_Albania_desc:0 "Recently annexed Albania is full of young men that we could use in the army. Let's run a conscription campaign in the newly acquired state."
+ BLA_Unite_Authoritarian:0 "Unite the Nation"
+ BLA_Unite_Authoritarian_desc:0 "Our nation must unite its people under a strong Bulgarian rule!"
+ BLA_Albanian_Rights:0 "Albanian Rights"
+ BLA_Albanian_Rights_desc:0 "Just because we annexed Albania as their overlord, it doesn't mean that their people don't have the same rights as ours in our nation. We must grant equal opportunities to everyone."
+ BLA_Improve_Albania:0 "Develop Albania"
+ BLA_Improve_Albania_desc:0 "Albania is a region that is industrially worse off than the rest of our country, so it must be improved."
+ BLA_Decentralize_Government:0 "Begin Decentralization"
+ BLA_Decentralize_Government_desc:0 "By putting more power into the hands of local governments, we are putting more power into the hands of our people."
+ BLA_Decentralize_Tooltip:0 "We will begin decentralizing the government in our nation."
+ BLA_Petrovs_Ambitions:0 "Petrovs Ambitions"
+ BLA_Petrovs_Ambitions_desc:0 "Boiko Petrov has some ambitions for reforming the political landscape in our country. We will enable him to do those reforms."
  
  #Everything related to Little Hispanias African Ambitions
  BAA_LHSOccupied_totalist:0 "Hispanian Africa"

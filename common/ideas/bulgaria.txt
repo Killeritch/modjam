@@ -82,5 +82,18 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		BLA_PetrovReforms = {
+			allowed = {
+				original_tag = BLA
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_political_advisor_europe_1
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
 	}
 }
