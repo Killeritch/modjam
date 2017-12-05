@@ -165,3 +165,8 @@ TRB = {
 	color = rgb { 200 200 20 }
 	color_ui = rgb { 200 200 20 }
 }
+
+TNS = {
+	color = rgb { 250 128 114 }
+	color_ui = rgb { 250 128 114 }
+}

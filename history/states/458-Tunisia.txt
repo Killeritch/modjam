@@ -9,9 +9,8 @@ state = {
 	}
 
 	history={
-		owner = FRA
-		add_core_of = FRA
-		add_core_of = FRA
+		owner = TNS
+		add_core_of = TNS
 		victory_points = {   #Tunis
 			11969 20  
 		}

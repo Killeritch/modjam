@@ -1,4 +1,4 @@
-add_namespace = BLA_LHS
+﻿add_namespace = BLA_LHS
 
 #Bulgarian Africa is occupied - Bulgaria
 country_event = {

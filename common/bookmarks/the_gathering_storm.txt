@@ -109,6 +109,20 @@ bookmarks = {
 			}			
 		}
 		
+		"LHS"={
+			minor = yes
+			history = "LHS_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				LHS_Islamicextremists
+				LHS_educationandconversion
+			}	
+			focuses = {
+				LHS_doelections
+				LHS_TheLionOfAfrica
+			}			
+		}
+		
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

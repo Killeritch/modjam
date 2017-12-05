@@ -681,5 +681,31 @@ focus_tree = {
 			add_ideas = LHS_africanexpansionism
 		}
 	}
+	
+	focus = {
+		id = LHS_Conquertunisia
+		text = LHS_Conquertunisia
+		icon = GFX_focus_LHS_theconquestoftunisia
+		prerequisite = { focus = LHS_TheLionOfAfrica }
+		available = {
+		}
+		x = 19
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 2
+		}	
+		
+				bypass = {
+				NOT = {
+ 					TNS = { num_of_controlled_states > 0 }
+                }
+
+			}
+			
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = TNS }
+		}
+	}
 }
    
