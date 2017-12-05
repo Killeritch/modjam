@@ -1,7 +1,7 @@
 ﻿####TEMPLATES####
 
 division_template = {
-	name = "Striltsiv"
+	name = "Rifles"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -17,7 +17,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Bila Hvardiya"
+	name = "White Guard"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -40,170 +40,170 @@ division_template = {
 units = {
     ####WHITE GUARD UNITS####
 	division= {			
-		name = "1-y 'Kyiv' Bila Hvardiya"		
+		name = "1-y 'Kyiv' White Guard"		
 		location = 525
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "2-y 'Odesa' Bila Hvardiya"		
+		name = "2-y 'Odesa' White Guard"		
 		location = 11670
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "3-y 'Gomel' Bila Hvardiya"		
+		name = "3-y 'Gomel' White Guard"		
 		location = 3407
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "4-y 'Krivoi Roh' Bila Hvardiya"		
+		name = "4-y 'Krivoi Roh' White Guard"		
 		location = 11561
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "5-y 'Kursk' Bila Hvardiya"		
-		location = 3580
-		division_template = "Bila Hvardiya"
+		name = "5-y 'Luhansk' White Guard"		
+		location = 9461
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "6-y 'Krim' Bila Hvardiya"		
+		name = "6-y 'Krim' White Guard"		
 		location = 11670
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "7-y 'Donezk/Luhansk' Bila Hvardiya"		
+		name = "7-y 'Donezk/Luhansk' White Guard"		
 		location = 11437
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     division= {			
-		name = "8-y 'Oleksandrovsk' Bila Hvardiya"		
+		name = "8-y 'Oleksandrovsk' White Guard"		
 		location = 418
-		division_template = "Bila Hvardiya"
+		division_template = "White Guard"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
     }
     ####REGULARS####
     division= {			
-		name = "1-y 'Basarabia' Striltsiv"		
+		name = "1-y 'Basarabia' Rifles"		
 		location = 3707
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "2-y 'Basarabia' Striltsiv"		
+		name = "2-y 'Basarabia' Rifles"		
 		location = 3707
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "3-y 'Basarabia' Striltsiv"		
+		name = "3-y 'Basarabia' Rifles"		
 		location = 3707
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "4-y 'Basarabia' Striltsiv"		
+		name = "4-y 'Basarabia' Rifles"		
 		location = 3707
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "5-y 'Dnieper' Striltsiv"		
+		name = "5-y 'Dnieper' Rifles"		
 		location = 11437
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "6-y 'Dnieper' Striltsiv"		
+		name = "6-y 'Dnieper' Rifles"		
 		location = 11437
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "7-y 'Dnieper' Striltsiv"		
+		name = "7-y 'Dnieper' Rifles"		
 		location = 11437
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "8-y 'Dnieper' Striltsiv"		
+		name = "8-y 'Dnieper' Rifles"		
 		location = 11437
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "9-y 'Kharkov' Striltsiv"		
+		name = "9-y 'Kharkov' Rifles"		
 		location = 418
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "10-y 'Kharkov' Striltsiv"		
+		name = "10-y 'Kharkov' Rifles"		
 		location = 418
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }division= {			
-		name = "11-y 'Kharkov' Striltsiv"		
+		name = "11-y 'Kharkov' Rifles"		
 		location = 418
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "12-y 'Kharkov' Striltsiv"		
+		name = "12-y 'Kharkov' Rifles"		
 		location = 418
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "13-y 'Kyiv' Striltsiv"		
+		name = "13-y 'Kyiv' Rifles"		
 		location = 525
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "14-y 'Kyiv' Striltsiv"		
+		name = "14-y 'Kyiv' Rifles"		
 		location = 525
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "15-y 'Kyiv' Striltsiv"		
+		name = "15-y 'Kyiv' Rifles"		
 		location = 525
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }
     division= {			
-		name = "16-y 'Kyiv' Striltsiv"		
+		name = "16-y 'Kyiv' Rifles"		
 		location = 525
-		division_template = "Striltsiv"
+		division_template = "Rifles"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
     }

@@ -461,6 +461,91 @@ ideas = {
 			    conscription = 0.02
 			}
         }
+
+        UKR_mobilised_cossacks = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_mobilised_cossacks
+
+			modifier = {
+			    conscription_factor = 0.05
+			    cavalry_attack = 0.05
+			    army_speed_factor = 0.05
+			    army_morale_factor = 0.05
+			}
+        }
+
+        UKR_meritocratic_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_meritocratic_army
+
+			modifier = {
+			    unity_factor = 0.05
+			    army_org_factor = 0.10
+			    army_morale_factor = 0.05
+			}
+        }
+
+        UKR_large_unit_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_large_unit_army
+
+			modifier = {
+			    army_morale_factor = 0.10
+			    army_org_factor = -0.05
+			    army_attack_factor = 0.05
+			}
+        }
+
+        UKR_defensive_strategy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = UKR_defensive_strategy
+
+			modifier = {
+			    army_defence_factor = 0.05
+			    army_org_factor = 0.05
+			    production_speed_bunker_factor = 0.10
+			}
+        }
 	
 	}
 
