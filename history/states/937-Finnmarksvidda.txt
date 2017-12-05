@@ -1,11 +1,12 @@
 
 state = {
 	id=937
-	name="STATE_937"
+	name="STATE_937" #Finnmark
 
 	history={
-		owner = TAG
+		owner = NOR
 		add_core_of=NOR
+		
 		buildings={
 			infrastructure=3
 		}
@@ -16,6 +17,5 @@ state = {
 	}
 	
 	manpower=2290
-	buildings_max_level_factor=1
 	state_category="wasteland"
 }

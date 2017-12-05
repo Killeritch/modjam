@@ -4,24 +4,35 @@ state = {
 	name="STATE_100"
 
 	history={
-		owner = TAG
+		owner = ICE
 		victory_points = {
-			12674 1 
+			12674 15 
+		}
+		
+		victory_points = {
+			13596 5
+		}
+		
+		victory_points = {
+			13562 1
+		}
+		
+		victory_points = {
+			4861 1
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 3
 			12674 = {
-				naval_base = 3
+				naval_base = 5
 
 			}
 			13584 = {
-				naval_base = 1
-
+				naval_base = 2
 			}
 
 		}
-		add_core_of = TAG
+		add_core_of = ICE
 		 
 
 	}
@@ -30,6 +41,5 @@ state = {
 		4861 12674 12689 13561 13562 13564 13566 13570 13571 13572 13574 13576 13577 13579 13580 13584 13586 13588 13589 13591 13596 13597 13598 
 	}
 	manpower=115870
-	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

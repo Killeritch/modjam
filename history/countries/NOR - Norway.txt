@@ -1,8 +1,8 @@
-﻿capital = 110
+﻿capital = 982
 
 oob = "NOR_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
 	limited_conscription
@@ -73,18 +73,22 @@ set_technology = {
 	}
 }
 
-set_convoys = 80		# biggest merchant marine in the world
-set_national_unity = 0.7
+set_convoys = 80
+set_national_unity = 0.6
 
 set_politics = {
 
 	parties = {
 		social_conservative = { 
-			popularity = 96
+			popularity = 4
 		}
 
 		national_populist = {
 			popularity = 2
+		}
+		
+		market_liberal = {
+			popularity = 92
 		}
 		
 		totalist = {
@@ -92,7 +96,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -102,24 +106,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			social_conservative = { 
-				popularity = 84
+			market_liberal = { 
+				popularity = 100
 			}
 
 			national_populist = {
-				popularity = 2
+				popularity = 0
 			}
 			
 			totalist = {
-				popularity = 2
+				popularity = 0
 			}
 
 			authoritarian_democrat = {
-				popularity = 12
+				popularity = 0
 			}
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = market_liberal
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
@@ -131,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = market_liberal
 	traits = {
 		#
 	}

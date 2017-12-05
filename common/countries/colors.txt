@@ -161,16 +161,13 @@ LHS = {
 	color = rgb { 250 218 94 }
 	color_ui = rgb { 250 218 94 }
 }
+
 TRB = {
 	color = rgb { 200 200 20 }
 	color_ui = rgb { 200 200 20 }
 }
 
-TNS = {
-	color = rgb { 250 128 114 }
-	color_ui = rgb { 250 128 114 }
-}
-SWE = { #copy/pasted from vanilla by Killeritch - in future, please do this yourself!!!
-	color = rgb { 36 132 247 }
-	color_ui = rgb { 47 172 255 }
+NOR = {
+	color = rgb { 140 200 180 }
+	color_ui = { 140 200 180 }
 }

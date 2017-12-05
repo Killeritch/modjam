@@ -1,0 +1,22 @@
+
+state = {
+	id=980
+	name="STATE_980" #Hebrides
+
+	history={
+		owner = STL
+		buildings={
+			infrastructure=2
+		}
+		add_core_of = STL
+		victory_points = {
+			311 3
+		}
+	}
+
+	provinces={
+		311 6363 9364
+	}
+	manpower = 10000
+	state_category=small_island
+}
