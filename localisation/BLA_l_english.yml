@@ -319,3 +319,7 @@
  BLA_WarReparationsLHS_desc:0 "Bulgaria receives war reparations from Hispania."
  LHS_WarReparationsBLA:0 "War Reparations to Bulgaria"
  LHS_WarReparationsBLA_desc:0 "Hispania pays war reparations to Bulgaria."
+ 
+ #Technology
+ camels:0 "Camels"
+ camels_desc:0 "Camels, for better infantry warfare in the desert."

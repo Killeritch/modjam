@@ -21,6 +21,7 @@ set_technology = {
 	basic_battlecruiser = 1
 	early_submarine = 1
 	transport = 1
+	camels = 1
 }
 
 add_ideas = {
