@@ -7,15 +7,16 @@ state = {
 		owner = STL
 		buildings={
 			infrastructure=2
+			
+			6062 = {
+				naval_base = 1 
+			}
 		}
 		add_core_of = STL
-		victory_points = {
-			311 3
-		}
 	}
 
 	provinces={
-		311 6363 9364
+		6062
 	}
 	manpower = 10000
 	state_category=small_island
