@@ -558,11 +558,34 @@ focus_tree = {
 			}
 
 		completion_reward = {
+		            			if = {
+				limit = {
+					NOT = { has_tech = synth_oil_experiments }
+				}
+				set_technology = { synth_oil_experiments = 1 }
+				else = {
+					add_tech_bonus = {
+						name = LHS_oilinvestments
+						ahead_reduction = 1
+						bonus = 0.5
+						uses = 1
+						category = synth_resources
+					}
+				}
+			}
+					462 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = synthetic_refinery
+									level = 1
+									instant_build = yes
+								}
+			}
 				    add_tech_bonus = {
 						name = LHS_oilinvestments
 						ahead_reduction = 1
 						bonus = 0.5
-						uses = 2
+						uses = 1
 						category = synth_resources
 					}
 					add_ideas = LHS_Synthethicoilinvestments
@@ -688,8 +711,11 @@ focus_tree = {
 		icon = GFX_focus_LHS_theconquestoftunisia
 		prerequisite = { focus = LHS_TheLionOfAfrica }
 		available = {
+										NOT = {
+ 					LHS = { is_in_faction_with = TNS }
+                }
 		}
-		x = 19
+		x = 20
 		y = 1
 		cost = 1
 		ai_will_do = {
@@ -697,14 +723,175 @@ focus_tree = {
 		}	
 		
 				bypass = {
-				NOT = {
+					
+                         OR = {
+						 				NOT = {
  					TNS = { num_of_controlled_states > 0 }
-                }
-
+					}
+					LHS = { is_in_faction_with = TNS }
+                                               
+							    }
+                        
 			}
 			
 		completion_reward = {
-			create_wargoal = { type = annex_everything target = TNS }
+			country_event = { days = 1 id = Littlehispania.3 }
+		}
+	}
+	
+	focus = {
+		id = LHS_focosonournavy
+		text = LHS_focosonournavy
+		icon = GFX_focus_LHS_focusonanvy
+		prerequisite = { }
+		available = {
+		    LHS = { owns_state = 178 }
+		}
+		x = 26
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}	
+		
+		bypass = {
+		}
+			
+		completion_reward = {
+			navy_experience = 20
+					178 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+			}
+							178 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 13071
+						instant_build = yes
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = LHS_buildnavynorth
+		text = LHS_buildnavynorth
+		icon = GFX_focus_LHS_buildnavy
+		prerequisite = { focus = LHS_focosonournavy }
+		available = {
+		    LHS = { owns_state = 290 }
+			LHS = { owns_state = 459 }
+		}
+		x = 25
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}	
+		
+		bypass = {
+		}
+			
+		completion_reward = {
+					290 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+			}
+					459 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+			}
+							290 = {
+					add_building_construction = {
+						type = naval_base
+						level = 4
+						province = 12100
+						instant_build = yes
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = LHS_buildnavysouth
+		text = LHS_buildnavysouth
+		icon = GFX_focus_LHS_buildnavy
+		prerequisite = { focus = LHS_focosonournavy }
+		available = {
+		    LHS = { owns_state = 699 }
+			LHS = { owns_state = 462 }
+		}
+		x = 27
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}	
+		
+		bypass = {
+		}
+			
+		completion_reward = {
+					462 = {
+				add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+			}
+					699 = {
+				add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+			}
+							699 = {
+					add_building_construction = {
+						type = naval_base
+						level = 2
+						province = 12857
+						instant_build = yes
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = LHS_arevivedindustry
+		text = LHS_arevivedindustry
+		icon = GFX_focus_LHS_focusonanvy
+		prerequisite = { focus = LHS_buildnavysouth }
+		prerequisite = { focus = LHS_buildnavynorth }
+		available = {
+		}
+		x = 26
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}	
+		
+		bypass = {
+		}
+			
+		completion_reward = {
+			remove_ideas = LHS_decadentnavalindustry
 		}
 	}
 }

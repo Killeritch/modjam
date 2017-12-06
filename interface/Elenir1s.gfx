@@ -42,11 +42,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LHS/LHS_LIONOFAFRIKAkorps.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_idea_LHS_decadentnavalindustry"
+		texturefile = "gfx/interface/ideas/LHS/LHS_decadentnavalindustry.dds"
+	}
+	
 	########Eventpictures########
 
 				spriteType = {
 		name = "GFX_Littlehispaniawhiteandblackflag_events_1"
 		texturefile = "gfx/event_pictures/LHS/report_event_Littlehispaniahistory.dds"
+	}
+	
+				spriteType = {
+		name = "GFX_Littlehispaniatroops_events_2"
+		texturefile = "gfx/event_pictures/LHS/report_event_Littlehispaniatroops.dds"
 	}
 	########Focustreegoalsandshines########
 	
@@ -332,6 +342,80 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/LHS/LHS_ConquerTunisia.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_focusonanvy"
+		texturefile = "gfx/interface/goals/LHS/LHS_improvethenavy.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_focusonanvy_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_improvethenavy.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_improvethenavy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_improvethenavy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+		spriteType = {
+		name = "GFX_focus_LHS_buildnavy"
+		texturefile = "gfx/interface/goals/LHS/LHS_anavalbase.dds"
+	}
+	
+		SpriteType = { 
+		name = "GFX_focus_LHS_buildnavy_shine"
+		texturefile = "gfx/interface/goals/LHS/LHS_anavalbase.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_anavalbase.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/LHS/LHS_anavalbase.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

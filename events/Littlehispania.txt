@@ -67,4 +67,146 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Littlehispania.3
+	title = Littlehispania.3.t
+	desc = Littlehispania.3.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.3.a
+		ai_chance = { factor = 80 }
+		TNS = { country_event = { days = 1 id = Littlehispania.4 } }
+	}
+	option = {
+		name = Littlehispania.3.b
+		ai_chance = { factor = 20 }
+		declare_war_on = { target = TNS type = annex_everything }
+	}
+}
+
+country_event = {
+	id = Littlehispania.4
+	title = Littlehispania.4.t
+	desc = Littlehispania.4.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = TNS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.4.a
+						ai_chance = {
+			base = 80
+			modifier = {
+				add = 10
+				LHS = { has_army_size = { size < 5 } }
+			}
+			modifier = {
+				add = -30
+				LHS = { has_army_size = { size > 6 } }
+			}
+				modifier = {
+				add = -50
+				LHS = { has_army_size = { size > 12 } }
+			}
+		}
+		LHS = { country_event = { days = 1 id = Littlehispania.5 } }
+	}
+	option = {
+		name = Littlehispania.4.b
+				ai_chance = {
+			base = 20
+			modifier = {
+				add = -10
+				LHS = { has_army_size = { size < 5 } }
+			}
+			modifier = {
+				add = 30
+				LHS = { has_army_size = { size > 6 } }
+			}
+				modifier = {
+				add = 50
+				LHS = { has_army_size = { size > 12 } }
+			}
+		}
+	    LHS = { country_event = { days = 1 id = Littlehispania.6 } }	
+	}
+}
+
+country_event = {
+	id = Littlehispania.5
+	title = Littlehispania.5.t
+	desc = Littlehispania.5.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.5.a
+		ai_chance = { factor = 100 }
+		declare_war_on = { target = TNS type = annex_everything }
+	}
+}
+
+country_event = {
+	id = Littlehispania.6
+	title = Littlehispania.6.t
+	desc = Littlehispania.6.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.6.a
+		ai_chance = { factor = 100 }
+		annex_country = { target = TNS transfer_troops = no }
+	}
+}
+
 

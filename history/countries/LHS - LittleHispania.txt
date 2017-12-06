@@ -71,6 +71,9 @@ add_ideas = {
 add_ideas = {
     LHS_Islamicextremists
 }
+add_ideas = {
+    LHS_decadentnavalindustry
+}
 
 create_country_leader = {
 	name = "José Sanjurjo"

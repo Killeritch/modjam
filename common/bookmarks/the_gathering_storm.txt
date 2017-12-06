@@ -115,6 +115,7 @@ bookmarks = {
 			ideology = authoritarian_democrat
 			ideas = {
 				LHS_Islamicextremists
+				LHS_decadentnavalindustry
 				LHS_educationandconversion
 			}	
 			focuses = {
