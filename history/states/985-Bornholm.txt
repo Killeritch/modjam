@@ -1,0 +1,24 @@
+state = {
+	id=985
+	name="STATE_985" #Bornholm
+	manpower = 1000
+
+	state_category = small_island
+
+	history=
+	{
+		owner = TAG
+		buildings = {
+			infrastructure = 2 
+			
+			6361 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TAG
+	}
+
+	provinces= {
+		6361
+	}
+}

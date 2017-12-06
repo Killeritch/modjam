@@ -1,0 +1,20 @@
+state = {
+	id=984 
+	name="STATE_984" #Danish Strait
+	manpower = 1000
+
+	state_category = enclave
+
+	history=
+	{
+		owner = NOR
+		buildings = {
+			infrastructure = 2 
+		}
+		add_core_of = DEN
+	}
+
+	provinces= {
+		316
+	}
+}

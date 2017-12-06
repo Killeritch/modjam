@@ -21,6 +21,9 @@ set_technology = {
 	tech_recon = 1
 }
 
+puppet = ICE
+puppet = DEN
+
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -135,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal
+	ideology = market_liberal_subtype
 	traits = {
 		#
 	}
