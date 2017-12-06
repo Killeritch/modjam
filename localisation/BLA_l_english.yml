@@ -240,6 +240,14 @@
  BLA_news.1.d:0 "The Government of Bulgaria has publicly stated its intentions to expand their territories in Africa by aggressive actions towards the state of Libya, a neighbor of their colony. It remains to be seen if this will actually escalate into a full-scale war, but tensions have certainly been caused by this."
  BLA_news.1.a:0 "It seems like they want to expand..."
  
+ #Events - Revolution
+ BLA_revolution.1.t:0 "NDP losing support"
+ BLA_revolution.1.d:0 "The NDP, the main party in Bulgaria has lost some support recently. How should we act against it?"
+ BLA_revolution.1.a:0 "It's fine, we're a democracy and the people can vote for who they want."
+ BLA_revolution.1.b:0 "Start a propaganda campaign to win back support!"
+ BLA_accepting:0 "We will support our people's democratic rights, even if they are not in our interests."
+ BLA_oppressive:0 "We will try to establish a strong national party."
+ 
  #Factions
  BLA_BAA_LAF:0 "Bulgarian Sphere"
  

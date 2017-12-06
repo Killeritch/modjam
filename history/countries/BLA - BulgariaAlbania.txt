@@ -51,27 +51,27 @@ set_politics = {
 		}
 		
 		social_democrat = {
-			popularity = 4
-		}
-		
-		social_liberal = {
-			popularity = 14
-		}
-		
-		market_liberal = {
 			popularity = 0
 		}
 		
+		social_liberal = {
+			popularity = 
+		}
+		
+		market_liberal = {
+			popularity = 14
+		}
+		
 		social_conservative = {
-			popularity = 22
+			popularity = 26
 		}
 		
 		authoritarian_democrat = {
-			popularity = 57
+			popularity = 52
 		}
 		
 		paternal_autocrat = {
-			popularity = 3
+			popularity = 8
 		}
 		national_populist = {
 			popularity = 0
