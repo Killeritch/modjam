@@ -188,6 +188,9 @@
  BLA_general.5.t:0 "The Sofia Subway"
  BLA_general.5.d:0 "In 1934, our great country started constructing a subway system in our capital of Sofia. The network has been finished yesterday and the infrastructure will not only be used to transport civilians, but it is available for the army as well. Extending to the most important military bases in the area, this ensures quick and if necessary, unseen transport of our troops to key areas."
  BLA_general.5.a:0 "Good work."
+ BLA_general.6.t:0 "Decentralization efforts begin"
+ BLA_general.6.d:0 "After our country made the decision to decentralize the government, the first steps have just now been initiaded. This will cost us a considerable amount of political clout, but we will unite the nation by granting more power to local governments."
+ BLA_general.6.a:0 "Good."
  
  #Events - Political
  BLA_political.1.t:0 "Albania demands more rights!"

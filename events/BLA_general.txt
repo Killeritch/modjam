@@ -92,7 +92,7 @@ country_event = {
 
 #The Sofia Subway
 country_event = {
-		name = BLA_general.5
+		id = BLA_general.5
 		title = BLA_general.5.t
 		desc = BLA_general.5.d
 		
@@ -110,4 +110,23 @@ country_event = {
 				48 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
 		}
 }
+
+#Decentralization begins
+country_event = {
+		id = BLA_general.6
+		title = BLA_general.6.t
+		desc = BLA_general.6.d
 		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				BLA = { has_country_flag = BLA_decentralization }
+		}
+		
+		option = {
+				name = BLA_general.6.a
+				add_national_unity = 0.05
+				add_political_power = -50
+		}
+}
