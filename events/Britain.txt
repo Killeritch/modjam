@@ -1,4 +1,5 @@
 ﻿add_namespace = england
+add_namespace = navaltreaty
 
 country_event = { # (NOT CURRENTLY IN USE)
 	id = england.1 #event ID
@@ -141,21 +142,6 @@ country_event = { # (MOSLEY ARRIVES AT UKRAINE)
 		load_oob = BUF_loyalists
 	}
 }
-country_event = { # askbritain
-    id = navaltreaty.3 #event ID
-    title = navaltreaty.3.t #title
-    desc = navaltreaty.3.d #description
-
-    picture = GFX_Littlehispaniaenglishships_events_3
-
-    is_triggered_only = yes
-
-    option = {
-        name = navaltreaty.3.a #sendittothem
-			ENG = { 	country_event = { days = 1 id = navaltreaty.4 } }
-
-    }
-}
 country_event = { # (Accept/Decline their offer)
     id = navaltreaty.4 #event ID
     title = navaltreaty.4.t #title
@@ -203,4 +189,5 @@ country_event = { # (Accept/Decline their offer)
         name = navaltreaty.4.b #the option's text
     }
 }
+
 
