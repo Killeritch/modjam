@@ -894,5 +894,30 @@ focus_tree = {
 			remove_ideas = LHS_decadentnavalindustry
 		}
 	}
+	
+	focus = {
+		id = LHS_treatywithbritain
+		text = LHS_treatywithbritain
+		icon = GFX_focus_LHS_LHSshipsfromENG
+		prerequisite = { focus = LHS_arevivedindustry }
+		available = {
+		}
+		x = 24
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 3
+		}	
+		
+		bypass = {
+		}
+			
+		completion_reward = {
+			    country_event = {  # Send the first stage to Britain
+                days = 1
+                id = navaltreaty.3
+            }
+		}
+	}
 }
    

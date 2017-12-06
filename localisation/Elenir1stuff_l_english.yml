@@ -163,3 +163,8 @@
  LHS_arevivedindustry_desc:0 "We have managed to expand the amount of dockyards in our country and our naval industry is recovering. Now that we can produce ships, it is time to modernize and improve how we build and use said ships."
  LHS_decadentnavalindustry:0 "Decadent Naval Industry"
  LHS_decadentnavalindustry_desc:0 "After the independance of Little Hispania, the dockyards that once belonged to Spain were abandoned by the workers and the companies that were in charge of them, mostly due to the unstable political climate. Little Hispania hasn't managed to repair its naval industry, although with some investment, the naval industry of Little Hispania could recover."
+ LHS_treatywithbritain:0 "A deal with England"
+ LHS_treatywithbritain_desc:0 "We could strike a deal with England. They can give us ships and we can help them with their technology. If England accepts the deal, our navy will be greatly improved."
+ navaltreaty.3.t:0 "A Deal With England"
+ navaltreaty.3.d:0 "Its time to send the offer to England. We are going to help them with their technology and they are going to give us ships."
+ navaltreaty.3.a:0 "Let us send the offer"
