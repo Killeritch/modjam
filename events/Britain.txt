@@ -126,6 +126,7 @@ country_event = { # (MOSLEY GOES TO THE UKRAINE)
 			}
 		} 
 	}
+}
 country_event = { # (MOSLEY ARRIVES AT UKRAINE)
 	id = england.1489 #event ID
 	title = england.1489.t #title	
@@ -140,3 +141,51 @@ country_event = { # (MOSLEY ARRIVES AT UKRAINE)
 		load_oob = BUF_loyalists
 	}
 }
+country_event = { # (Accept/Decline their offer)
+    id = navaltreaty.4 #event ID
+    title = navaltreaty.4.t #title
+    desc = navaltreaty.4.d #description
+
+    picture = GFX_report_event_soviet_purge_politicians
+
+    is_triggered_only = yes
+
+    option = {
+        name = navaltreaty.4.a #the option's text
+	add_tech_bonus = {
+        	name = electronics_bonus
+        	bonus = 0.2
+        	uses = 1
+        	category = electronics
+        }
+	add_tech_bonus = {
+        	name = industrial_bonus
+        	bonus = 0.2
+        	uses = 1
+        	category = industry
+        }
+	add_tech_bonus = {
+        	name =infantry_weapons_bonus
+        	bonus = 0.5
+        	uses = 1
+        	category = infantry_weapons
+        }
+	add_tech_bonus = {
+        	name = land_doc_bonus
+        	bonus = 0.5
+        	uses = 2
+        	category = land_doctrine
+        }
+        every_country = {
+            limit = { tag = LHS } #making sure this event only goes to Little Hispania
+            country_event = {
+                days = 1
+                id = navaltreaty.5
+            }
+        } 
+    }
+    option = {
+        name = navaltreaty.4.b #the option's text
+    }
+}
+

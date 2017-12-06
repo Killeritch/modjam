@@ -1,0 +1,15 @@
+navy = {				
+		name = "Foriegn Warships"			
+		base = 13071
+		location = 13071
+				
+		ship = { name = "HMS St. George" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = LHS } } }		
+		ship = { name = "HMS Leeds" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Chester" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Angel" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Reaper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Panther" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Joker" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }	
+		ship = { name = "HMS Cutthroat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Hammerhead" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+}
