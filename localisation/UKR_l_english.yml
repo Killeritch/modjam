@@ -186,6 +186,8 @@
  UKR_new_infantry_weapons_desc:0 "The average infantryman is the backbone of our new army. We must ensure he is armed to the teeth, and prepared for any eventuality."
  UKR_defensive_doctrines:0 "Develop Defensive Tactics"
  UKR_defensive_doctrines_desc:0 "We must further our doctrine of superior firepower tactics by encouraging our officer academies to explore the discipline."
+ UKR_pontic_intervention:0 "Intervention In Pontus"
+ UKR_pontic_intervention_desc:0 "In order for Ukraine to claim dominion over the Black Sea, we must secure its shores. In Northern Anatolia, the Greek 'Trapezuntine Republic' is weak and without allies; this, we can surely exploit."
 
  ####IDEALOC####
  white_guard:0 "Legacy of The White Guard"
@@ -290,21 +292,25 @@
  radical_economist:0 "Radicalist Economist"
 
  ####EVENTSLOC####
- ukraine.2.t:0 "The Chornomortsi is Mobilised!"
- ukraine.2.desc:0 "The formal organisation of battle-ready Chornomortsi units is complete. Across Ukraine, thousands of men have just officially joined the Ukrainian military."
- ukraine.2.a:0 "Deploy The Odessan Chornomortsi!"
- ukraine.3.t:0 "The Chornomortsi is Mobilised!"
- ukraine.3.desc:0 "The formal organisation of battle-ready Chornomortsi units is complete. Across Ukraine, thousands of men have just officially joined the Ukrainian military."
- ukraine.3.a:0 "Deploy The Kharkhov Chornomortsi!"
- ukraine.4.t:0 "The Chornomortsi is Mobilised!"
- ukraine.4.desc:0 "The formal organisation of battle-ready Chornomortsi units is complete. Across Ukraine, thousands of men have just officially joined the Ukrainian military."
- ukraine.4.a:0 "Deploy The Dnipropetrovsk Chornomortsi!"
- ukraine.5.t:0 "The Chornomortsi is Mobilised!"
- ukraine.5.desc:0 "The formal organisation of battle-ready Chornomortsi units is complete. Across Ukraine, thousands of men have just officially joined the Ukrainian military."
- ukraine.5.a:0 "Deploy The Kiev Chornomortsi!"
- ukraine.6.t:0 "Ukraine In 1936"
- ukraine.6.desc:0 "Following the collapse of the Russian Tsardom in 1917, Ukrainians, being the largest and most influential of the empire's minorities, were quick to declare independence. After a an exceedingly short war with Russia for independence, Russia agreed to a peace deal, due to the threat of the bolsheviks. From 1918 until 1926, Ukraine maintained a fragile democracy under the Chief Otaman, Symon Petliura, a figure beloved by all. On the 13th of July 1926, a Jewish anarchist shot Petliura during a pro-democracy rally in Kharkov. The ensuing chaos was seized upon by Stepan Bandera, and his Organisation of Radical Ukrainian Nationalists (ORUN), who stormed the presidential palace in Kiev, backed by the majority of the populace who were fired up with anti-semitic rhetoric. Now, Ukraine has for 10 years been in a state of stagnation. A fragile agreement between the ORUN and the Ukrainian General Staff signed in november 1926 has limited the radicals' powers, and concentrated much of Ukraine's political and economic power in the hands of aristocrats and oligarchs. However, with the military becoming increasingly complacent, and more revolutionary radicals becoming prominent, this uneasy stability is soon to come crashing down."
- ukraine.6.a:0 "Long live Ukraine!"
+ ukraine.1.t:0 "Ukraine in 1936"
+ ukraine.1.d:0 "Ukraine is in a precarious position in 1936. The rule of Stepan Bandera's Organisation of Radical Ukrainian Nationalists is nearing the end of its tenth year in power; such a length of time would usually be an indicator of stability- this is not so in Ukraine.\n\nIndependence from the Russian Empire was gained following the fall of the Tsar, with a crippled Russia unable to retake Kiev from nationalist forces. Ukraine became a democratic republic, the constitution for which was finalised in 1922. The head of state was given the title 'Chief Otaman', and a coalition of liberal and moderate socialist parties held a majority in the Kievan Duma. Symon Petliura was twice elected Chief Otaman, in 1922 and 1926; popular among the people for his leadership of the Ukrainian Social Democrat Party, and supported by the military for his leadership of the much-venerated White Guard during the independence war. However, influence from across the Russian border, and political ambitions at home caused the rapid growth of the Bolsheviks in Ukraine between 1924 and 1926, which infiltrated all of the major Trade Unions. This prompted the growth of radical nationalist movements, particularly the once-defunct OUN, which rebranded as the ORUN. The political polarisation came to a head in June of 1926, when a member of a farmers' union shot the Chief Otaman during a rally in Kharkov.\n\nFollowing the assassination, it looked for many weeks as though civil war was brewing in Ukraine, with the suspension of the Duma, the declaration of workers' soviets in Eastern Ukraine, and an escalation in military presence on the streets. However, the paramilitary of the ORUN, the Chornomortsi, and the regular White Guard, under the combined leadership of the war hero Volodymyr Sinkler, launched a series of rapid and violent reprisals against known- and even suspected- communists. After three weeks of so called 'White Terror', with the numbers of dead or imprisoned in the tens of thousands, the ORUN and the military were the only two forces remaining.\n\nWith no appetite for further bloodshed on either side, and a certain level of mutual trust gained from cooperating in the fight against Bolshevism, the leader of the ORUN, Stepan Bandera, and the joint chiefs of staff Pavlo Skoropadskyi and Volodymyr Sinkler, signed an agreement simply known as 'The 1926 Accord'. Ukraine was to be run under the nominal rule of the ORUN, who had the permission of the army to alter the constitution in any way they wished. The only caviat to this agreement was that any changes to social and economic policy should not oppose the financial interests of Ukraine's nobility, nor undermine tradition with some radicals' pseudo-socialism.\n\nThus, Ukraine is now an authoritarian and deeply corrupt oligarchic dictatorship, nominally led by Stepan Bandera, but in reality is on a razor's edge between the General Staff and the Radicals. The ORUN has enacted barely any of its promised reforms, leaving Ukraine woefully lacking in industry, and with the peasant class no better off than a decade ago. If Ukraine is claim her destiny of dominion over the Black Sea, and status as a world power, the delicate balance of the 1926 Accord must be pushed in one direction or the other."
+ ukraine.1.a:0 "The Kievan Rus will rise again!"
+ ukraine.2.t:0 "Intervention in the Trapezuntine Republic"
+ ukraine.2.d:0 "In order to claim Ukraine's rightful place as sole controller of the Black Sea, we must look beyond Sevastopol. The Pontic Greeks and their 'Trapezuntine Republic' are weak, and the strategically vital port of Trebizond is wasted on them. Perhaps a government of a more sympathetic attitude towards Ukraine may be of benefit to us; as might the total annhilation of the Trapezuntine Republic."
+ ukraine.2.a:0 "We should look to the Pontic Radicals."
+ ukraine.2.b:0 "We should look to the Pontic Military."
+ ukraine.2.c:0 "We should dismiss the political options. Begin preparations for invasion."
+
+ ####UKRAINENEWSEVENTSLOC####
+ worldnews.999.t:0 "Radicals On The Rise In Ukraine"
+ worldnews.999.d:0 "It appears that the end of the decade-long political deadlock in Ukraine may be on the horizon. The delicate balance of power in Kiev seems to be shifting away from the old junta of oligarchs, and towards the more radical wing of the ruling ORUN. The radicalist paramilitary, the 'Chornomortsi', has reportedly been given powers over local police forces, and many members of Ukraine's military have turned to align themselves with the ORUN. Only time will tell what this means for Ukraine."
+ worldnews.999.a:0 "Poor imitations of ice-cream sellers."
+ worldnews.998.t:0 "Military Ascendent In Ukraine"
+ worldnews.998.d:0 "It appears that the end of the decade-long political deadlock in Ukraine may be on the horizon. The delicate balance of power in Kiev seems to be shifting away from the ruling party, the ORUN, and towards leading figures in Ukraine's general staff. The ineffective rule of the current radical order has done nothing to quell the discontent of the Ukrainian people, nor further the modernisation the country so desperately needs. Now it only remains to be seen which charismatic figure will step up to lead the military faction; the aristocrat and staunch monarchist, Pavlo Skoropadskyi, or the war hero and anti-communist, Volodymyr Sinkler?"
+ worldnews.998.a:0 "Perhaps some order will be a welcome change."
+ worldnews.997.t:0 "Crackdowns In Ukraine"
+ worldnews.997.d:0 "The political scene in Ukraine has taken a dramatic and violent turn recently. The Chairman of the ruling ORUN, Stepan Bandera, has begun what he calls a 'cleansing of Ukraine's anti-popular forces'. So far, show trials and executions have claimed hundreds of lives, but as suspicions heighten, and Bandera's opposition weakens, this number is sure to increase. Bandera has enforced what he assures is a 'temporary quarantine' in Ukraine, meaning no persons may enter or leave the increasingly authoritarian rogue state."
+ worldnews.997.a:0 "A madman, given too much power."
 
  ####TECHLOC####
  UKR_light_tank_equipment_1:0 "Kiev Pattern T-26"
@@ -331,8 +337,8 @@
  TRB_social_democrat_party_long:0 "Pontic Democratic Party"
  TRB_social_conservative_party:0 "PNP"
  TRB_social_conservative_party_long:0 "Pontic National Party"
- TRB_authoritarian_democrat_party:0 "Triantafyllidis Government"
- TRB_national_populist_party:0 "Triantafyllidis Government"
+ TRB_authoritarian_democrat_party:0 "Triantafyllidis Loyalists"
+ TRB_national_populist_party:0 "Triantafyllidis Loyalists"
  
   ####COUNTRYNAMES####
  TRB_totalist:0 "Pontic People's Republic"

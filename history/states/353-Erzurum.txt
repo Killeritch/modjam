@@ -2,7 +2,7 @@
 state = {
 	id=353
 	name="STATE_353"
-	manpower = 523537
+	manpower = 1523537
 	state_category = town
 
 	history={
@@ -13,7 +13,7 @@ state = {
 			industrial_complex = 1
 		}
 		victory_points = {
-			11853 5
+			11853 10
 		}
 		add_core_of = TRB
 		 

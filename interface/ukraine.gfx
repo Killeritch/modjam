@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
+		name = "GFX_focus_UKR_pontic_intervention"
+		texturefile = "gfx/interface/goals/focus_UKR_pontic_intervention.dds"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_UKR_nav_industry"
 		texturefile = "gfx/interface/goals/focus_UKR_nav_industry.dds"
 	}
@@ -390,6 +395,12 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_UKR_develop_assault_tactics_shine"
 		texturefile = "gfx/interface/goals/focus_UKR_develop_assault_tactics.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		}
+
+    SpriteType = { 
+		name = "GFX_focus_UKR_pontic_intervention_shine"
+		texturefile = "gfx/interface/goals/focus_UKR_pontic_intervention.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		}
 
@@ -985,5 +996,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_UKR_advanced_light_tank_medium"
 		texturefile = "gfx/interface/technologies/UKR_adv_light_tank.dds"
+	}
+
+	####EVENTPICTURES####
+	spriteType = {
+		name = "GFX_report_event_ukraineintro"
+		texturefile = "gfx/event_pictures/report_event_ukraineintro.dds"
 	}
 }

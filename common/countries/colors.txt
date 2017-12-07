@@ -161,23 +161,7 @@ LHS = {
 	color = rgb { 250 218 94 }
 	color_ui = rgb { 250 218 94 }
 }
-
-TNS = {
-	color = rgb { 250 128 114 }
-	color_ui = rgb { 250 128 114 }
-}
-
 TRB = {
 	color = rgb { 200 200 20 }
 	color_ui = rgb { 200 200 20 }
-}
-
-NOR = {
-	color = rgb { 90 120 90 }
-	color_ui = { 90 120 90 }
-}
-
-DEN = {
-	color = rgb { 120 150 120 }
-	color_ui = rgb { 120 150 120 }
 }

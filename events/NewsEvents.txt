@@ -45,3 +45,49 @@ news_event = {
 		name = worldnews.98.a
 	}
 }
+
+####UKRAINE####
+news_event = { #RadicalRevolutionariesinUkraine
+	id = worldnews.999
+	title = worldnews.999.t
+	desc = worldnews.999.d
+	picture = GFX_news_event_german_volunteers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = worldnews.999.a
+	}
+}
+
+news_event = { #MilitaryPowerinUkraine
+	id = worldnews.998
+	title = worldnews.998.t
+	desc = worldnews.998.d
+	picture = GFX_news_event_polish_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = worldnews.998.a
+	}
+}
+
+news_event = { #Bandera's Purge
+	id = worldnews.997
+	title = worldnews.997.t
+	desc = worldnews.997.d
+	picture = GFX_news_event_german_speech
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = worldnews.997.a
+	}
+}

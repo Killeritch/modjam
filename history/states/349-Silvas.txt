@@ -2,17 +2,17 @@
 state = {
 	id=349
 	name="STATE_349"
-	manpower = 592821
+	manpower = 1092821
 	
 	state_category = town
 
 	history={
-		owner = TAG
+		owner = TRB
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = TAG
+		add_core_of = TRB
 	}
 
 	provinces={
