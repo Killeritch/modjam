@@ -73,7 +73,14 @@ create_country_leader = {# General Campbell
 	ideology = social_conservative_subtype
 	traits = { ww_one_trauma grand_battle_plan_expert }
 }
-
+create_country_leader = {# Sir Mosley
+	name = "Sir Oswald Mosley"
+	desc = "STL_Mosley_desc"
+	picture = "Portrait_England_Sir_Mosley.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = { ww_one_trauma silent_workhorse}
+}
 add_ideas = { 
 	mothballed_navy 
 	disgraced_military 

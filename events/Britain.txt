@@ -1,5 +1,6 @@
 ﻿add_namespace = england
 add_namespace = navaltreaty
+add_namespace = freealba
 
 country_event = { # (NOT CURRENTLY IN USE)
 	id = england.1 #event ID
@@ -189,5 +190,18 @@ country_event = { # (Accept/Decline their offer)
         name = navaltreaty.4.b #the option's text
     }
 }
+country_event = { #Event about Scottish Totalists
+	id = england.77 #event ID
+	title = england.77.t #title	
+	desc = england.77.d #description
+	
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	is_triggered_only = yes
 
+	option = {
+		name = england.77.a #the option's text
+		end_puppet = STL
+	}
+}
 

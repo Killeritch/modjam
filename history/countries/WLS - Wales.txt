@@ -1,4 +1,4 @@
-﻿capital = 122
+﻿capital = 978
 
 oob = ""
 
@@ -72,6 +72,14 @@ create_country_leader = {# General Campbell
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = { ww_one_trauma grand_battle_plan_expert }
+}
+create_country_leader = {# Sir Mosley
+	name = "Sir Oswald Mosley"
+	desc = "WLS_Mosley_desc"
+	picture = "Portrait_England_Sir_Mosley.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = { ww_one_trauma silent_workhorse}
 }
 
 add_ideas = { 
