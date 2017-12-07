@@ -47,6 +47,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LHS/LHS_decadentnavalindustry.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_idea_LHS_ideaplanlepanto"
+		texturefile = "gfx/interface/ideas/LHS/LHS_planlepanto.dds"
+	}
+	
 	########Eventpictures########
 
 				spriteType = {

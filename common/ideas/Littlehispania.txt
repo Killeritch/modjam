@@ -185,6 +185,27 @@ ideas = {
 			}
 
 		}
+		
+				LHS_ideaplanlepanto = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			
+			modifier = {
+			    production_speed_dockyard_factor = 0.1
+				industrial_capacity_dockyard = 0.05
+				production_speed_naval_base_factor = 0.15
+			}
+
+		}
 	
 	}
 	

@@ -17,6 +17,8 @@ set_technology = {
 	early_battleship = 1
 	transport = 1
 	camels = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
 }
 
 

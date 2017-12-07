@@ -1,3 +1,4 @@
+﻿units = {
 navy = {				
 		name = "Foriegn Warships"			
 		base = 13071
@@ -14,4 +15,5 @@ navy = {
 		ship = { name = "HMS Barracuda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
 		ship = { name = "HMS Phantom" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
 		ship = { name = "HMS Lion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }	
+}
 }
