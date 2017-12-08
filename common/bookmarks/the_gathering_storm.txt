@@ -8,20 +8,9 @@ bookmarks = {
 		default = yes
 		
 		"FRA"={
-			minor = no
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
-				
-			}
-		}
-		"ALP"={
-			history = "ALP_GATHERING_STORM_DESC"
-			ideology = market_liberal
-			ideas = {
-				
-			}
-			focuses = {
 				
 			}
 		}
@@ -47,7 +36,7 @@ bookmarks = {
 		}
 
 		"ARA"={
-			history = "ALP_GATHERING_STORM_DESC"
+			history = "ARA_GATHERING_STORM_DESC"
 			ideology = market_liberal
 			ideas = {
 				
@@ -124,6 +113,17 @@ bookmarks = {
 			}			
 		}
 		
+		"ALP"={
+			minor = yes
+			history = "ALP_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

@@ -118,7 +118,7 @@ WLS = "countries/Wales.txt"
 STL = "countries/Scotland.txt"
 IRL = "countries/Ireland.txt"
 #
-### Gorey
+### insanegorey
 ALP = "countries/AlpineFed.txt" # Catholic Alpine Union
 #
 ### Miah

@@ -79,6 +79,9 @@ add_ideas = {
 	free_trade
 	partial_economic_mobilisation
 	extensive_conscription
+	venetian_foreign_policy
+	infant_state
+	developed_industry
 }
 
 create_country_leader = {
