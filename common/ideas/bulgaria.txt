@@ -116,7 +116,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = generic_export_focus
+			picture = bla_oiltrade
 			
 			modifier = {
 				trade_opinion_factor = 0.25
