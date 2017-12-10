@@ -181,3 +181,8 @@ ICE = {
 	color = rgb { 100 150 110 }
 	color_ui = rgb { 100 150 110 }
 }
+
+TNS = {
+	color = rgb { 250 128 114 }
+	color_ui = rgb { 250 128 114 }
+}
