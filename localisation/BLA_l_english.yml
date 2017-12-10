@@ -271,6 +271,20 @@
  BLA_Decentralize_Tooltip:0 "We will begin decentralizing the government in our nation."
  BLA_Petrovs_Ambitions:0 "Petrovs Ambitions"
  BLA_Petrovs_Ambitions_desc:0 "Boiko Petrov has some ambitions for reforming the political landscape in our country. We will enable him to do those reforms."
+ BLA_European_Oil:0 "Oil and Europe"
+ BLA_European_Oil_desc:0 "Norway is the only significant oil distributor in Europe right now. If we were to acquire the oil in Romania, or build enough synthetic factories, we could increase our trade influence greatly."
+ BLA_Claims_for_Oil:0 "Muntenia and Oltenia"
+ BLA_Claims_for_Oil_desc:0 "The Muntenia and Oltenia regions respectively hold huge oil reserves. If they would fall into our hands, it would be a great boon to our nation - we must fabricate claims on those regions."
+ BLA_Rival_Norway:0 "Trade Rivalry with Norway"
+ BLA_Rival_Norway_desc:0 "Norway is trading away a lot of their North Sea oil. They are our trade rival, and we must take action to reduce their influence when it comes to trade."
+ BLA_Only_Sphere_Oil:0 "Oil Trade in our sphere"
+ BLA_Only_Sphere_Oil_desc:0 "We should not clash horns with the norwegian oil giants, rather we should focus on trading in our own sphere: The Black Sea and the Mediterranean."
+ BLA_Oil_Companies:0 "Oil Companies"
+ BLA_Oil_Companies_desc:0 "Due to increasing our influence in oil trade, the companies involved in it have now grown so large we can harness some political clout if we deal with them correctly."
+ BLA_Oil_Rival:0 "Trade Rivalries"
+ BLA_Oil_Rival_desc:0 "Due to meddling in the oil trade, Bulgaria has quite a lot of rivalries, especially with Norway."
+ BLA_Oil_Sphere:0 "Oil Trade"
+ BLA_Oil_Sphere_desc:0 "Bulgaria is trading with oil in their sphere of influence. This improves their overall standing in trade affairs."
  
  #Everything related to Little Hispanias African Ambitions
  BAA_LHSOccupied_totalist:0 "Hispanian Africa"
@@ -334,3 +348,6 @@
  #Technology
  camels:0 "Camels"
  camels_desc:0 "Camels, for better infantry warfare in the desert."
+ 
+ #Other
+ BLA_GATHERING_STORM_DESC:0 "Bulgaria has experienced a steady period of growth in the last years. They managed to take a chunk of land in Africa and even entered into a union with Albania - but are now struggling to keep the diversified country together. A storm is brewing in Europe, and noone knows what Bulgarias future might hold..."

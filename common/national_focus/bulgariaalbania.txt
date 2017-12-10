@@ -131,4 +131,78 @@ focus_tree = {
 			add_ideas = BLA_PetrovReforms
 		}
 	}
+	
+	focus = {
+		id = BLA_European_Oil
+		icon = GFX_goal_generic_oil_refinery
+		x = 13
+		y = 0
+		cost = 4
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = synth_resources }
+		}
+	}
+	
+	focus = {
+		id = BLA_Claims_for_Oil
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 13
+		y = 1
+		cost = 10
+		prerequisite = { focus = BLA_European_Oil }
+		bypass = { 46 = { is_owned_by = BLA } }
+		bypass = { 81 = { is_owned_by = BLA } }
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_state_claim = 46
+			add_state_claim = 81
+		}
+	}
+	
+	focus = {
+		id = BLA_Rival_Norway
+		icon = GFX_goal_generic_trade
+		x = 12
+		y = 2
+		cost = 5
+		prerequisite = { focus = BLA_Claims_for_Oil }
+		mutually_exclusive = { focus = BLA_Only_Sphere_Oil }
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_ideas = BLA_Oil_Rival
+		}
+	}
+	
+	focus = {
+		id = BLA_Only_Sphere_Oil
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 14
+		y = 2
+		cost = 5
+		prerequisite = { focus = BLA_Claims_for_Oil }
+		mutually_exclusive = { focus = BLA_Rival_Norway }
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_ideas = BLA_Oil_Sphere
+		}
+	}
+	
+	focus = {
+		id = BLA_Oil_Companies
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 13
+		y = 3
+		cost = 5
+		prerequisite = { focus = BLA_Rival_Norway focus = BLA_Only_Sphere_Oil }
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
 }

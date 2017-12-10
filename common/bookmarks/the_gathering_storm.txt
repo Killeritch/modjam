@@ -91,10 +91,13 @@ bookmarks = {
 			history = "BLA_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-				
+				BLA_RapidExpansion
+				BLA_Nationalism
 			}	
 			focuses = {
-				
+				BLA_Bulgarian_Supremacy
+				BLA_Decentralize_Government
+				BLA_Petrovs_Ambitions
 			}			
 		}
 		
