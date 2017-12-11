@@ -10,8 +10,8 @@ state = {
 	state_category = large_city
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = LUX
+		add_core_of = LUX
 		victory_points = {
 			11407 1
 		}

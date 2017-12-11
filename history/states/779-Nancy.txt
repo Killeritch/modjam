@@ -10,10 +10,10 @@ state = {
 	}
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = ELS
+		add_core_of = ELS
 		
-		add_core_of = TAG
+		add_core_of = ELS
 		
 		buildings = {
 			infrastructure = 7

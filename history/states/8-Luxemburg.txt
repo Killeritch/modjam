@@ -12,9 +12,9 @@ state =
 
 	history=
 	{
-		owner = TAG
-		add_core_of = TAG
-		add_claim_by = TAG
+		owner = LUX
+		add_core_of = LUX
+		add_claim_by = LUX
 		 
 		buildings = {
 			infrastructure = 6

@@ -10,10 +10,10 @@ state = {
 	}
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = ELS
+		add_core_of = ELS
 		
-		add_claim_by = TAG
+		add_claim_by = ELS
 		victory_points = {
 			678 1
 		}

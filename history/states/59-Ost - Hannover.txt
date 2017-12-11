@@ -10,8 +10,8 @@ state = {
 	state_category = metropolis
 
 	history={
-		owner = PRU
-		add_core_of = PRU
+		owner = BRU
+		add_core_of = BRU
 		victory_points = {
 			3326 5
 		}

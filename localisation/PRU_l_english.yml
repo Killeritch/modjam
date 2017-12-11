@@ -1,5 +1,29 @@
 ﻿l_english:
 
+ELS_authoritarian_democrat:0 "Elsass"
+
+LUX_authoritarian_democrat:0 "Luxembourg"
+
+NAS_authoritarian_democrat:0 "Nassau"
+
+OLD_authoritarian_democrat:0 "Oldenburg"
+
+SAR_authoritarian_democrat:0 "Saar"
+
+SAX_authoritarian_democrat:0 "Sachsen"
+
+THR_authoritarian_democrat:0 "Thüringen"
+
+WST_authoritarian_democrat:0 "Westphalia"
+
+BRU_authoritarian_democrat:0 "Brunswick"
+
+WUR_authoritarian_democrat:0 "Wurttemberg"
+
+RHI_authoritarian_democrat:0 "Rhine"
+
+BAV_syndicalist:0 "Bavaria"
+
 PRU_totalist:0 "People's Republic of Prussia"
 PRU_totalist_ADJ:0 "Prussian"
 PRU_totalist_DEF:0 "People's Republic of Prussia"

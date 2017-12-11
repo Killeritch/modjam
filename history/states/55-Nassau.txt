@@ -7,8 +7,8 @@ state = {
 	state_category = large_city
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = NAS
+		add_core_of = NAS
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
