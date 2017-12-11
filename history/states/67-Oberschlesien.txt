@@ -11,8 +11,8 @@ state = {
 	state_category = city
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 6
 		}

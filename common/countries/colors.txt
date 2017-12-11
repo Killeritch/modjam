@@ -1,7 +1,74 @@
-LOL = {
-	color = rgb { 98 23 42 }
-	color_ui = rgb { 255 73 21 }
+SAX = {
+	color = rgb { 121 121 121 }
+	color_ui = rgb { 122 122 122 }
 }
+
+BAV = {
+	color = rgb { 0 128 255 }
+	color_ui = rgb { 0 127 255 }
+}
+
+ESA = {
+	color = rgb { 195 168 54 }
+	color_ui = rgb { 195 168 55 }
+}
+
+NAS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+SAR = {
+	color = rgb { 155 58 50 }
+	color_ui = rgb { 155 58 51 }
+}
+
+THR = {
+	color = rgb { 141 141 141 }
+	color_ui = rgb { 142 142 142 }
+}
+
+WST = {
+	color = rgb { 114 185 103 }
+	color_ui = rgb { 114 185 104 }
+}
+
+WUR = {
+	color = rgb { 129 14 2 }
+	color_ui = rgb { 130 15 2 }
+}
+
+BRU = {
+	color = rgb { 98 56 13 }
+	color_ui = rgb { 98 56 12 }
+}
+
+NAS = {
+	color = rgb { 105 20 188 }
+	color_ui = rgb { 105 20 189 }
+}
+
+LXX = {
+	color = rgb { 0 164 224 }
+	color_ui = rgb { 0 164 225 }
+}
+
+OLD = {
+	color = rgb { 78 72 65 }
+	color_ui = rgb { 79 72 65 }
+}
+
+RHI = {
+	color = rgb { 190 166 105 }
+	color_ui = rgb { 191 165 106 }
+}
+
+PRS = {
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 84 }
+}
+
+######## German Stuff Above
 
 ENG = {
 	color = rgb { 201 56 93 }
@@ -161,7 +228,28 @@ LHS = {
 	color = rgb { 250 218 94 }
 	color_ui = rgb { 250 218 94 }
 }
+
 TRB = {
 	color = rgb { 200 200 20 }
 	color_ui = rgb { 200 200 20 }
+}
+
+NOR = {
+	color = rgb { 70 120 80 }
+	color_ui = rgb { 70 120 80 }
+}
+
+DEN = {
+	color = rgb { 100 150 110 }
+	color_ui = rgb { 100 150 110 }
+}
+
+ICE = {
+	color = rgb { 100 150 110 }
+	color_ui = rgb { 100 150 110 }
+}
+
+TNS = {
+	color = rgb { 250 128 114 }
+	color_ui = rgb { 250 128 114 }
 }

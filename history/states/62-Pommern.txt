@@ -8,8 +8,8 @@ state = {
 	state_category = town
 
 	history={
-		owner = TAG
-		add_core_of = TAG
+		owner = PRS
+		add_core_of = PRS
 			victory_points = {
 			6282 1
 		}
