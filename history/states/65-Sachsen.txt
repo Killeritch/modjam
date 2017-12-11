@@ -11,8 +11,8 @@ state = {
 
 
 	history={
-		owner = SAX
-		add_core_of = SAX
+		owner = TAG
+		add_core_of = TAG
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2

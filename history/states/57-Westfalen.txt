@@ -6,8 +6,8 @@ state = {
 	state_category = large_city
 
 	history={
-		owner = WST
-		add_core_of = WST
+		owner = TAG
+		add_core_of = TAG
 		
 		victory_points = {
 			495 5

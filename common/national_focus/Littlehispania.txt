@@ -1069,28 +1069,5 @@ focus_tree = {
 			}
         }
 	}
-	
-	focus = {
-		id = LHS_theairforce
-		text = LHS_theairforce
-		icon = GFX_focus_LHS_airforce
-		prerequisite = { }
-		available = {
-		}
-		x = 26
-		y = 7
-		cost = 5
-		ai_will_do = {
-			factor = 3
-		}	
-		
-		bypass = {
-		}
-			
-		completion_reward = {
-		air_experience = 20
-		    
-        }
-	}
 }
    

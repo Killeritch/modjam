@@ -12,8 +12,8 @@ state = {
 	state_category = large_city
 
 	history={
-		owner = THR
-		add_core_of = THR
+		owner = TAG
+		add_core_of = TAG
 		victory_points = { 6524 5 }
 		buildings = {
 			infrastructure = 6

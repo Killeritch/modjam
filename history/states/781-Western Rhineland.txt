@@ -11,8 +11,8 @@ state = {
 	state_category = megalopolis
 	
 	history={
-		owner = RHI
-		add_core_of = RHI
+		owner = TAG
+		add_core_of = TAG
 		victory_points = {
 			587 1
 		}

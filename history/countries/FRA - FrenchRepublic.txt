@@ -176,3 +176,139 @@ create_field_marshal = {
 	id = 200
 }
 
+create_field_marshal = {
+	name = "Maurice Gamelin"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Maurice_Gamelin_KR.tga"
+	traits = {
+		defensive_doctrine
+		old_guard
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Jacques Doriot"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Jacques_Doriot.tga"
+	traits = {
+		trait_engineer
+		fortress_buster
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Henri-Roi Tanguy"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Henri_Roi_Tanguy.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Alphonse Georges"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Georges.tga"
+	traits = {
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Joseph Epstein"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Joseph_Epstein.tga"
+	traits = {
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "May Picqueray"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_May_Picqueray.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Missak Manouchian"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Missak_Manouchian.tga"
+	traits = {
+		trickster
+		panzer_leader
+	}
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "Nestor Makhno"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Nestor_Makhno.tga"
+	traits = {
+		winter_specialist
+		commando
+	}
+	skill = 4
+	id = 202
+}
+
+create_corps_commander = {
+	name = "Paul Le Gentilhomme"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Paul_Legentilhomme.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Jean Flavigny"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_Flavigny.tga"
+	traits = {
+		panzer_leader
+		trickster
+	}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Marcel Bucard"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Bucard.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Marcel Garchery"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Garchery.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+### Navy Leader
+
+create_navy_leader = {
+	name = "Marcel Déat"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Deat.tga"
+	traits = {
+		seawolf
+	}
+	skill = 4
+	id = 201
+}
+
+create_navy_leader = {
+	name = "André Marty"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Andre_Marty.tga"
+	traits = {
+	}
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Emile Muselier"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Emile_Muselier.tga"
+	traits = {
+	}
+	skill = 2
+}

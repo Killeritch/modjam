@@ -1,102 +1,138 @@
-﻿capital = 64
+﻿capital = 303
 
-#oob = "PRU_1936"
+oob = "PRU_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
 	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
 	early_fighter = 1
-	fighter1 = 1
+	cv_early_fighter = 1
 	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
 	CAS1 = 1
-	naval_bomber1 = 1
 	early_submarine = 1
-	basic_submarine = 1
 	early_destroyer = 1
-	basic_destroyer = 1
 	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	basic_battleship = 1
-	early_battlecruiser = 1
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
-	synth_oil_experiments = 1
-	transport = 1
 }
+set_country_flag = monroe_doctrine
 
+set_convoys = 5
 
+1939.1.1 = {
 
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "PRU_1939"
+	set_technology = {
+		tactical_bomber1 = 1
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
 
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
 
-set_research_slots = 3
-set_convoys = 200
-set_national_unity = 0.9
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_plant = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 
 set_politics = {
 
 	parties = {
-		totalist = {
-			popularity = 5
+		social_conservative = { 
+			popularity = 49
 		}
-		radical_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 5
-		}
-		social_democrat = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 50
-		}
-		paternal_autocrat = {
-			popularity = 5
-		}
+
 		national_populist = {
-			popularity = 5
+			popularity = 51
+		}
+		
+		totalist = {
+			popularity = 0
+			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
-	last_election = "1932.5.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = national_populist
+	last_election = "1931.10.11"
+	election_frequency = 96
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Karl IIddaddas"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Prussia_Karl.png"
+	name = "Óscar Benavides"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = national_populist_subtype
 	traits = {
+		#
 	}
 }
 
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			social_conservative = { 
+				popularity = 49
+			}
+
+			national_populist = {
+				popularity = 51
+			}
+			
+			totalist = {
+				popularity = 0
+				#banned = no #default is no
+			}
+		}
+		
+		ruling_party = national_populist
+		last_election = "1931.10.11"
+		election_frequency = 96
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Manuel Prado Ugarteche"
+		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = national_populist_subtype
+		traits = {
+			#
+		}
+	}
+}

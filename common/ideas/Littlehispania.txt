@@ -206,26 +206,6 @@ ideas = {
 			}
 
 		}
-		
-				LHS_lackofairforce = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			
-			modifier = {
-			    production_speed_air_base_factor = -1
-				experience_gain_air_factor = -1
-			}
-
-		}
 	
 	}
 	

@@ -1,102 +1,130 @@
 ﻿capital = 8
 
-#oob = "LXX_1936"
+oob = "LUX_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_recon = 1
+	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
 	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	basic_battleship = 1
-	early_battlecruiser = 1
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
-	synth_oil_experiments = 1
-	transport = 1
 }
 
+1939.1.1 = {
 
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "LUX_1939"
+	set_technology = {
+		tech_recon = 1
+		fighter1 = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		
+		#doctrines
+		air_superiority = 1
+		
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
 
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
 
-
-set_research_slots = 3
-set_convoys = 200
-set_national_unity = 0.9
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_plant = 1
+		construction1 = 1
+		construction2 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+	}
+}
 
 set_politics = {
 
 	parties = {
-		totalist = {
-			popularity = 5
+		social_conservative = { 
+			popularity = 92
 		}
-		radical_socialist = {
-			popularity = 5
-		}
-		syndicalist = {
-			popularity = 50
-		}
-		social_democrat = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
-		}
-		market_liberal = {
-			popularity = 10
-		}
-		social_conservative = {
-			popularity = 5
-		}
-		authoritarian_democrat = {
-			popularity = 50
-		}
-		paternal_autocrat = {
-			popularity = 5
-		}
+
 		national_populist = {
+			popularity = 3
+		}
+		
+		totalist = {
 			popularity = 5
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
-	last_election = "1932.5.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = social_conservative
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Phalian West"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Prussia_Kar.png"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			social_conservative = { 
+				popularity = 92
+			}
+
+			national_populist = {
+				popularity = 3
+			}
+			
+			totalist = {
+				popularity = 5
+			}
+		}
+		
+		ruling_party = social_conservative
+		last_election = "1937.6.6"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Pierre Dupong"
+		desc = "POLITICS_PIERRE_DUPONG_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+		expire = "1965.1.1"
+		ideology = social_conservative_subtype
+		traits = {
+			#
+		}
 	}
 }
-
+#Pierre Dupong from 37
+create_country_leader = {
+	name = "Joseph Bech"
+	desc = "POLITICS_JOSEPH_BECH_DESC"
+	picture = "GFX_portrait_luxembourg_joseph_bech"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

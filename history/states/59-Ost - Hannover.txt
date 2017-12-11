@@ -10,8 +10,8 @@ state = {
 	state_category = metropolis
 
 	history={
-		owner = BRU
-		add_core_of = BRU
+		owner = TAG
+		add_core_of = TAG
 		victory_points = {
 			3326 5
 		}

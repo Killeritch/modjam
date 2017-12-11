@@ -11,8 +11,8 @@ state = {
 	state_category = city
 
 	history={
-		owner = SAR
-		add_core_of = SAR
+		owner = TAG
+		add_core_of = TAG
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3

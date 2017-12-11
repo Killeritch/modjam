@@ -10,12 +10,12 @@ state = {
 	state_category = large_city
 
 	history={
-		owner = PRS
+		owner = TAG
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = PRS
+		add_core_of = TAG
 	}
 
 	provinces={
