@@ -185,3 +185,7 @@
  LHS_modernizecruisers_desc:0 "Let us improve the quality of our cruisers by modernizing them."
  LHS_modernizecapitalships:0 "Modernize Our Capital Ships"
  LHS_modernizecapitalships_desc:0 "We should improve our capital ships by modernizing them."
+ LHS_theairforce:0 "Our Airforce"
+ LHS_theairforce_desc:0 "Little Hispania has neglected the air since its independence, we should try to finally establish an airforce for our nation."
+ LHS_lackofairforce:0 "Nonexistent Airforce"
+ LHS_lackofairforce_desc:0 "The airforce of Little Hispania is non existant."
