@@ -1,6 +1,6 @@
-﻿capital = 59
+﻿capital = 8
 
-#oob = "BRU_1936"
+#oob = "LXX_1936"
 
 # Starting tech
 set_technology = {

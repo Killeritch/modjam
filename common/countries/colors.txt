@@ -8,7 +8,7 @@ BAV = {
 	color_ui = rgb { 0 127 255 }
 }
 
-ELS = {
+ESA = {
 	color = rgb { 195 168 54 }
 	color_ui = rgb { 195 168 55 }
 }
@@ -48,7 +48,7 @@ NAS = {
 	color_ui = rgb { 105 20 189 }
 }
 
-LUX = {
+LXX = {
 	color = rgb { 0 164 224 }
 	color_ui = rgb { 0 164 225 }
 }

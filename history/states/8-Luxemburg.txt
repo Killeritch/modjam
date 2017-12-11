@@ -12,9 +12,9 @@ state =
 
 	history=
 	{
-		owner = LUX
-		add_core_of = LUX
-		add_claim_by = LUX
+		owner = LXX
+		add_core_of = LXX
+		add_claim_by = LXX
 		 
 		buildings = {
 			infrastructure = 6
