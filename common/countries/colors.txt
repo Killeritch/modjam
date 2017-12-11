@@ -1,7 +1,12 @@
-LOL = {
-	color = rgb { 98 23 42 }
-	color_ui = rgb { 255 73 21 }
+
+
+
+PRU = {
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 84 }
 }
+
+######## German Stuff Above
 
 ENG = {
 	color = rgb { 201 56 93 }
