@@ -1,0 +1,30 @@
+state = {
+	id=85
+	name="STATE_85"
+	manpower = 256403
+	
+	state_category = city
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = POL
+		victory_points = {
+			362 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			
+			362 = {
+				naval_base = 5
+			}
+		}
+		
+	}
+
+	provinces={
+		362
+	}
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id=978
+	name="STATE_978" #Cardiff
+
+	history={
+		owner = WLS
+		buildings={
+			infrastructure=4
+			377 = { #Base game has three naval bases here in Cardiff
+				naval_base = 3
+			}
+		}
+		add_core_of = WLS
+		victory_points = { 377 10 }
+	}
+
+	provinces={
+		377
+	}
+	manpower=247270
+	state_category=town
+}

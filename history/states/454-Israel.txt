@@ -1,0 +1,28 @@
+
+state = {
+	id=454
+	name="STATE_454"
+	manpower = 933142
+	
+	state_category = rural
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			4206 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1086 5
+		}
+
+	}
+
+	provinces={
+		1015 1065 1086 1201 4088 4206 7107 7176 11970
+	}
+}

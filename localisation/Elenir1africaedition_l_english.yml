@@ -1,0 +1,62 @@
+﻿l_english:
+
+                     
+ ########Free Tunisia########
+ 
+ ########Politics########
+ 
+ TNS_totalist:0 "Tunisia"
+ TNS_totalist_ADJ:0 "Tunisian"
+ TNS_totalist_DEF:0 "Tunisia"
+ TNS_syndicalist:0 "Tunisia"
+ TNS_syndicalist_ADJ:0 "Tunisian"
+ TNS_syndicalist_DEF:0 "Tunisia"
+ TNS_radical_socialist:0 "Tunisia"
+ TNS_radical_socialist_ADJ:0 "Tunisian"
+ TNS_radical_socialist_DEF:0 "Tunisia"
+ TNS_social_democrat:0 "Tunisia"
+ TNS_social_democrat_ADJ:0 "Tunisian"
+ TNS_social_democrat_DEF:0 "Tunisia"
+ TNS_social_liberal:0 "Tunisia"
+ TNS_social_liberal_ADJ:0 "Tunisian"
+ TNS_social_liberal_DEF:0 "Tunisia"
+ TNS_market_liberal:0 "Tunisia"
+ TNS_market_liberal_ADJ:0 "Tunisian"
+ TNS_market_liberal_DEF:0 "Tunisia"
+ TNS_social_conservative:0 "Tunisia"
+ TNS_social_conservative_ADJ:0 "Tunisian"
+ TNS_social_conservative_DEF:0 "Tunisia"
+ TNS_authoritarian_democrat:0 "Tunisia"
+ TNS_authoritarian_democrat_ADJ:0 "Tunisian"
+ TNS_authoritarian_democrat_DEF:0 "Tunisia"
+ TNS_paternal_autocrat:0 "Tunisia"
+ TNS_paternal_autocrat_ADJ:0 "Tunisian"
+ TNS_paternal_autocrat_DEF:0 "Tunisia"
+ TNS_national_populist:0 "Tunisia"
+ TNS_national_populist_ADJ:0 "Tunisian"
+ TNS_national_populist_DEF:0 "Tunisia"
+
+
+ TNS_authoritarian_democrat_party:0 "Royalist"
+ TNS_authoritarian_democrat_party_long:0 "Royalist"
+ 
+ ########Advisorsandsuch########
+
+ TNS_AymenMathlouthi:0 "Aymen Mathlouthi"
+ TNS_MarouaMathlouthi:0 "Maroua Mathlouthi"
+ TNS_amir_al_illah:0 "Amir Al Illah"
+ TNS_fawsi_al_kaukji:0 "Fawsi Al Kaukji"
+ TNS_IssamTej:0 "Issam Tej"
+ TNS_khaled_al_dalabeeh:0 "Khaled Al Dalabeeh"
+ TNS_AliZitouni:0 "Ali Zitouni"
+ TNS_jamil_al_midfai:0 "Jamil Al Midfai"
+ TNS_hamdi_al_pachachi:0 "Hamdi Al Pachachi"
+ TNS_ali_mahmud_al_shaykh:0 "Ali Mahmud Al Shaykh"
+ TNS_fahmi_said:0 "Fahmi Said"
+ TNS_bakr_sidqi:0 "Bakr Sidqi"
+ TNS_taha_al_ahmani:0 "Taha Al Ahmani"
+ TNS_mustafa_al_quidsi:0 "Mistafa Al Quidsi"
+ TNS_RachidMeddeb:0 "Rachid Meddeb"
+ TNS_OussamaSellami:0 "Oussama Sellami"
+ 
+ ########Ideasandfocustree########

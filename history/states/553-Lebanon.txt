@@ -1,0 +1,28 @@
+
+state = {
+	id=553
+	name="STATE_553"
+	manpower = 1024000
+	
+	state_category = town
+
+	history={
+		owner = PHO
+		add_core_of = PHO
+		victory_points = {
+			792 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			792 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		792 1108 11919
+	}
+}

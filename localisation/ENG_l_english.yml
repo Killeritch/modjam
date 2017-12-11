@@ -1,0 +1,309 @@
+﻿l_english:
+
+england.1.t:0 "One Step Towards Success!"
+england.1.d:0 "We have placed our friends to govern the realm, perhaps together we can create a new era."
+england.1.a:0 "Together my friends!"
+
+england.3.t:0 "Remove Blackshirt influence."
+england.3.d:0 "The British Union of Fascists have been a constant concern in our politics, much of government are blackshirt sympathizers and we fear a coup."
+england.3.a:0 "We are committed."
+
+england.99.t:0 "Blackshirt Exiles."
+england.99.d:0 "General Campbell, the shadow dictator of England has banished the street-army of the British Union of Fascists - the Blackshirts, we can accept them to bolster our position, but ruin relations with the dictatorship, or politically move them on to our neighbors."
+england.99.a:0 "Integrate them."
+england.99.b:0 "We cannot risk the controversy, move them along."
+
+england.5.t:0 "Ban radical socialism!"
+england.5.d:0 "Various radical socialist organizations have caused a lot of industrial damage, as well as creating worker discontent, we cannot reform our nation with their revolutionary ideas poisoning the people."
+england.5.a:0 "Take them out!"
+
+england.999.t:0 "Banished Leftists."
+england.999.d:0 "General Campbell under advisement from Sir Oswald Mosley has banished radical leftist movements in England, some of these political refugees have arrived on our border asking for asylum, taking them in risks diplomatic relations."
+england.999.a:0 "Welcome them."
+england.999.b:0 "They have no place in our society either."
+
+england.1488.t:0 "Military Police Arrive At The Mosley Residence.."
+england.1488.d:0 "Sir Oswald Mosley has escaped! Our police arrived at an empty house with all Blackshirt documents burned or missing!"
+england.1488.a:0 "Damn! Where is he?"
+
+england.1489.t:0 "An Escorted Convoy.."
+england.1489.d:0 "Escorted by our naval forces a large flotilla docks at Sevastopol, it appears that the English Dictator attempted to imprison all members of the British Union of Fascists, Sir Oswald Mosley, its leader; fled Britain, knowing the details and plans from his supporters in government. A significant percentage of the British Armed Forces, and Loyalist politicians have now come to Ukraine, hoping to foster a government in-exile."
+england.1489.a:0 "Free warships? Free soldiers? Of course!"
+
+navaltreaty.4.t:0 "Diplomats from Hispania."
+navaltreaty.4.d:0 "We have been approached by an offer from 'Little' Hispania, they have a need for warships, and we have a need for technological recovery, the trade is simple, some of our mothballed fleet for Hispanic Advisors. Though we'll be keeping out battleships for our eventual rise to power.."
+navaltreaty.4.a:0 "The deal is signed!"
+navaltreaty.4.b:0 "We will not help a potential rival."
+
+england.77.t:0 "We march into Scotland!"
+england.77.d:0 "Almost all of Scotland has been annexed, however radical Scottish Internationalists have fled to the Shetlands, and Hebridges; declaring a 'Free Alba'. We will come back once we've quelled the new provinces."
+england.77.a:0 "Not worth our time.. Yet" 
+
+freealba.1.t:0 "Resist the English!"
+freealba.1.d:0 "The English have decided to attack our proud nation, our forces are prepared to fight to the last, internationalism shall not fall!"
+freealba.1.a:0 "Freedom from the Imperialists!"
+
+##############################
+# ENG Parties 
+##############################
+ ENG_totalist_party:0 "Totalists"
+ ENG_totalist_party_long:0 "English Totalist Union"
+ ENG_radical_socialist_party:0 "Anarchists"
+ ENG_radical_socialist_party_long:0 "Anarchists"
+ ENG_syndicalist_party:0 "Syndicalists"
+ ENG_syndicalist_party_long:0 "Syndicalists"
+ ENG_social_democrat_party:0 "Labour Party"
+ ENG_social_democrat_party_long:0 "English Labour Party"
+ ENG_social_liberal_party:0 "Liberal Democrats"
+ ENG_social_liberal_party_long:0 "Liberal Democrats"
+ ENG_market_liberal_party:0 "Libertarian Party"
+ ENG_market_liberal_party_long:0 "Libertarian Party"
+ ENG_social_conservative_party:0 "Conservatives"
+ ENG_social_conservative_party_long:0 "English Restoration Party"
+ ENG_authoritarian_democrat_party:0 "Union Party"
+ ENG_authoritarian_democrat_party_long:0 "British Unionist Party"
+ ENG_paternal_autocrat_party:0 "Blackshirts"
+ ENG_paternal_autocrat_party_long:0 "British Union of Fascists"
+ ENG_national_populist_party:0 "Anglican League"
+ ENG_national_populist_party_long:0 "Coalition of Conservative Anglican Bishops"
+
+##################################
+# Country Names
+##################################
+ ENG_totalist:0 "England"
+ ENG_totalist_ADJ:0 "English"
+ ENG_totalist_DEF:0 "England"
+ ENG_syndicalist:0 "England"
+ ENG_syndicalist_ADJ:0 "English"
+ ENG_syndicalist_DEF:0 "England"
+ ENG_radical_socialist:0 "England"
+ ENG_radical_socialist_ADJ:0 "English"
+ ENG_radical_socialist_DEF:0 "England"
+ ENG_social_democrat:0 "English Kingdom"
+ ENG_social_democrat_ADJ:0 "English"
+ ENG_social_democrat_DEF:0 "English Kingdom"
+ ENG_social_liberal:0 "English Kingdom"
+ ENG_social_liberal_ADJ:0 "English"
+ ENG_social_liberal_DEF:0 "English Kingdom"
+ ENG_market_liberal:0 "English Kingdom"
+ ENG_market_liberal_ADJ:0 "English"
+ ENG_market_liberal_DEF:0 "English Kingdom"
+ ENG_social_conservative:0 "English Empire"
+ ENG_social_conservative_ADJ:0 "England"
+ ENG_social_conservative_DEF:0 "English Empire"
+ ENG_authoritarian_democrat:0 "United Kingdom"
+ ENG_authoritarian_democrat_ADJ:0 "English"
+ ENG_authoritarian_democrat_DEF:0 "United Kingdom"
+ ENG_paternal_autocrat:0 "Empire Loyalists"
+ ENG_paternal_autocrat_ADJ:0 "English"
+ ENG_paternal_autocrat_DEF:0 "Empire Loyalists"
+ ENG_national_populist:0 "Absolute Authority"
+ ENG_national_populist_ADJ:0 "Anglican"
+ ENG_national_populist_DEF:0 "Absolute Authority"
+##################################
+# Leaders
+##################################
+ ENG_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
+ ENG_Mosley_desc:0 "A misunderstood radical no longer, many turn to his economic reforms with hope; many more can envision a restored Empire. Will he lead England to greater heights and greater glories?"
+
+##############################
+# Ireland
+##############################
+ IRL_totalist_party:0 "Totalists"
+ IRL_totalist_party_long:0 "Irish Totalist Union"
+ IRL_radical_socialist_party:0 "Anarchists"
+ IRL_radical_socialist_party_long:0 "Anarchists"
+ IRL_syndicalist_party:0 "Syndicalists"
+ IRL_syndicalist_party_long:0 "Syndicalists"
+ IRL_social_democrat_party:0 "Labour Party"
+ IRL_social_democrat_party_long:0 "Irish Labour Party"
+ IRL_social_liberal_party:0 "Liberal Democrats"
+ IRL_social_liberal_party_long:0 "Liberal Democrats"
+ IRL_market_liberal_party:0 "Libertarian Party"
+ IRL_market_liberal_party_long:0 "Libertarian Party"
+ IRL_social_conservative_party:0 "Conservatives"
+ IRL_social_conservative_party_long:0 "Irish Restoration Party"
+ IRL_authoritarian_democrat_party:0 "Union Party"
+ IRL_authoritarian_democrat_party_long:0 "British Unionist Party"
+ IRL_paternal_autocrat_party:0 "Blackshirts"
+ IRL_paternal_autocrat_party_long:0 "British Union of Fascists"
+ IRL_national_populist_party:0 "Anglican League"
+ IRL_national_populist_party_long:0 "Coalition of Conservative Anglican Bishops"
+
+##################################
+# Country Names
+##################################
+ IRL_totalist:0 "Ireland"
+ IRL_totalist_ADJ:0 "Irish"
+ IRL_totalist_DEF:0 "Ireland"
+ IRL_syndicalist:0 "Ireland"
+ IRL_syndicalist_ADJ:0 "Irish"
+ IRL_syndicalist_DEF:0 "Ireland"
+ IRL_radical_socialist:0 "Ireland"
+ IRL_radical_socialist_ADJ:0 "Irish"
+ IRL_radical_socialist_DEF:0 "Ireland"
+ IRL_social_democrat:0 "Irish Kingdom"
+ IRL_social_democrat_ADJ:0 "Irish"
+ IRL_social_democrat_DEF:0 "Irish Kingdom"
+ IRL_social_liberal:0 "Irish Kingdom"
+ IRL_social_liberal_ADJ:0 "Irish"
+ IRL_social_liberal_DEF:0 "Irish Kingdom"
+ IRL_market_liberal:0 "Irish Kingdom"
+ IRL_market_liberal_ADJ:0 "Irish"
+ IRL_market_liberal_DEF:0 "Irish Kingdom"
+ IRL_social_conservative:0 "Irish Protectorate"
+ IRL_social_conservative_ADJ:0 "Ireland"
+ IRL_social_conservative_DEF:0 "Irish Protectorate"
+ IRL_authoritarian_democrat:0 "United Kingdom"
+ IRL_authoritarian_democrat_ADJ:0 "Irish"
+ IRL_authoritarian_democrat_DEF:0 "United Kingdom"
+ IRL_paternal_autocrat:0 "Empire Loyalists"
+ IRL_paternal_autocrat_ADJ:0 "Irish"
+ IRL_paternal_autocrat_DEF:0 "Empire Loyalists"
+ IRL_national_populist:0 "Absolute Authority"
+ IRL_national_populist_ADJ:0 "Anglican"
+ IRL_national_populist_DEF:0 "Absolute Authority"
+##################################
+# Leaders
+##################################
+ IRL_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
+ IRL_Mosley_desc:0 "A misunderstood radical no longer, many turn to his economic reforms with hope; many more can envision a restored Empire. Will he lead England to greater heights and greater glories?"
+
+##############################
+# Wales.
+##############################
+WLS_totalist_party:0 "Totalists"
+WLS_totalist_party_long:0 "Welsh Totalist Union"
+WLS_radical_socialist_party:0 "Anarchists"
+WLS_radical_socialist_party_long:0 "Anarchists"
+WLS_syndicalist_party:0 "Syndicalists"
+WLS_syndicalist_party_long:0 "Syndicalists"
+WLS_social_democrat_party:0 "Labour Party"
+WLS_social_democrat_party_long:0 "Welsh Labour Party"
+WLS_social_liberal_party:0 "Liberal Democrats"
+WLS_social_liberal_party_long:0 "Liberal Democrats"
+WLS_market_liberal_party:0 "Libertarian Party"
+WLS_market_liberal_party_long:0 "Libertarian Party"
+WLS_social_conservative_party:0 "Conservatives"
+WLS_social_conservative_party_long:0 "Welsh Restoration Party"
+WLS_authoritarian_democrat_party:0 "Union Party"
+WLS_authoritarian_democrat_party_long:0 "British Unionist Party"
+WLS_paternal_autocrat_party:0 "Blackshirts"
+WLS_paternal_autocrat_party_long:0 "British Union of Fascists"
+WLS_national_populist_party:0 "Anglican League"
+WLS_national_populist_party_long:0 "Coalition of Conservative Anglican Bishops"
+
+##################################
+# Country Names
+##################################
+WLS_totalist:0 "Wales"
+WLS_totalist_ADJ:0 "Welsh"
+WLS_totalist_DEF:0 "Wales"
+WLS_syndicalist:0 "Wales"
+WLS_syndicalist_ADJ:0 "Welsh"
+WLS_syndicalist_DEF:0 "Wales"
+WLS_radical_socialist:0 "Wales"
+WLS_radical_socialist_ADJ:0 "Welsh"
+WLS_radical_socialist_DEF:0 "Wales"
+WLS_social_democrat:0 "Welsh Kingdom"
+WLS_social_democrat_ADJ:0 "Welsh"
+WLS_social_democrat_DEF:0 "Welsh Kingdom"
+WLS_social_liberal:0 "Welsh Kingdom"
+WLS_social_liberal_ADJ:0 "Welsh"
+WLS_social_liberal_DEF:0 "Welsh Kingdom"
+WLS_market_liberal:0 "Welsh Kingdom"
+WLS_market_liberal_ADJ:0 "Welsh"
+WLS_market_liberal_DEF:0 "Welsh Kingdom"
+WLS_social_conservative:0 "Welsh Protectorate"
+WLS_social_conservative_ADJ:0 "Wales"
+WLS_social_conservative_DEF:0 "Welsh Protectorate"
+WLS_authoritarian_democrat:0 "United Kingdom"
+WLS_authoritarian_democrat_ADJ:0 "Welsh"
+WLS_authoritarian_democrat_DEF:0 "United Kingdom"
+WLS_paternal_autocrat:0 "Empire Loyalists"
+WLS_paternal_autocrat_ADJ:0 "Welsh"
+WLS_paternal_autocrat_DEF:0 "Empire Loyalists"
+WLS_national_populist:0 "Absolute Authority"
+WLS_national_populist_ADJ:0 "Anglican"
+WLS_national_populist_DEF:0 "Absolute Authority"
+##################################
+# Leaders
+##################################
+WLS_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
+ WLS_Mosley_desc:0 "A misunderstood radical no longer, many turn to his economic reforms with hope; many more can envision a restored Empire. Will he lead England to greater heights and greater glories?"
+
+##############################
+# Scotland
+##############################
+ STL_totalist_party:0 "Internationalists"
+ STL_totalist_party_long:0 "Scottish Internationalist Union"
+ STL_radical_socialist_party:0 "Anarchists"
+ STL_radical_socialist_party_long:0 "Anarchists"
+ STL_syndicalist_party:0 "Syndicalists"
+ STL_syndicalist_party_long:0 "Syndicalists"
+ STL_social_democrat_party:0 "Labour Party"
+ STL_social_democrat_party_long:0 "Scottish Labour Party"
+ STL_social_liberal_party:0 "Liberal Democrats"
+ STL_social_liberal_party_long:0 "Liberal Democrats"
+ STL_market_liberal_party:0 "Libertarian Party"
+ STL_market_liberal_party_long:0 "Libertarian Party"
+ STL_social_conservative_party:0 "Conservatives"
+ STL_social_conservative_party_long:0 "Scottish Restoration Party"
+ STL_authoritarian_democrat_party:0 "Union Party"
+ STL_authoritarian_democrat_party_long:0 "British Unionist Party"
+ STL_paternal_autocrat_party:0 "Blackshirts"
+ STL_paternal_autocrat_party_long:0 "British Union of Fascists"
+ STL_national_populist_party:0 "Anglican League"
+ STL_national_populist_party_long:0 "Coalition of Conservative Anglican Bishops"
+
+##################################
+# Country Names
+##################################
+ STL_totalist:0 "Free Alba"
+ STL_totalist_ADJ:0 "Albannaich"
+ STL_totalist_DEF:0 "Free Alba"
+ STL_syndicalist:0 "Scotland"
+ STL_syndicalist_ADJ:0 "Scottish"
+ STL_syndicalist_DEF:0 "Scotland"
+ STL_radical_socialist:0 "Scotland"
+ STL_radical_socialist_ADJ:0 "Scottish"
+ STL_radical_socialist_DEF:0 "Scotland"
+ STL_social_democrat:0 "Scottish Kingdom"
+ STL_social_democrat_ADJ:0 "Scottish"
+ STL_social_democrat_DEF:0 "Scottish Kingdom"
+ STL_social_liberal:0 "Scottish Kingdom"
+ STL_social_liberal_ADJ:0 "Scottish"
+ STL_social_liberal_DEF:0 "Scottish Kingdom"
+ STL_market_liberal:0 "Scottish Kingdom"
+ STL_market_liberal_ADJ:0 "Scottish"
+ STL_market_liberal_DEF:0 "Scottish Kingdom"
+ STL_social_conservative:0 "Scottish Protectorate"
+ STL_social_conservative_ADJ:0 "Scotland"
+ STL_social_conservative_DEF:0 "Scottish Protectorate"
+ STL_authoritarian_democrat:0 "United Kingdom"
+ STL_authoritarian_democrat_ADJ:0 "Scottish"
+ STL_authoritarian_democrat_DEF:0 "United Kingdom"
+ STL_paternal_autocrat:0 "Empire Loyalists"
+ STL_paternal_autocrat_ADJ:0 "Scottish"
+ STL_paternal_autocrat_DEF:0 "Empire Loyalists"
+ STL_national_populist:0 "Absolute Authority"
+ STL_national_populist_ADJ:0 "Anglican"
+ STL_national_populist_DEF:0 "Absolute Authority"
+##################################
+# Leaders
+##################################
+ STL_Campbell_desc:0 "A popular WW1 Officer, General Campbell used his influence in post inter-war England to unite the conservatives. A strong man, but has proven largely uneffective to halt the decline of England".
+ WLS_Mosley_desc:0 "A misunderstood radical no longer, many turn to his economic reforms with hope; many more can envision a restored Empire. Will he lead England to greater heights and greater glories?"
+##################################
+# National Spirits and Politics Localization
+##################################
+mothballed_navy:0 "Mothballed Navy"
+mothballed_navy_desc:0 "The remnants of our Royal Navy, laying in a derelict state across various dry-docks across Britain"
+disgraced_military:0 "Disgraced Military"
+disgraced_military_desc:0 "Much of our officer cadre defected or lies dead on forgotten fields. Likewise our standards are captured and our arms disgarded. Most of our standing professional army are walking wounded"
+broken_nation:0 "Broken Nation"
+broken_nation_desc:0 "Workers strike often and the people demand reform"
+brightest_minds_dead:0 "Our Fallen Youth"
+brightest_minds_dead_desc:0 "We conscripted our finest to fight and die in the trenches, our nation's future inventions are buried among the bones".
+blackshirt_labour_union_reform:0 "Blackshirt Unions"
+blackshirt_labour_union_reform_desc:0 "Leftists have used trade unions to foster anti-Imperial sentiment, the workers stand behind Mosley!"

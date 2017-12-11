@@ -1,0 +1,27 @@
+
+state = {
+	id=110
+	name="STATE_110" #Ostlandet, Not including Oslo & Telemark-Buskerud
+	manpower = 601000
+	
+	state_category = large_town
+	
+	resources={
+		tungsten = 1
+	}
+
+	history={
+		
+		owner = NOR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		10 27 111 133 144 179 3007 3021 3105 3136 6042 6114 6136 6160 9032 9103 9135 9157 9204 9227 11028 11037 11078 11113 11135 11151 11206
+	}
+}

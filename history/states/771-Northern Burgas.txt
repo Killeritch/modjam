@@ -1,0 +1,28 @@
+
+state = {
+	id=771
+	name="STATE_771"
+	manpower = 515499
+
+
+	state_category = town
+
+	history={
+		owner = BLA
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 2
+			9783 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = BLA
+	}
+
+	provinces={
+	9769 649 9783 9612	
+	}
+}

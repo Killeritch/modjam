@@ -1,0 +1,29 @@
+state = {
+	id=122
+	name="STATE_122" #Menevia; Middle Wales
+	manpower = 1032730
+	
+	state_category = rural
+	
+	resources={
+
+	}
+
+	history=
+	{
+		owner = WLS
+		add_core_of = WLS
+		buildings = {
+			infrastructure = 4
+			
+		}
+		victory_points = {
+			3274 5
+		}
+	}
+
+	provinces=
+	{
+		253 407 11361 3274
+	}
+}

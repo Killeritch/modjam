@@ -1,0 +1,26 @@
+state = {
+	id=819
+	name="STATE_819"
+	manpower = 682741
+	
+	state_category = rural
+	
+	resources={
+		oil=10
+	}
+
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 3
+		}
+
+		add_core_of = TAG
+		 
+	}
+	
+	provinces={
+		3916 5014 6826 8123 10793 10811
+	}
+}

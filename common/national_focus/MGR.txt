@@ -1,0 +1,553 @@
+###########################
+# Greece Focus Tree
+###########################
+
+focus_tree = {
+	id = greece_minor_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+				tag = MGR
+				tag = GRM
+				tag = PHO
+			}
+		}
+	}
+
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1750 }
+	
+	### GREEK MINORS /*
+	## Tree /*
+	# Build a Government
+	focus = {
+		id = MGR_build_government
+		icon = GFX_goal_generic_support_democracy
+		x = 3
+		y = 0
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GRE_loyalty_25
+			hidden_effect = {
+			}
+		}
+	}	
+	## */
+	## Building Government /*
+	# Build a Government
+	focus = {
+		id = MGR_build_government_1
+		icon = GFX_goal_generic_support_democracy
+		prerequisite = { focus = MGR_build_government }
+		x = 1
+		y = 1
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = GRE_loyalty_25 
+				add_idea = GRE_loyalty_25_1
+			}
+			hidden_effect = {
+			}
+		}
+	}	
+	# Build a Government
+	focus = {
+		id = MGR_build_government_2
+		icon = GFX_goal_generic_support_democracy
+		prerequisite = { focus = MGR_build_government_1 }
+		x = 1
+		y = 2
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = GRE_loyalty_25_1 
+				add_idea = GRE_loyalty_25_2
+			}
+			hidden_effect = {
+			}
+		}
+	}	
+	# Build a Government
+	focus = {
+		id = MGR_build_government_3
+		icon = GFX_goal_generic_support_democracy
+		prerequisite = { focus = MGR_build_government_2 }
+		x = 1
+		y = 3
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = GRE_loyalty_25_2
+				add_idea = GRE_loyalty_25_3
+			}
+			OVERLORD = { add_political_power = 300 }
+			hidden_effect = {
+			}
+		}
+	}	
+	## */
+	## Factory Development /*
+	# Civilian Development
+	focus = {
+		id = MGR_civilian_development
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = MGR_build_government }
+		x = 3
+		y = 1
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+			}
+		}
+	}
+	# Civilian Development 2
+	focus = {
+		id = MGR_civilian_development_1
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = MGR_civilian_development }
+		x = 3
+		y = 2
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+			}
+		}
+	}
+	# Military Development
+	focus = {
+		id = MGR_military_development
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = MGR_civilian_development_1 }
+		x = 3
+		y = 3
+		cost = 10
+		available = {
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}	
+	## */
+	## Factory Development /*
+	# Infrastructure Development
+	focus = {
+		id = MGR_infrastructure_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = MGR_build_government }
+		x = 5
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	# Infrastructure Development
+	focus = {
+		id = MGR_infrastructure_effort_1
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = MGR_infrastructure_effort }
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	## */
+	### */
+}

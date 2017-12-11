@@ -1,0 +1,76 @@
+ideas = {
+	
+	country = {
+		mothballed_navy = {
+			
+			picture = generic_navy_bonus
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			modifier = {
+				production_speed_dockyard_factor = -10.0
+				industrial_capacity_dockyard = -10.0
+			}
+		}
+	
+		disgraced_military = {
+			
+			picture = generic_victors_of_ww1
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			modifier = {
+				experience_gain_army = -0.05 
+				mobilization_laws_cost_factor = 1 
+				training_time_factor = 0.1 
+			}
+		}
+		broken_nation = {
+
+			picture = FRA_factory_strikes
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.5
+				equipment_conversion_speed = -0.1
+				industrial_capacity_factory = -0.4 
+			}
+		}
+		brightest_minds_dead = {
+			
+			picture = ENG_the_war_to_end_all_wars
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			modifier = {
+				research_time_factor = 0.5 
+				encryption_factor = -0.2 
+				decryption_factor = -0.2 
+			}
+		}
+		blackshirt_labour_union_reform = {
+			
+			allowed = {
+				original_tag = ENG
+			}
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				enemy_partisan_effect = -0.05
+				totalist_drift = -0.10
+				syndicalist_drift = -0.10
+				radical_socialist_drift = -0.10
+			}
+		}
+	}
+}

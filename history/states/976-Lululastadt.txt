@@ -1,0 +1,22 @@
+
+state = {
+	id=976
+	name="STATE_976"
+
+	history={
+		owner = TAG
+		buildings={
+			infrastructure=3
+		}
+		victory_points={
+		    2024 2
+	    }
+	}
+
+	provinces={
+		1731 2024 7716 9986 10858
+	}
+	manpower=1007750
+	buildings_max_level_factor=1
+	state_category=pastoral
+}

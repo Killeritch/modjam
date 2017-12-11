@@ -1,0 +1,27 @@
+state = {
+	id=773
+	name="STATE_773"
+	manpower = 741148	
+	state_category = large_city
+
+	history= {
+		owner = GTU
+		victory_points = {
+			9833 30
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 3
+			air_base = 4
+			9833 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = GTU
+	}
+	provinces=
+	{
+		9833	}
+}

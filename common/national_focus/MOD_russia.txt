@@ -1,0 +1,91 @@
+focus_tree = {
+	id = russia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	focus = {
+		id = RUS_coalition
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		mutually_exclusive = {
+			focus = RUS_minority
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_hung_duma
+				add_idea = RUS_coalition_negotiations
+			}
+		}
+		x = 2
+		y = 0
+
+	}
+	focus = {
+		id = RUS_minority
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = RUS_coalition
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_hung_duma
+				add_idea = RUS_minority_government
+			}
+		}
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = RUS_bolshevik_deal
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5
+		prerequisite = {
+			focus = RUS_coalition
+		}
+		available = {
+			has_country_flag = RUS_bolshevik_coalition
+		}
+		mutually_exclusive = {
+			focus = RUS_monarchist_deal
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_coalition_negotiations
+				add_idea = RUS_bolshevik_coalition
+			}
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = RUS_monarchist_deal
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5
+		prerequisite = {
+			focus = RUS_coalition
+		}
+		available = {
+			has_country_flag = RUS_tsarist_coalition
+		}
+		mutually_exclusive = {
+			focus = RUS_bolshevik_deal
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_coalition_negotiations
+				add_idea = RUS_tsarist_coalition
+			}
+		}
+		x = 2
+		y = 1
+
+	}
+}

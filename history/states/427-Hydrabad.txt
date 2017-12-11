@@ -1,0 +1,31 @@
+state = {
+	id=427
+	name="STATE_427" #Hyderabad
+	manpower = 9757900
+	
+	state_category = city
+	
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_claim_by = TAG
+		add_claim_by = TAG
+		victory_points = { 4883 1 } #Nagpur
+		victory_points = { 8087 10 } #Hyderabad
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			arms_factory = 4
+		}
+
+	}
+
+	provinces={
+		1275 1317 1359 4280 4472 5063 5104 8087 10324 11950 12114 12226
+	}
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id=766
+	name="STATE_766"
+	manpower = 298965
+
+	
+	state_category = town
+	
+	history={
+		owner = BLA
+		add_core_of = BLA
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 3
+		}
+	
+	}
+
+	provinces={
+	914 3448 6900
+	}
+}

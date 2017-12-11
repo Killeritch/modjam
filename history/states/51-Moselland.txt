@@ -1,0 +1,38 @@
+
+state = {
+	id=51
+	name="STATE_51"
+	manpower = 3458612
+	resources={
+		steel=40
+	}
+
+
+	state_category = metropolis
+	
+	history={
+		owner = TAG
+		add_core_of = TAG
+		victory_points = {
+			6469 20.0
+		}
+		
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 3
+
+			3512 = {
+				bunker = 2
+			}
+		}
+		
+
+	}
+
+	provinces={
+		529 3512 6469 6570 9482
+	}
+	
+}

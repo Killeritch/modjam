@@ -1,0 +1,28 @@
+
+state = {
+	id=207
+	name="STATE_207"
+
+	history={
+		owner = RUS
+		victory_points = {
+			11241 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+						industrial_complex = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		3331 6220 6371 9241 358 9341 342 9289
+	}
+	manpower=1217854
+	buildings_max_level_factor=1
+	state_category="town"
+}

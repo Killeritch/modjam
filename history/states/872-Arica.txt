@@ -1,0 +1,22 @@
+
+state = {
+	id=872
+	name="STATE_872" # Arica
+	manpower = 56937
+	
+	state_category = wasteland
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TAG
+		 
+
+	}
+
+	provinces={
+		5131
+	}
+}

@@ -1,0 +1,117 @@
+﻿###########################
+# Swedish Localization
+###########################
+# By General Evergreen
+###########################
+
+l_english:
+
+SWE_totalist:0 "Swedish Commune"
+SWE_totalist_ADJ:0 "Swedish"
+SWE_totalist_DEF:0 "The Swedish Commune"
+SWE_syndicalist:0 "Swedosh Commune"
+SWE_syndicalist_ADJ:0 "Swedish"
+SWE_syndicalist_DEF:0 "The Swedish Commune"
+SWE_radical_socialist:0 "Swedish Commune"
+SWE_radical_socialist_ADJ:0 "Swedish"
+SWE_radical_socialist_DEF:0 "The Swedish Commune"
+SWE_social_democrat:0 "Sweden"
+SWE_social_democrat_ADJ:0 "Swedish"
+SWE_social_democrat_DEF:0 "Sweden"
+SWE_social_liberal:0 "Sweden"
+SWE_social_liberal_ADJ:0 "Swedish"
+SWE_social_liberal_DEF:0 "Sweden"
+SWE_market_liberal:0 "Sweden"
+SWE_market_liberal_ADJ:0 "Swedish"
+SWE_market_liberal_DEF:0 "Sweden"
+SWE_social_conservative:0 "Sweden"
+SWE_social_conservative_ADJ:0 "Swedish"
+SWE_social_conservative_DEF:0 "Sweden"
+SWE_authoritarian_democrat:0 "Sweden"
+SWE_authoritarian_democrat_ADJ:0 "Swedish"
+SWE_authoritarian_democrat_DEF:0 "Sweden"
+SWE_paternal_autocrat:0 "Swedish Empire"
+SWE_paternal_autocrat_ADJ:0 "Swedish"
+SWE_paternal_autocrat_DEF:0 "The Swedish Empire"
+SWE_national_populist:0 "Swedish State"
+SWE_national_populist_ADJ:0 "Swedish"
+SWE_national_populist_DEF:0 "The Swedish State"
+
+### Ideas ###
+
+### Focuses ###
+
+SWE_1936_election:0 "1936 General Election"
+SWE_1936_election_desc:0 "Placeholder"
+
+### Parties ###
+SWE_totalist_party:0 "TPS"
+SWE_totalist_party_long:0 "Totalistiska Partiet i Sverige"
+SWE_syndicalist_party:0 "SP"
+SWE_syndicalist_party_long:0 "Socialistiska Partiet (Syndicalists)"
+SWE_radical_socialist_party:0 "SP"
+SWE_radical_socialist_party_long:0 "Socialistiska Partiet"
+SWE_social_democrat_party:0 "SAP"
+SWE_social_democrat_party_long:0 "Socialdemokratiska Arbetarepartiet (Radical Socialists)"
+SWE_social_liberal_party:0 "Bondeförbundet"
+SWE_social_liberal_party_long:0 "Bondeförbundet"
+SWE_market_liberal_party:0 "Folkpartiet"
+SWE_market_liberal_party_long:0 "Folkpartiet"
+SWE_social_conservative_party:0 "Generalkonferensen"
+SWE_social_conservative_party_long:0 "Generalkonferensen"
+SWE_authoritarian_democrat_party:0 "Fosterländska Stiftelsen"
+SWE_authoritarian_democrat_party_long:0 "Fosterländska Stiftelsen"
+SWE_paternal_autocrat_party:0 "Hus av Bernadotte"
+SWE_paternal_autocrat_party_long:0 "Hus av Bernadotte"
+SWE_national_populist_party:0 "NS"
+SWE_national_populist_party_long:0 "Nationella Samlingsrörelsen"
+
+### Events ###
+
+sweden.1.t:0 "Information on Sweden"
+sweden.1.d:0 "Placeholder"
+sweden.1.a:0 "Let the game begin!"
+
+sweden.2.t:0 "Should the Elections Go Ahead?"
+sweden.2.d:0 "Placeholder"
+sweden.2.a:0 "The elections need to go ahead"
+sweden.2.b:0 "I think it's monarch time"
+
+sweden.3.t:0 "1936 Swedish General Election"
+sweden.3.d:0 "Placeholder"
+sweden.3.a:0 "The left-coalition wins"
+sweden.3.b:0 "Social Conservatives win again"
+sweden.3.c:0 "Social Democrats are elected"
+sweden.3.d:0 "Miraculously, the far right wins"
+
+### News ###
+
+swedennews.1.t:0 "Swedish Monarchy Restored"
+swedennews.1.d:0 "Placeholder"
+swedennews.1.a:0 "The King chose for them"
+swedennews.1.b:0 "Damn monarchs!"
+swedennews.1.c:0 "No elections..."
+
+swedennews.2.t:0 "Syndicalists Elected in Sweden"
+swedennews.2.d:0 "Placeholder"
+swedennews.2.a:0 "Damn Syndies!"
+swedennews.2.b:0 "Long live the Revolution!"
+swedennews.2.c:0 "The elections are finally over..."
+
+swedennews.3.t:0 "Social Conservatives Elected in Sweden"
+swedennews.3.d:0 "Placeholder"
+swedennews.3.a:0 "Democracy stays"
+swedennews.3.b:0 "Maybe Syndies next election?"
+swedennews.3.c:0 "The elections are finally over..."
+
+swedennews.4.t:0 "Social Democrats Elected in Sweden"
+swedennews.4.d:0 "Placeholder"
+swedennews.4.a:0 "Democracy stays"
+swedennews.4.b:0 "Maybe Syndies next election?"
+swedennews.4.c:0 "The elections are finally over..."
+
+swedennews.5.t:0 "National Populists Elected in Sweden"
+swedennews.5.d:0 "Placeholder"
+swedennews.5.a:0 "At least they aren't Syndies"
+swedennews.5.b:0 "A dark day for Sweden"
+swedennews.5.c:0 "The elections are finally over..."

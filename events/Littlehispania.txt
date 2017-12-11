@@ -1,0 +1,291 @@
+﻿add_namespace = Littlehispania
+add_namespace = navaltreaty
+
+
+country_event = {
+	id = Littlehispania.1
+	title = Littlehispania.1.t
+	desc = Littlehispania.1.d
+	picture = GFX_Littlehispaniawhiteandblackflag_events_1
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = Littlehispania.2
+	title = Littlehispania.2.t
+	desc = Littlehispania.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.2.a
+		ai_chance = { factor = 40 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.2 }
+		set_country_flag = Sanjurjistaswin
+	}
+	option = {
+		name = Littlehispania.2.b
+		ai_chance = { factor = 30 }
+		add_popularity = { ideology = social_conservative popularity = 0.3 }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
+		set_country_flag = Nataliorivaswins
+	}
+	option = {
+		name = Littlehispania.2.c
+		ai_chance = { factor = 30 }
+		add_popularity = { ideology = syndicalist popularity = 0.1 }
+		set_politics = { ruling_party = syndicalist elections_allowed = yes }
+		set_country_flag = Primoderiverawins
+	}
+}
+
+country_event = {
+	id = Littlehispania.3
+	title = Littlehispania.3.t
+	desc = Littlehispania.3.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.3.a
+		ai_chance = { factor = 80 }
+		TNS = { country_event = { days = 1 id = Littlehispania.4 } }
+	}
+	option = {
+		name = Littlehispania.3.b
+		ai_chance = { factor = 20 }
+		declare_war_on = { target = TNS type = annex_everything }
+	}
+}
+
+country_event = {
+	id = Littlehispania.4
+	title = Littlehispania.4.t
+	desc = Littlehispania.4.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = TNS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.4.a
+						ai_chance = {
+			base = 80
+			modifier = {
+				add = 10
+				LHS = { has_army_size = { size < 5 } }
+			}
+			modifier = {
+				add = -30
+				LHS = { has_army_size = { size > 6 } }
+			}
+				modifier = {
+				add = -50
+				LHS = { has_army_size = { size > 12 } }
+			}
+		}
+		LHS = { country_event = { days = 1 id = Littlehispania.5 } }
+	}
+	option = {
+		name = Littlehispania.4.b
+				ai_chance = {
+			base = 20
+			modifier = {
+				add = -10
+				LHS = { has_army_size = { size < 5 } }
+			}
+			modifier = {
+				add = 30
+				LHS = { has_army_size = { size > 6 } }
+			}
+				modifier = {
+				add = 50
+				LHS = { has_army_size = { size > 12 } }
+			}
+		}
+	    LHS = { country_event = { days = 1 id = Littlehispania.6 } }	
+	}
+}
+
+country_event = {
+	id = Littlehispania.5
+	title = Littlehispania.5.t
+	desc = Littlehispania.5.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.5.a
+		ai_chance = { factor = 100 }
+		declare_war_on = { target = TNS type = annex_everything }
+	}
+}
+
+country_event = {
+	id = Littlehispania.6
+	title = Littlehispania.6.t
+	desc = Littlehispania.6.d
+	picture = GFX_Littlehispaniatroops_events_2
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+			tag = LHS
+			
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Littlehispania.6.a
+		ai_chance = { factor = 100 }
+		annex_country = { target = TNS transfer_troops = no }
+	}
+}
+country_event = { # (First stage where you send Britain the event, this is where you put fluff for your side of it)
+    id = navaltreaty.3 #event ID
+    title = navaltreaty.3.t #title
+    desc = navaltreaty.3.d #description
+
+    picture = GFX_Littlehispaniaenglishships_events_3
+
+    is_triggered_only = yes
+
+    option = {
+        name = navaltreaty.3.a #the option's text
+        every_country = {
+            limit = { tag = ENG } #making sure this event only goes to England
+            country_event = {
+                days = 1
+                id = navaltreaty.4
+            }
+        } 
+    }
+}
+country_event = { # (England accepts and heres the bonuses)
+    id = navaltreaty.5 #event ID
+    title = navaltreaty.5.t #title
+    desc = navaltreaty.5.d #description
+
+    picture = GFX_Littlehispaniaenglishships_events_3
+
+    is_triggered_only = yes
+
+    option = {
+        name = navaltreaty.5.a #the option's text
+        load_oob = cruiser_focus_navy
+    add_tech_bonus = {
+                name = fleet_in_being_bonus
+                bonus = 0.5
+                uses = 2
+                category = fleet_in_being_tree
+        }
+    add_tech_bonus = {
+                name = capital_ships_bonus
+                bonus = 0.2
+                uses = 1
+                technology = basic_battlecruiser
+                technology = basic_battleship
+                technology = improved_battleship
+                technology = advanced_battleship
+                technology = heavy_battleship
+                technology = heavy_battleship2
+                technology = early_carrier
+                technology = basic_carrier
+                technology = improved_carrier
+                technology = advanced_carrier
+        }
+	}
+   option = {
+    name = navaltreaty.5.b #the option's text
+    load_oob = capital_focus_navy
+    add_tech_bonus = {
+                name = fleet_in_being_bonus
+                bonus = 0.5
+                uses = 2
+                category = fleet_in_being_tree
+        }
+    add_tech_bonus = {
+                name = capital_ships_bonus
+                bonus = 0.2
+                uses = 1
+                technology = basic_battlecruiser
+                technology = basic_battleship
+                technology = improved_battleship
+                technology = advanced_battleship
+                technology = heavy_battleship
+                technology = heavy_battleship2
+                technology = early_carrier
+                technology = basic_carrier
+                technology = improved_carrier
+                technology = advanced_carrier
+        }
+	}
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id=920
+	name="STATE_920"
+
+	history={
+		owner = TAG
+		add_core_of=ETH
+		buildings={
+			infrastructure=3
+		}
+		victory_points = {
+			1984 1
+		}
+	}
+
+	provinces={
+		1984 2040 4954 7944
+	}
+	manpower=4304200
+	buildings_max_level_factor=1
+	state_category="rural"
+}

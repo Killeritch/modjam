@@ -1,0 +1,25 @@
+
+state = {
+	id=35
+	name="STATE_35" # Brabant
+	manpower = 1619500
+	
+	state_category = city
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+						arms_factory = 1
+		}
+		victory_points = { 6496 5 }
+		victory_points = { 11562 1 }
+
+	}
+
+	provinces={
+		480 3262 6496 6500 11562
+	}
+}

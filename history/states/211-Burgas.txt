@@ -1,0 +1,29 @@
+
+state = {
+	id=211
+	name="STATE_211"
+	manpower = 1075499
+
+
+	state_category = town
+
+	history={
+		owner = BLA
+		victory_points = {
+			9783 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+			9902 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BLA
+	}
+
+	provinces={
+		6967 9888 9902 9919
+	}
+}

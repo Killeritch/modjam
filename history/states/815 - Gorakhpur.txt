@@ -1,0 +1,23 @@
+
+state = {
+	id=815
+	name="STATE_815"
+	manpower = 3037279
+	
+	state_category = rural
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		victory_points = { 4459 1 } #Gorakhpur
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		8082 1983 7064 7334 1541 4459
+	}
+}

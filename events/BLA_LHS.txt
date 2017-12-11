@@ -1,0 +1,126 @@
+﻿add_namespace = BLA_LHS
+
+#Bulgarian Africa is occupied - Bulgaria
+country_event = {
+		id = BLA_LHS.1
+		title = BLA_LHS.1.t
+		desc = BLA_LHS.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				BLA = { has_war_with = LHS }
+				BAA = { has_capitulated = yes }
+		}
+		
+		option = {
+				name = BLA_LHS.1.a
+				hidden_effect = { country_event = { days = 1 id = BLA_LHS.2 } }
+				hidden_effect = { LHS = { country_event = { days = 1 id = BLA_LHS.3 } } }
+		}
+}
+
+#Bulgarian Africa is occupied - Little Hispania
+country_event = {
+		id = BLA_LHS.2
+		title = BLA_LHS.2.t
+		desc = BLA_LHS.2.d
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = BLA_LHS.2.a
+		}
+}
+
+#Global Flag is set
+country_event = {
+		id = BLA_LHS.3
+		title = BLA_LHS.3.t
+		desc = BLA_LHS.3.d
+		
+		is_triggered_only = yes
+		
+		hidden = yes
+		
+		option = {
+				name = BLA_LHS.3.a
+				set_global_flag = BLALHS_BAAOccupied
+		}
+}
+
+#Bulgarian Africa surrenders - Bulgaria
+country_event = {
+		id = BLA_LHS.4
+		title = BLA_LHS.4.t
+		desc = BLA_LHS.4.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				BLA = { has_war_with = LHS }
+				BAA = { has_capitulated = yes }
+				has_global_flag = BLALHS_BAAOccupied
+		}
+		
+		option = {
+				name = BLA_LHS.4.a
+				hidden_effect = { clr_global_flag = BLALHS_BAAOccupied }
+				white_peace = LHS
+				end_puppet = BAA
+				hidden_effect = { LHS = { country_event = { days = 1 id = BLA_LHS.5 } } }
+		}
+}
+
+#Bulgarian Africa surrenders - Little Hispania
+country_event = {
+		id = BLA_LHS.5
+		title = BLA_LHS.5.t
+		desc = BLA_LHS.5.d
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = BLA_LHS.5.a
+				puppet = BAA
+				BAA = { set_cosmetic_tag = BAA_LHSOccupied }
+		}
+}
+
+#Bulgaria wins the war
+country_event = {
+		id = BLA_LHS.6
+		title = BLA_LHS.6.t
+		desc = BLA_LHS.6.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+				TAG = BLA
+				BLA = { has_war_with = LHS }
+				LHS = { surrender_progress > 0.65 }
+		}
+		
+		option = {
+				name = BLA_LHS.6.a
+				white_peace = LHS
+				add_timed_idea = { idea = BLA_WarReparationsLHS days = 365 }
+				LHS = { add_timed_idea = { idea = LHS_WarReparationsBLA days = 365 } }
+				hidden_effect = { LHS = { country_event = { days = 1 id = BLA_LHS.7 } } }
+		}
+}
+
+#Little Hispania loses the war
+country_event = {
+		id = BLA_LHS.7
+		title = BLA_LHS.7.t
+		desc = BLA_LHS.7.d
+		
+		is_triggered_only = yes
+		
+		option = {
+				name = BLA_LHS.7.a
+		}
+}		

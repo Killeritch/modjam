@@ -1,0 +1,23 @@
+﻿add_namespace = freealba
+add_namespace = england
+
+country_event = { #Alba Resists
+	id = freealba.1
+	title = freealba.1.t
+	desc = freealba.1.d
+
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	is_triggered_only = yes
+
+	option = {
+		name = freealba.1.a #the option's text
+		load_oob = STL_internationalists
+		add_manpower = 20000
+		add_popularity = { ideology = totalist popularity = 0.45 }
+		remove_ideas = mothballed_navy 
+		remove_ideas = disgraced_military 
+		remove_ideas = broken_nation 
+		remove_ideas = brightest_minds_dead
+	}
+}

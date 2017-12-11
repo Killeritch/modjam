@@ -1,0 +1,27 @@
+
+state = {
+	id=879
+	name="STATE_879"
+
+	history={
+		owner = TAG
+		add_core_of = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			191 1
+		}
+		victory_points = {
+			1929 3
+		}		
+	}
+
+	provinces={
+		191 1516 1817 1929 1968 4515 12795 12907 13495
+	}
+	manpower=960100
+	buildings_max_level_factor=1
+	state_category=pastoral
+}

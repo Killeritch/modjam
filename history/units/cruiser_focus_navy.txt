@@ -1,0 +1,19 @@
+﻿units = {
+navy = {				
+		name = "Foriegn Warships"			
+		base = 13071
+		location = 13071 
+				
+		ship = { name = "HMS King" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = LHS } } }		
+		ship = { name = "HMS Knight" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Predator" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Weasel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Skull" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Raven" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Scorpion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Raptor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Barracuda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Phantom" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }
+		ship = { name = "HMS Lion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LHS } } }	
+}
+}

@@ -1,0 +1,25 @@
+state = {
+	id=691
+	name="STATE_691"
+	manpower = 413119
+	resources={
+		oil=16
+	}
+	
+	state_category = rural
+
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 3
+						industrial_complex = 1
+			3284 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TAG
+	}
+	
+	provinces={ 3284 13012 }
+}

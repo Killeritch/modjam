@@ -1,0 +1,28 @@
+state = 
+{
+	id=559
+	name="STATE_559"
+	manpower = 854895
+	
+	state_category = town
+	
+	history={
+		owner = TAG
+		add_core_of = TAG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 2
+			arms_factory = 1
+			12991 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			10928 5
+		}
+	}
+	provinces={
+		1964 1966 2020 2063 4909 5065 8164 10818 10891 10928 12840 12991
+	}
+}

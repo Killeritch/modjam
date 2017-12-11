@@ -1,0 +1,22 @@
+
+state = {
+	id=736
+	name="STATE_736"
+
+	history={
+		owner = ALP
+		add_core_of = ALP
+
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		599 11735 11595
+	}
+	manpower=557500
+	state_category="city"
+}

@@ -1,0 +1,23 @@
+state = {
+	id=832
+	name="STATE_832"
+	manpower = 50000
+
+	state_category = pastoral
+	
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = TAG
+	}
+
+	provinces={
+		10740 10894 5038 1954
+		
+	}
+
+
+}

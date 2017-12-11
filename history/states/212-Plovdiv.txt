@@ -1,0 +1,25 @@
+
+state = {
+	id=212
+	name="STATE_212"
+	manpower = 2011100
+	
+	state_category = city
+
+	history={
+		owner = BLA
+		victory_points = {
+			6923 5
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = BLA
+	}
+
+	provinces={
+		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 13634
+	}
+}

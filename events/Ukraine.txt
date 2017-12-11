@@ -1,0 +1,128 @@
+﻿add_namespace = ukraine
+add_namespace = england 
+add_namespace = trebizond
+
+####UKRAINE EVENTS####
+country_event = { ####INTRO
+    id = ukraine.1
+	title = ukraine.1.t 
+	desc = ukraine.1.d 
+	picture = GFX_report_event_lithuania_army
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = UKR
+	}
+    
+    option = {
+		name = ukraine.1.a 
+	}
+}
+############
+
+############ SPOOKY ENGLAND EVENT ##########
+country_event = { # (MOSLEY ARRIVES AT UKRAINE)
+	id = england.1489 #event ID
+	title = england.1489.t #title	
+	desc = england.1489.d #description
+	
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	is_triggered_only = yes
+
+	option = {
+		name = england.1489.a #the option's text
+		load_oob = BUF_loyalists
+	}
+}
+######### SPOOK OVER RETURN TO NORMAL DUTIES ###########
+
+####PONTIC INTERVENTION####
+country_event = { #Consider Intervention Plan
+	id = ukraine.2 
+	title = ukraine.2.t 
+	desc = ukraine.2.d 
+	
+	picture = GFX_report_event_lithuania_army
+	
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine.2.a #natpop dictatorship
+		TRB = {
+		    country_event = {
+		        hours = 12 id = trebizond.1
+		    }
+		}
+	}
+
+	option = {
+		name = ukraine.2.b #autdem dictatorship
+		ai_chance = { factor = 75 }
+		TRB = {
+		    country_event = {
+		        hours = 12 id = trebizond.2
+		    }
+		}
+	}
+
+	option = {
+		name = ukraine.2.c #invade
+		TRB = {
+		    country_event = {
+		        hours = 12 id = trebizond.3
+		    }
+		}
+	}
+}
+
+country_event = { #Ukraine pressure for Natpop
+	id = trebizond.1 
+	title = trebizond.1.t 
+	desc = trebizond.1.d 
+	
+	picture = GFX_report_event_lithuania_army
+	
+	is_triggered_only = yes
+
+	option = {
+	    name = trebizond.1.a
+	    add_popularity = {
+			ideology = national_populist
+			popularity = 0.10
+		}
+	}
+}
+
+country_event = { #Ukraine pressure for Autdem
+	id = trebizond.2 
+	title = trebizond.2.t 
+	desc = trebizond.2.d 
+	
+	picture = GFX_report_event_lithuania_army
+	
+	is_triggered_only = yes
+
+	option = {
+	    name = trebizond.2.a
+	    add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.10
+		}
+	}
+}
+
+country_event = { #Ukraine threatens invasion
+	id = trebizond.3 
+	title = trebizond.3.t 
+	desc = trebizond.3.d 
+	
+	picture = GFX_report_event_lithuania_army
+	
+	is_triggered_only = yes
+
+	option = {
+	    name = trebizond.3.a
+	}
+}

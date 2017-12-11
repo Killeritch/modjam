@@ -1,0 +1,41 @@
+state = {
+	id=724
+	name="STATE_724"
+	manpower = 1880000
+	
+	state_category = rural
+	
+	resources={
+		rubber=70
+	}
+
+
+	history={
+		owner = TAG
+		buildings = {
+			infrastructure = 3
+								industrial_complex = 1
+							arms_factory = 1
+			7236 = { # Songkhla Landing Zone
+				naval_base = 1
+			}
+#			1281 = { # Chumporn Landing Zone
+#				naval_base = 1
+#			}
+			4312 = { # Sichon Landing Zone
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7236 4 # Hat Yai - 5
+		}
+		victory_points = {
+			4312 2 # Nakhon Si Thammarat - 3
+		}
+		add_core_of = TAG
+	}
+	
+	provinces={
+		1281 1308 1337 1366 1394 4312 4371 7236 10158 12201  12230 12286
+	}
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+						arms_factory = 1
+
+		}
+		victory_points = {
+			9508 3
+		}
+		add_core_of = RUS
+		add_core_of = POL
+
+	}
+
+	provinces={
+		493 548 584 6401 9439 9508 9546 11428 11515
+	}
+	manpower=2632000
+	buildings_max_level_factor=1
+	state_category="town"
+}
