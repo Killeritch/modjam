@@ -1,6 +1,6 @@
 BAV	= "countries/Bavaria.txt"
 BRU	= "countries/Braunschweig.txt"
-PRU = "countries/Prussia.txt"
+PRS = "countries/Prussia.txt"
 ELS = "countries/Elsass.txt"
 LUX	= "countries/Luxembourg.txt"
 NAS	= "countries/Nassau.txt"

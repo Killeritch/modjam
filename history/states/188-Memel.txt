@@ -8,9 +8,9 @@ state =
 	state_category = rural
 	
 	history = {
-		owner = PRU
-		add_core_of = PRU
-		add_core_of = PRU
+		owner = PRS
+		add_core_of = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
