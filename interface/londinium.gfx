@@ -1,9 +1,0 @@
-spriteTypes = {
-	
-	####IDEAS####
-
-	SpriteType = { 
-		name = "GFX_idea_bla_oiltrade"
-		texturefile = "gfx/interface/ideas/BLA_free_oil.dds"
-	}
-}
