@@ -1,13 +1,11 @@
-state = {
+
+state={
 	id=58
 	name="STATE_58"
-	manpower = 1537425
-	state_category = city
-	
-	history=
-	{
+
+	history={
 		victory_points = {
-			6389 1
+			6389 1 
 		}
 		owner = TAG
 		add_core_of = TAG
@@ -16,13 +14,19 @@ state = {
 			arms_factory = 1
 			dockyard = 3
 			air_base = 5
-			6389 ={
+			6389 = {
 				naval_base = 8
+
 			}
+
 		}
+
 	}
 
-	provinces= {
-		317 3231 3368 6257 6389 9320 11331 11366
- 	}
+	provinces={
+		317 3231 3368 6257 6389 11331 11366 
+	}
+	manpower=1537425
+	buildings_max_level_factor=1.000
+	state_category=city
 }
