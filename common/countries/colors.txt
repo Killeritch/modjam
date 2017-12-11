@@ -34,8 +34,8 @@ WST = {
 }
 
 WUR = {
-	color = rgb { 125 55 1 }
-	color_ui = rgb { 125 55 2 }
+	color = rgb { 129 14 2 }
+	color_ui = rgb { 130 15 2 }
 }
 
 BRU = {

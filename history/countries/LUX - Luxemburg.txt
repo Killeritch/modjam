@@ -1,6 +1,6 @@
-﻿capital = 65
+﻿capital = 8
 
-#oob = "SAX_1936"
+#oob = "LXX_1936"
 
 # Starting tech
 set_technology = {
@@ -91,9 +91,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Friedrich Georg"
+	name = "Phalian West"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Saxony_George.png"
+	picture = "Portrait_Prussia_Kar.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
