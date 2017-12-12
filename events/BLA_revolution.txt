@@ -1,4 +1,4 @@
-add_namespace = BLA_revolution
+﻿add_namespace = BLA_revolution
 
 #NDP loses support
 country_event = {

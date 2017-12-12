@@ -27,6 +27,7 @@ set_technology = {
 add_ideas = {
 	BLA_RapidExpansion
 	BLA_Nationalism
+	BLA_AirforceLowspending
 }
 
 set_research_slots = 3
@@ -55,7 +56,7 @@ set_politics = {
 		}
 		
 		social_liberal = {
-			popularity = 
+			popularity = 0
 		}
 		
 		market_liberal = {

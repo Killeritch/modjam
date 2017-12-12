@@ -1,5 +1,4 @@
 ideas = {
-
 	country = {
 		BLA_NavInd = {
 			allowed = {
@@ -121,6 +120,37 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 0.25
 				production_oil_factor = -0.1
+			}
+		}
+		BLA_AirforceLowspending = {
+			allowed = {
+				original_tag = BLA
+			}
+			
+			removal_cost = -1
+			
+			picture = bla_airforce
+			
+			modifier = {
+				air_accidents_factor = 0.1
+				experience_gain_air_factor = -0.1
+				air_air_superiority_attack_factor = -0.05
+				air_air_superiority_defence_factor = -0.05
+			}
+		}
+	}
+	political_advisor = {
+		BLA_borisrusev = {
+
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			traits = { fortification_engineer }
+
+			ai_will_do = {
+				factor = 0.5
 			}
 		}
 	}

@@ -146,6 +146,7 @@ ARA = "countries/Aragon.txt"
 BLA = "countries/BulgariaAlbania.txt"
 BAA = "countries/BulgarianAfrica.txt"
 LAF = "countries/FreeLibya.txt"
+RRP = "countries/RomaniaRepublic.txt"
 #
 ###
 LOL = "countries/LaughingOutLoud.txt"

@@ -6,4 +6,9 @@ spriteTypes = {
 		name = "GFX_idea_bla_oiltrade"
 		texturefile = "gfx/interface/ideas/BLA_free_oil.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_idea_bla_airforce"
+		texturefile = "gfx/interface/ideas/BLA_airforce.dds"
+	}
 }

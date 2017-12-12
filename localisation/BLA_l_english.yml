@@ -1,5 +1,6 @@
 ﻿l_english:0
  
+ #BLA doesnt really fit this file anymore, so it should be more like "Londinium.yml" but im keeping it cause im used to it.
  #This filed is named "BLA" because BLA is my main country, but it also contains localisation for all other related stuff by me.
  #Country Names - Bulgaria
  BLA_totalist:0 "Greater Bulgaria"
@@ -152,6 +153,38 @@
  ALB_authoritarian_democrat_ADJ:0 "Albanian"
  ALB_paternal_autocrat_ADJ:0 "Albanian"
  ALB_national_populist_ADJ:0 "Albanian"
+ 
+ #Country Names - Romanian Republic
+ RRP_totalist:0 "Romanian Republic"
+ RRP_syndicalist:0 "Romanian Republic"
+ RRP_radical_socialist:0 "Romanian Republic"
+ RRP_social_democrat:0 "Romanian Republic"
+ RRP_social_liberal:0 "Romanian Republic"
+ RRP_market_liberal:0 "Romanian Republic"
+ RRPsocial_conservative:0 "Romanian Republic"
+ RRP_authoritarian_democrat:0 "Romanian Republic"
+ RRP_paternal_autocrat:0 "Romanian Republic"
+ RRP_national_populist:0 "Romanian Republic"
+ RRP_totalist_DEF:0 "Romanian Republic"
+ RRP_syndicalist_DEF:0 "Romanian Republic"
+ RRP_radical_socialist_DEF:0 "Romanian Republic"
+ RRP_social_democrat_DEF:0 "Romanian Republic"
+ RRP_social_liberal_DEF:0 "Romanian Republic"
+ RRP_market_liberal_DEF:0 "Romanian Republic"
+ RRP_social_conservative_DEF:0 "Romanian Republic"
+ RRP_authoritarian_democrat_DEF:0 "Romanian Republic"
+ RRP_paternal_autocrat_DEF:0 "Romanian Republic"
+ RRP_national_populist_DEF:0 "Romanian Republic"
+ RRP_totalist_ADJ:0 "Romanian"
+ RRP_syndicalist_ADJ:0 "Romanian"
+ RRP_radical_socialist_ADJ:0 "Romanian"
+ RRP_social_democrat_ADJ:0 "Romanian"
+ RRP_social_liberal_ADJ:0 "Romanian"
+ RRP_market_liberal_ADJ:0 "Romanian"
+ RRP_social_conservative_ADJ:0 "Romanian"
+ RRP_authoritarian_democrat_ADJ:0 "Romanian"
+ RRP_paternal_autocrat_ADJ:0 "Romanian"
+ RRP_national_populist_ADJ:0 "Romanian"
   
  #Ideas
  BAA_poor:0 "Rural Country"
@@ -168,6 +201,12 @@
  BLA_Nationalism_desc:0 "Bulgaria is characterized by a strong support of the people for the state."
  BLA_PetrovReforms:0 "Petrov's Reforms"
  BLA_PetrovReforms_desc:0 "Boiko Petrov has completed some political reforms necessary to expand our influence."
+ BLA_AirforceLowspending:0 "Inadequate Airforce"
+ BLA_AirforceLowspending_desc:0 "Not only is the Bulgarian Airforce relatively small, it is also pretty outdated and suffers from a lack of administration."
+ 
+ #Advisors, Corporations, etc...
+ BLA_borisrusev:0 "Boris Rusev"
+ BLA_borisrusev_desc:0 "Boris Rusev, a Bulgarian Fortification Engineer."
  
  #Events - General
  BLA_general.1.t:0 "The state of Bulgaria in 1936"

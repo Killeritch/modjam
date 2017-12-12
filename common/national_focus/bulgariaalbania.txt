@@ -124,7 +124,7 @@ focus_tree = {
 		x = 6
 		y = 3
 		cost = 10
-		prerequisite = { focus = BLA_Improve_Albania focus = BLA_Conscription_Albania }
+		prerequisite = { focus = BLA_Decentralize_Government focus = BLA_Conscription_Albania }
 		available_if_capitulated = no
 		
 		completion_reward = {
@@ -159,6 +159,8 @@ focus_tree = {
 		completion_reward = {
 			add_state_claim = 46
 			add_state_claim = 81
+			add_threat = 5
+			create_wargoal = { type = annex_everything target = RRP }
 		}
 	}
 	
