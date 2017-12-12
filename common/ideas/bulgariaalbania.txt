@@ -154,4 +154,46 @@ ideas = {
 			}
 		}
 	}
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		BLA_BTM = {
+
+			
+			allowed = {
+				original_tag = BLA
+			}
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+
+		}
+	}
+	naval_manufacturer = { 
+		
+		designer = yes
+		
+		BLA_BNRA = {
+
+			
+			allowed = {
+				original_tag = BLA
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				#
+			}
+			
+			traits = { naval_manufacturer }
+			
+		}
+	}
 }

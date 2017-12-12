@@ -11,4 +11,22 @@ spriteTypes = {
 		name = "GFX_idea_bla_airforce"
 		texturefile = "gfx/interface/ideas/BLA_airforce.dds"
 	}
+	
+	###ADVISORS/COMPANIES####
+	
+	SpriteType = {
+		name = "GFX_idea_BLA_BTM"
+		texturefile = "gfx/interface/ideas/idea_BLA_BTM.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_BLA_borisrusov"
+		texturefile = "gfx/interface/ideas/idea_BLA_borisrusov.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_BLA_BNRA"
+		texturefile = "gfx/interface/ideas/idea_BLA_BNRA.dds"
+	}
+	
 }

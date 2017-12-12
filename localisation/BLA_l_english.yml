@@ -207,6 +207,10 @@
  #Advisors, Corporations, etc...
  BLA_borisrusev:0 "Boris Rusev"
  BLA_borisrusev_desc:0 "Boris Rusev, a Bulgarian Fortification Engineer."
+ BLA_BTM:0 "BTM"
+ BLA_BTM_desc:0 "The Bulgarian Tank Manufactory focuses on light, mobile tank designs."
+ BLA_BNRA:0 "BNRA"
+ BLA_BNRA_desc:0 "The Bulgarian Naval Research Association doesn't really ship design. Rather, they aim to assist the naval research industry in the country."
  
  #Events - General
  BLA_general.1.t:0 "The state of Bulgaria in 1936"
