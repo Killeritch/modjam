@@ -140,7 +140,7 @@ ideas = {
 		}
 	}
 	political_advisor = {
-		BLA_borisrusev = {
+		BLA_borisrusov = {
 
 			
 			allowed = {

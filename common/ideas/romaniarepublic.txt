@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		RRP_BalkanOil = {
+			allowed = {
+				original_tag = RRP
+			}
+			
+			removal_cost = -1
+			
+			picture = rrp_oil
+			
+			modifier = {
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.1
+				min_export = 0.25
+			}
+		}
+	}
+}

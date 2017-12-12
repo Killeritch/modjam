@@ -12,6 +12,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/BLA_airforce.dds"
 	}
 	
+	SpriteType = { 
+		name = "GFX_idea_rrp_oil"
+		texturefile = "gfx/interface/ideas/RRP_oil.dds"
+	}
+	
 	###ADVISORS/COMPANIES####
 	
 	SpriteType = {

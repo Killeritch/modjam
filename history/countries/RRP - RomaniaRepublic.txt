@@ -12,6 +12,10 @@ set_technology = {
 	early_submarine = 1
 }
 
+add_ideas = {
+	RRP_BalkanOil
+}
+
 set_research_slots = 2
 set_national_unity = 0.75
 

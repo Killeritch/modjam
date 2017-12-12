@@ -203,10 +203,12 @@
  BLA_PetrovReforms_desc:0 "Boiko Petrov has completed some political reforms necessary to expand our influence."
  BLA_AirforceLowspending:0 "Inadequate Airforce"
  BLA_AirforceLowspending_desc:0 "Not only is the Bulgarian Airforce relatively small, it is also pretty outdated and suffers from a lack of administration."
+ RRP_BalkanOil:0 "Balkan Oil"
+ RRP_BalkanOil_desc:0 "Romania controls a large amount of oil which it mostly trades in the Balkans."
  
  #Advisors, Corporations, etc...
- BLA_borisrusev:0 "Boris Rusev"
- BLA_borisrusev_desc:0 "Boris Rusev, a Bulgarian Fortification Engineer."
+ BLA_borisrusov:0 "Boris Rusov"
+ BLA_borisrusov_desc:0 "Boris Rusov, a Bulgarian Fortification Engineer."
  BLA_BTM:0 "BTM"
  BLA_BTM_desc:0 "The Bulgarian Tank Manufactory focuses on light, mobile tank designs."
  BLA_BNRA:0 "BNRA"
