@@ -144,7 +144,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				original_tag = BLA
 			}
 			
 			traits = { fortification_engineer }
