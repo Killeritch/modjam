@@ -396,3 +396,6 @@
  
  #Other
  BLA_GATHERING_STORM_DESC:0 "Bulgaria has experienced a steady period of growth in the last years. They managed to take a chunk of land in Africa and even entered into a union with Albania - but are now struggling to keep the diversified country together. A storm is brewing in Europe, and noone knows what Bulgarias future might hold..."
+ TAG_ft:0 "No Focus Tree"
+ TAG_ft_desc:0 "Being a placeholder nation, this country has no focus tree."
+ MOD_TAG_FOCUS:0 "Nonexistant Focus Tree"

@@ -1,0 +1,23 @@
+focus_tree = {
+	id = MOD_TAG_FOCUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAG
+		}
+	}
+	default = no
+	focus = {
+		id = TAG_ft
+		icon = GFX_goal_generic_more_territorial_claims 
+		cost = 1000000
+		available_if_capitulated = yes
+		ai_will_do = { factor = 100 } 
+		completion_reward = {
+			#
+		}
+		x = 6
+		y = 0
+	}
+}
